@@ -31,6 +31,18 @@
           "label": "Style",
           "options": [
             {
+              "name": "Dark",
+              "value": "dark"
+            },
+            {
+              "name": "Rounded Bottom",
+              "value": "rounded-bottom"
+            },
+            {
+              "name": "Rounded Top Right",
+              "value": "rounded-tr"
+            },
+            {
               "name": "Highlight",
               "value": "highlight"
             }
@@ -50,7 +62,8 @@
         "hero",
         "cards",
         "columns",
-        "fragment"
+        "fragment",
+        "slalom"
       ]
     }
   ]

@@ -134,8 +134,45 @@
         "label": "Style",
         "options": [
           {
+            "name": "Dark",
+            "value": "dark"
+          },
+          {
+            "name": "Rounded Bottom",
+            "value": "rounded-bottom"
+          },
+          {
+            "name": "Rounded Top Right",
+            "value": "rounded-tr"
+          },
+          {
             "name": "Highlight",
             "value": "highlight"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Icons",
+            "value": "icons"
+          },
+          {
+            "name": "Centered",
+            "value": "centered"
+          },
+          {
+            "name": "Bordered",
+            "value": "bordered"
           }
         ]
       }
@@ -193,6 +230,18 @@
     "id": "hero",
     "fields": [
       {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Split",
+            "value": "split"
+          }
+        ]
+      },
+      {
         "component": "reference",
         "valueType": "string",
         "name": "image",
@@ -212,6 +261,23 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "slalom",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Media Left",
+            "value": "media-left"
+          }
+        ]
       }
     ]
   }

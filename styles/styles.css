@@ -11,17 +11,103 @@
  */
 
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  /* ============================================================
+     MongoDB.com brand design tokens
+     Sourced from Storybook CSS (fonts) + live computed styles.
+     See catalog/design-tokens/ for the full catalog & docs.
+     ============================================================ */
+
+  /* brand color */
+  --mdb-green-base: #00ed64;
+  --mdb-green-forest: #00684a;
+  --mdb-green-dark: #023430;
+  --mdb-evergreen: #001e2b;
+
+  /* text color */
+  --mdb-text-primary: #001e2b;
+  --mdb-text-secondary: #5d6c74;
+  --mdb-text-tertiary: #3d4f58;
+  --mdb-text-on-dark: #fff;
+
+  /* accent color */
+  --mdb-blue: #006cfa;
+  --mdb-purple: #b45af2;
+  --mdb-lime: #b1ff05;
+  --mdb-yellow-soft: #ffec9e;
+
+  /* surface color */
+  --mdb-surface-white: #fff;
+  --mdb-surface-offwhite: #fafbfc;
+  --mdb-surface-mist: #e7eeec;
+  --mdb-surface-teal-tint: #e3fcf7;
+  --mdb-surface-slate: #21313c;
+  --mdb-surface-evergreen: #001e2b;
+  --mdb-surface-evergreen-deep: #061621;
+
+  /* border color */
+  --mdb-border-subtle: #b8c4c2;
+  --mdb-border-rule: rgb(0 0 0 / 15%);
+
+  /* brand font families */
+  --mdb-font-heading: 'MongoDB Value Serif', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans JP', serif;
+  --mdb-font-body: 'Euclid Circular A', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans JP', -apple-system, system-ui, helvetica, arial, sans-serif;
+  --mdb-font-mono: 'Source Code Pro', ui-monospace, menlo, monospace;
+  --mdb-font-grotesk: 'Akzidenz-Grotesk Std', sans-serif;
+
+  /* brand type scale */
+  --mdb-fs-h1: 40px;
+  --mdb-fs-h2-display: 40px;
+  --mdb-fs-h2: 32px;
+  --mdb-fs-h2-compact: 24px;
+  --mdb-fs-h3: 18px;
+  --mdb-fs-body: 16px;
+  --mdb-fs-small: 14px;
+  --mdb-fs-eyebrow: 12px;
+  --mdb-fs-lead: 20px;
+
+  /* brand font weights */
+  --mdb-fw-light: 300;
+  --mdb-fw-regular: 400;
+  --mdb-fw-medium: 500;
+  --mdb-fw-semibold: 600;
+
+  /* spacing (4px base unit) */
+  --mdb-space-3xs: 4px;
+  --mdb-space-2xs: 8px;
+  --mdb-space-xs: 12px;
+  --mdb-space-sm: 16px;
+  --mdb-space-md: 24px;
+  --mdb-space-lg: 32px;
+  --mdb-space-xl: 40px;
+  --mdb-space-2xl: 48px;
+  --mdb-space-3xl: 64px;
+  --mdb-space-section: 112px;
+
+  /* radius */
+  --mdb-radius-xs: 2px;
+  --mdb-radius-sm: 4px;
+  --mdb-radius-md: 8px;
+  --mdb-radius-lg: 24px;
+  --mdb-radius-xl: 32px;
+  --mdb-radius-pill: 999px;
+  --mdb-radius-circle: 50%;
+
+  /* elevation */
+  --mdb-shadow-sm: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  --mdb-shadow-md: 0 1px 6px 0 rgb(0 0 0 / 6%), 0 0 0 rgb(0 0 0 / 16%);
+  --mdb-shadow-lg: 0 0 18px 0 rgb(0 0 0 / 20%);
+
+  /* colors (mapped to brand tokens) */
+  --background-color: var(--mdb-surface-white);
+  --light-color: var(--mdb-surface-offwhite);
+  --dark-color: var(--mdb-surface-evergreen);
+  --text-color: var(--mdb-text-primary);
+  --link-color: var(--mdb-blue);
+  --link-hover-color: var(--mdb-green-forest);
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: var(--mdb-font-body);
+  --heading-font-family: var(--mdb-font-heading);
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -197,20 +283,24 @@ button.button:disabled {
   pointer-events: none;
 }
 
+/* Primary = MongoDB solid green button (e.g. hero "Join Us"):
+   green fill, evergreen text, forest-green border, 4px radius. */
 a.button.primary,
 button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
+  border-color: var(--mdb-green-forest);
+  background-color: var(--mdb-green-base);
+  border-radius: var(--mdb-radius-sm);
+  padding: var(--mdb-space-sm) var(--mdb-space-lg);
+  color: var(--mdb-evergreen);
 }
 
 a.button.primary:hover,
 a.button.primary:focus-visible,
 button.button.primary:hover,
 button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
+  border-color: var(--mdb-green-forest);
+  background-color: var(--mdb-green-forest);
+  color: var(--mdb-text-on-dark);
 }
 
 a.button.primary[aria-disabled="true"],
@@ -224,31 +314,52 @@ button.button.primary:disabled:focus-visible {
   color: var(--dark-color);
 }
 
+/* Secondary = MongoDB text-link with a trailing arrow (e.g. "Read the full story",
+   "Press Room"). No fill/border; blue on light backgrounds, green on dark. The arrow
+   is a CSS-drawn chevron that nudges right on hover. */
 a.button.secondary,
 button.button.secondary {
-  border-color: var(--text-color);
+  border: 0;
   background-color: transparent;
-  color: var(--text-color);
+  border-radius: 0;
+  padding: 0;
+  color: var(--mdb-blue);
+  gap: var(--mdb-space-2xs, 8px);
+}
+
+a.button.secondary::after,
+button.button.secondary::after {
+  content: "";
+  width: 0.5em;
+  height: 0.5em;
+  border: solid currentcolor;
+  border-width: 2px 2px 0 0;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
 }
 
 a.button.secondary:hover,
 a.button.secondary:focus-visible,
 button.button.secondary:hover,
 button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
+  color: var(--mdb-blue);
+  text-decoration: underline;
 }
 
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
+a.button.secondary:hover::after,
+button.button.secondary:hover::after {
+  transform: rotate(45deg) translate(2px, -2px);
+}
+
+/* On dark sections the text-link + arrow turn MongoDB green. */
+main .section.dark a.button.secondary,
+main .section.dark button.button.secondary {
+  color: var(--mdb-green-base);
+}
+
+main .section.dark a.button.secondary:hover,
+main .section.dark a.button.secondary:focus-visible {
+  color: var(--mdb-green-base);
 }
 
 /* high-impact call-to-action */
@@ -322,4 +433,32 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+main .section.dark {
+  background-color: var(--mdb-surface-evergreen);
+  color: var(--mdb-text-on-dark);
+  margin: 0;
+  padding: 40px 0;
+}
+
+main .section.dark h1,
+main .section.dark h2,
+main .section.dark h3,
+main .section.dark p {
+  color: var(--mdb-text-on-dark);
+}
+
+/* Section style option: large curved bottom on a (typically dark) band where it
+   meets the next section — the big arch under the company hero+awards band.
+   Pair with `dark` via `style: dark, rounded-bottom`. */
+main .section.rounded-bottom {
+  border-bottom-left-radius: 144px;
+  border-bottom-right-radius: 144px;
+}
+
+/* Section style option: curve only the TOP-RIGHT corner of a band (used by the
+   "What we do" dark band). Author via `style: dark, rounded-tr`. */
+main .section.rounded-tr {
+  border-top-right-radius: 72px;
 }

@@ -4,6 +4,8 @@ logs/*
 node_modules/*
 
 helix-importer-ui
+tools/importer/output/
+tools/importer/aem-token.txt
 .DS_Store
 *.bak
 .idea
