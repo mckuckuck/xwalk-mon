@@ -116,6 +116,14 @@
   justify-content: center;
 }
 
+/* At desktop widths keep icon-card rows on a single line (e.g. the 4 award
+   cards under the company hero should stay 4-across at 1024px, not wrap 2+2). */
+@media (width >= 1024px) {
+  .cards.icons > ul {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
 /*
  * Bordered icon-card variant (`cards (icons, bordered)`): the icon-card layout
  * (small 64px icon + body) but enclosed in a bordered white card with a large
