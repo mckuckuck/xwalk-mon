@@ -73,26 +73,22 @@ function cardsBlockXml(blockEl, damPrefix, id) {
 function slalomBlockXml(blockEl, damPrefix, id) {
   const classes = [...blockEl.classList].filter((c) => c !== 'slalom');
   const rows = [...blockEl.children];
-  const rowXml = rows.map((row, ri) => {
-    const cells = [...row.children];
-    const cellXml = (cells.length ? cells : [row]).map((cell, ci) => {
-      const img = cell.querySelector('img');
-      const content = img
-        ? `<picture><img src="${imgToDam(img.getAttribute('src'), damPrefix)}" alt="${he.encode(img.getAttribute('alt') || '')}" /></picture>`
-        : innerHtml(cell);
-      return `<cell_${ci} jcr:primaryType="nt:unstructured" text="${escHtml(content)}" />`;
-    }).join('\n                    ');
-    return `<row_${ri} jcr:primaryType="nt:unstructured">\n                    ${cellXml}\n                </row_${ri}>`;
-  }).join('\n                ');
+  const [textRow, mediaRow] = rows;
+  const textCells = textRow ? [...textRow.children] : [];
+  const textHtml = textCells.map((cell) => innerHtml(cell)).join('');
+  const img = mediaRow?.querySelector('img');
   const attrs = [
     `sling:resourceType="core/franklin/components/block/v1/block"`,
     'jcr:primaryType="nt:unstructured"',
     'name="Slalom"',
     'model="slalom"',
-    'modelFields="[classes]"',
+    'modelFields="[classes,text,image,imageAlt]"',
     classes.length ? `classes="[${classes.join(',')}]"` : '',
-  ].filter(Boolean).join(' ');
-  return `<${id} ${attrs}>${rowXml ? `\n                ${rowXml}\n            ` : ''}</${id}>`;
+    textHtml ? `text="${escHtml(textHtml)}"` : '',
+    img ? `image="${imgToDam(img.getAttribute('src'), damPrefix)}"` : '',
+    img ? `imageAlt="${he.encode(img.getAttribute('alt') || '')}"` : '',
+  ].filter(Boolean);
+  return `<${id} ${attrs.join(' ')} />`;
 }
 
 function defaultContentXml(el, section, type) {
