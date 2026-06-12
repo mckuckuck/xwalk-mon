@@ -116,10 +116,10 @@
   justify-content: center;
 }
 
-/* At desktop widths keep icon-card rows on a single line (e.g. the 4 award
-   cards under the company hero should stay 4-across at 1024px, not wrap 2+2). */
+/* Hero award band only (`cards icons centered`): keep all 4 cards on one row
+   at 1024px. Other icon-card grids keep the auto-fit column sizing above. */
 @media (width >= 1024px) {
-  .cards.icons > ul {
+  .cards.icons.centered > ul {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
