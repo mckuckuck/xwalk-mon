@@ -39,7 +39,7 @@ function heroBlockXml(blockEl, damPrefix, id) {
     'jcr:primaryType="nt:unstructured"',
     `name="Hero"`,
     'model="hero"',
-    'modelFields="[classes,image,imageAlt,text]"',
+    'modelFields="[classes,text,image,imageAlt]"',
     classes.length ? `classes="[${classes.join(',')}]"` : '',
     `text="${escHtml(innerHtml(textCell))}"`,
     img ? `image="${imgToDam(img.getAttribute('src'), damPrefix)}"` : '',

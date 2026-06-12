@@ -44,7 +44,8 @@
   height: 100%;
 }
 
-.hero .button-container {
+.hero .button-container,
+.hero p.button-wrapper {
   max-width: 1200px;
   margin: var(--mdb-space-lg) auto 0;
 }
@@ -76,6 +77,17 @@
   max-width: none;
   margin-left: 0;
   margin-right: 0;
+}
+
+.hero.split .button-container,
+.hero.split p.button-wrapper {
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.hero.split p.button-wrapper + p.button-wrapper {
+  margin-top: var(--mdb-space-sm);
 }
 
 .hero.split img {
