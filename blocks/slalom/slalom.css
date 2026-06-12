@@ -1,0 +1,61 @@
+/*
+ * Slalom — alternating media + text content section.
+ * Extracted from https://www.mongodb.com/products/platform/cloud and /products/platform/atlas-database.
+ * Content model: row 1 = text (heading + body + optional CTA), row 2 = image.
+ * Variant: .slalom.media-left flips the image to the leading column on desktop.
+ */
+
+.slalom {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mdb-space-lg);
+  padding: var(--mdb-space-2xl) var(--mdb-space-lg);
+  color: var(--mdb-text-primary);
+}
+
+.slalom > div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mdb-space-md);
+}
+
+.slalom h2 {
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-h2-compact);
+  font-weight: var(--mdb-fw-medium);
+  line-height: 32px;
+  color: var(--mdb-text-primary);
+  margin: 0;
+}
+
+.slalom .slalom-text p {
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-body);
+  font-weight: var(--mdb-fw-regular);
+  color: var(--mdb-text-primary);
+  margin: 0;
+}
+
+.slalom img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--mdb-radius-xl, 32px);
+}
+
+/* CTA links render as the global MongoDB arrow text-link (.button.secondary),
+   styled in styles.css — no slalom-specific override needed. */
+
+@media (width >= 900px) {
+  .slalom {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--mdb-space-3xl);
+  padding: 96px var(--mdb-space-lg) var(--mdb-space-2xl);
+}
+
+  .slalom > div { flex: 1; }
+
+  /* image-leading variant: visually move the media column first */
+  .slalom.media-left > div:last-child { order: -1; }
+}

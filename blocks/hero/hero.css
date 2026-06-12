@@ -5,15 +5,29 @@
 
 .hero {
   position: relative;
-  padding: 40px 24px;
+  padding: var(--mdb-space-xl) var(--mdb-space-md);
   min-height: 300px;
+  background: var(--mdb-surface-evergreen);
+  color: var(--mdb-text-on-dark);
 }
 
 .hero h1 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: var(--background-color);
+  font-family: var(--mdb-font-heading);
+  font-size: var(--mdb-fs-h1);
+  font-weight: var(--mdb-fw-regular);
+  line-height: 48px;
+  color: var(--mdb-text-on-dark);
+}
+
+.hero p {
+  max-width: 1200px;
+  margin: var(--mdb-space-sm) auto 0;
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-lead);
+  color: var(--mdb-text-on-dark);
 }
 
 .hero picture {
@@ -30,8 +44,57 @@
   height: 100%;
 }
 
+.hero .button-container {
+  max-width: 1200px;
+  margin: var(--mdb-space-lg) auto 0;
+}
+
+/* Button styling (solid green primary, green/blue arrow secondary) is inherited
+   from the global brand button rules in styles.css. */
+
+/*
+ * Split variant: two-column hero with text on the left and an image on the right
+ * (e.g. the company "About MongoDB" hero). The block table is one row with two
+ * cells: cell 1 = text (h1 + paragraph + CTAs), cell 2 = image.
+ */
+.hero.split picture {
+  position: static;
+  z-index: auto;
+  inset: auto;
+}
+
+.hero.split > div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mdb-space-lg);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero.split h1,
+.hero.split p {
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.hero.split img {
+  border-radius: var(--mdb-radius-xl, 32px);
+  height: auto;
+}
+
 @media (width >= 900px) {
   .hero {
-    padding: 40px 32px;
+    padding: var(--mdb-space-xl) var(--mdb-space-lg);
+  }
+
+  .hero.split > div {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--mdb-space-3xl);
+  }
+
+  .hero.split > div > div {
+    flex: 1;
   }
 }

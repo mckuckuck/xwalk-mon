@@ -1,19 +1,45 @@
+/* The block defaults to inline-block until decorated; force full width so the
+   inner grid can lay out columns (otherwise it collapses to content width). */
+.cards {
+  display: block;
+}
+
 .cards > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+  gap: var(--mdb-space-md);
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+  border: 1px solid var(--mdb-border-subtle);
+  border-radius: var(--mdb-radius-md);
+  background-color: var(--mdb-surface-white);
+  overflow: hidden;
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  margin: var(--mdb-space-sm);
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-body);
+  color: var(--mdb-text-primary);
+}
+
+.cards .cards-card-body h3,
+.cards .cards-card-body h4 {
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-h3);
+  font-weight: var(--mdb-fw-medium);
+  color: var(--mdb-text-primary);
+  margin: 0 0 var(--mdb-space-2xs);
+}
+
+.cards .cards-card-body a {
+  color: var(--mdb-blue);
+  font-weight: var(--mdb-fw-medium);
+  text-decoration: none;
 }
 
 .cards .cards-card-image {
@@ -24,4 +50,86 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+/*
+ * Icons variant (`cards (icons)`): borderless cards with a small top-aligned icon
+ * (e.g. the company-page "Our teams"/"Students and grads" culture grid and the
+ * award/stat grids). No card chrome — transparent background, no border/radius —
+ * and the image is a fixed ~64px icon rather than a full-width cover image.
+ */
+
+/* Icon-card grids size columns to a fixed width (matching the source ~264px)
+   rather than stretching to fill, so cards stay compact. */
+.cards.icons > ul {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 264px));
+}
+
+.cards.icons > ul > li {
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+  overflow: visible;
+}
+
+.cards.icons > ul > li img {
+  width: var(--mdb-space-3xl, 64px);
+  height: var(--mdb-space-3xl, 64px);
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
+.cards.icons .cards-card-image {
+  margin: 0 0 var(--mdb-space-sm);
+}
+
+.cards.icons .cards-card-body {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Icon cards use a larger title than the default card heading. */
+.cards.icons .cards-card-body h3,
+.cards.icons .cards-card-body h4 {
+  font-size: var(--mdb-fs-h2-compact, 24px);
+  line-height: 32px;
+}
+
+/*
+ * Centered modifier (`cards (icons, centered)`): center the icon, text, and link
+ * within each card — e.g. the company award grid directly below the hero.
+ */
+.cards.icons.centered > ul > li {
+  align-items: center;
+  text-align: center;
+}
+
+.cards.icons.centered .cards-card-image,
+.cards.icons.centered .cards-card-body {
+  text-align: center;
+}
+
+.cards.icons.centered .cards-card-image {
+  display: flex;
+  justify-content: center;
+}
+
+/*
+ * Bordered icon-card variant (`cards (icons, bordered)`): the icon-card layout
+ * (small 64px icon + body) but enclosed in a bordered white card with a large
+ * radius and inner padding — e.g. the company "Learn more about MongoDB" grid
+ * (Product hub / Customers / Partners).
+ */
+.cards.icons.bordered > ul > li {
+  border: 1px solid var(--mdb-surface-mist);
+  border-radius: var(--mdb-radius-xl, 40px);
+  background-color: var(--mdb-surface-white);
+  padding: var(--mdb-space-2xl);
+  overflow: hidden;
+}
+
+.cards.icons.bordered .cards-card-body {
+  margin: 0;
 }
