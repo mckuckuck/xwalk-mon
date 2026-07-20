@@ -35,6 +35,21 @@ function normalize(p) {
  * @param {Element} block The block element
  */
 export default function decorate(block) {
+  // In Universal Editor, each row is an instrumented `sidebar-nav-item` whose
+  // cell carries the editable richtext (`data-aue-prop`). The full decoration
+  // below detaches the heading/child links from those cells to rebuild the nav,
+  // which strips the instrumentation and makes the block un-authorable (the
+  // rail renders but nothing is selectable/editable). When instrumentation is
+  // present, skip the destructive rebuild and leave the authored rows intact so
+  // authors can edit each item; the published site (no instrumentation) still
+  // gets the full accordion decoration.
+  const inEditor = block.hasAttribute('data-aue-resource')
+    || [...block.children].some((row) => row.hasAttribute('data-aue-resource'));
+  if (inEditor) {
+    block.classList.add('sidebar-nav-editing');
+    return;
+  }
+
   const nav = document.createElement('nav');
   nav.className = 'sidebar-nav-list';
   nav.setAttribute('aria-label', 'Download products');
