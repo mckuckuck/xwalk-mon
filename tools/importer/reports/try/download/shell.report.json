@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/shell",
+  "path": "try/download/shell",
+  "timestamp": "2026-07-08T18:48:23.682Z",
+  "title": "MongoDB Shell Download | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

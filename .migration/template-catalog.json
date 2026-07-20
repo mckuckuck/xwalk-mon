@@ -1,0 +1,46 @@
+{
+  "templates": [
+    {
+      "name": "try-signup",
+      "representativePages": [
+        "https://www.mongodb.com/try"
+      ],
+      "urls": [
+        "https://www.mongodb.com/try"
+      ],
+      "description": "Product intro page with hero heading, description, explore-products link, left sidebar navigation, and an account signup form in the main column"
+    },
+    {
+      "name": "download-detail",
+      "representativePages": [
+        "https://www.mongodb.com/try/download/atlas-kubernetes-operator",
+        "https://www.mongodb.com/try/download/community"
+      ],
+      "urls": [
+        "https://www.mongodb.com/try/download/atlas-kubernetes-operator",
+        "https://www.mongodb.com/try/download/atlascli",
+        "https://www.mongodb.com/try/download/bi-connector",
+        "https://www.mongodb.com/try/download/community",
+        "https://www.mongodb.com/try/download/community-edition",
+        "https://www.mongodb.com/try/download/community-kubernetes-operator",
+        "https://www.mongodb.com/try/download/compass",
+        "https://www.mongodb.com/try/download/database-tools",
+        "https://www.mongodb.com/try/download/enterprise",
+        "https://www.mongodb.com/try/download/enterprise-advanced",
+        "https://www.mongodb.com/try/download/enterprise-kubernetes-operator",
+        "https://www.mongodb.com/try/download/jdbc-driver",
+        "https://www.mongodb.com/try/download/mongocli",
+        "https://www.mongodb.com/try/download/mongosync",
+        "https://www.mongodb.com/try/download/odbc-driver",
+        "https://www.mongodb.com/try/download/ops-manager",
+        "https://www.mongodb.com/try/download/power-bi-connector",
+        "https://www.mongodb.com/try/download/relational-migrator",
+        "https://www.mongodb.com/try/download/shell",
+        "https://www.mongodb.com/try/download/sql-interface",
+        "https://www.mongodb.com/try/download/tableau-connector",
+        "https://www.mongodb.com/try/download/tools"
+      ],
+      "description": "Download page with left sidebar navigation and a main column containing download hero, version/platform/package selectors, download button, and secondary download sections with release links"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+https://www.mongodb.com/try/download/tools
+https://www.mongodb.com/try/download/terraform-provider
+https://www.mongodb.com/try/download/shell
+https://www.mongodb.com/try/download/compass
+https://www.mongodb.com/try/download/atlascli
+https://www.mongodb.com/try/download/atlas-kubernetes-operator
+https://www.mongodb.com/try/download/mongocli
+https://www.mongodb.com/try/download/mongosync
+https://www.mongodb.com/try/download/relational-migrator
+https://www.mongodb.com/try/download/database-tools
+https://www.mongodb.com/try/download/bi-connector
+https://www.mongodb.com/try/download/app-services-cli
+https://www.mongodb.com/try/download/vs-code-extension

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/enterprise-advanced",
+  "path": "try/download/enterprise-advanced",
+  "timestamp": "2026-07-08T18:47:04.655Z",
+  "title": "Try MongoDB Enterprise Advanced | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download",
+    "cards-download",
+    "cards-download"
+  ]
+}

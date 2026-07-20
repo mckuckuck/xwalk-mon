@@ -1,0 +1,5 @@
+https://www.mongodb.com/try/download/sql-interface
+https://www.mongodb.com/try/download/power-bi-connector
+https://www.mongodb.com/try/download/tableau-connector
+https://www.mongodb.com/try/download/jdbc-driver
+https://www.mongodb.com/try/download/odbc-driver

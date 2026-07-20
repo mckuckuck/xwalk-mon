@@ -462,3 +462,66 @@ main .section.rounded-bottom {
 main .section.rounded-tr {
   border-top-right-radius: 72px;
 }
+
+/* Two-column layout for the Try/Download pages — a left sidebar navigation rail
+   and a wider right content column (signup form or download panels). Mobile-first:
+   stacked; two columns from 900px.
+
+   Two authoring shapes produce this layout, handled below:
+   1. INLINE nav (the /try signup page): the sidebar-nav block sits directly in
+      the section, so EDS adds `sidebar-nav-container` to that top-level section.
+      The `main > .section.sidebar-nav-container` rules key off it.
+   2. FRAGMENT nav (the /try/download/* pages): the nav is a shared fragment, so
+      it is injected as its own nested `section.sidebar-nav-container` wrapped in
+      a `default-content-wrapper` inside the CONTENT section (which EDS classes
+      `cards-download-container`). Here the OUTER content section is the grid; its
+      `default-content-wrapper` (holding the nav) is column 1 and every card /
+      download wrapper flows into column 2. The `main >` scoping on the inline
+      rules keeps them from firing on the fragment's nested nav section. */
+@media (width >= 900px) {
+  main > .section.sidebar-nav-container,
+  main > .section:not(.sidebar-nav-container):has(.sidebar-nav) {
+    display: grid;
+    grid-template-columns: 340px minmax(0, 1fr);
+    column-gap: var(--mdb-space-2xl, 48px);
+    align-items: start;
+    /* Extra bottom room so the last (often short) download card can scroll up
+       into the scroll-spy activation band and highlight its nav item. Doubled
+       so even the shortest final card reaches mid-viewport. */
+    padding-bottom: calc(2 * var(--mdb-space-section, 112px));
+  }
+
+  /* The base `main > .section > div` rule sets `margin: auto`, which on a grid
+     item vertically centers it in the (tall) row AND overrides align-self —
+     pushing the short sidebar down. Zero the block margins on both columns so
+     they top-align at the row start. */
+  main > .section.sidebar-nav-container > .sidebar-nav-wrapper,
+  main > .section.sidebar-nav-container > *:not(.sidebar-nav-wrapper),
+  main > .section:not(.sidebar-nav-container):has(.sidebar-nav) > .default-content-wrapper,
+  main > .section:not(.sidebar-nav-container):has(.sidebar-nav) > *:not(.default-content-wrapper) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* Column 1 — the sticky nav rail. `align-self: start` keeps its height
+     intrinsic (not stretched to the grid row) so the browser has room to stick
+     it; a stretched item can never become sticky. If the nav is taller than the
+     viewport it scrolls internally rather than clipping the last links.
+     Inline case: the `.sidebar-nav-wrapper` is the grid item. Fragment case: the
+     `.default-content-wrapper` wrapping the injected nav section is the item. */
+  main > .section.sidebar-nav-container > .sidebar-nav-wrapper,
+  main > .section:not(.sidebar-nav-container):has(.sidebar-nav) > .default-content-wrapper {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: start;
+    position: sticky;
+    top: var(--mdb-space-md, 24px);
+    max-height: calc(100vh - 2 * var(--mdb-space-md, 24px));
+    overflow-y: auto;
+  }
+
+  main > .section.sidebar-nav-container > *:not(.sidebar-nav-wrapper),
+  main > .section:not(.sidebar-nav-container):has(.sidebar-nav) > *:not(.default-content-wrapper) {
+    grid-column: 2;
+  }
+}

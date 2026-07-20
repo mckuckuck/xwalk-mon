@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/enterprise-kubernetes-operator",
+  "path": "try/download/enterprise-kubernetes-operator",
+  "timestamp": "2026-07-08T18:47:34.136Z",
+  "title": "Install MongoDB Enterprise Kubernetes Operator | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

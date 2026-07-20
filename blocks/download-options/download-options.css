@@ -1,0 +1,7 @@
+/* Download Options is a data-only block (the release matrix for a sibling
+   download card). It renders nothing — cards-download.js reads its rows to
+   build the functional dropdowns. Hidden in both authored and published views;
+   in Universal Editor it still appears in the content tree for editing. */
+.download-options {
+  display: none;
+}

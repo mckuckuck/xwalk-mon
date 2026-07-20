@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/relational-migrator",
+  "path": "try/download/relational-migrator",
+  "timestamp": "2026-07-08T18:49:33.774Z",
+  "title": "MongoDB Relational Migrator Download | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

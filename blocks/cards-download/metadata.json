@@ -1,0 +1,42 @@
+{
+  "variantName": "cards-download",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-07-07T17:42:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.mongodb.com/try/download/community",
+    "originPage": "MongoDB Community Server download detail page",
+    "blockPosition": "middle-main-column"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "product-download-panel",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "stacked panels: icon + product tag + heading + rich description + optional code snippet + version/platform/package selectors + download/copy-link/more-options actions",
+    "buttonCount": 3,
+    "imageCount": 1,
+    "repeating": true,
+    "dynamicControls": true
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "download-detail template pages with one or more stacked product download panels",
+      "product download panels with version/platform/package selectors and a download action",
+      "download panels with a code snippet or a View-on-Github style primary link"
+    ],
+    "notSuitableFor": [
+      "simple marketing card grids (use base cards)",
+      "side-by-side comparison layouts (use columns)",
+      "pages without a download/selector action"
+    ]
+  },
+  "behaviorNote": "Version/Platform/Package dropdowns and Download/Copy Link/More Options are dynamic (backend/API driven) on the source site. This variant captures them STRUCTURALLY only; live behavior is deferred.",
+  "usage": {
+    "pagesUsing": ["/try/download/community"],
+    "reuseCount": 1,
+    "lastUsed": "2026-07-07T17:42:00.000Z"
+  }
+}

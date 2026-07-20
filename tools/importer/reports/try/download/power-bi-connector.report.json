@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/power-bi-connector",
+  "path": "try/download/power-bi-connector",
+  "timestamp": "2026-07-08T18:51:33.734Z",
+  "title": "Download Power BI Connector | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

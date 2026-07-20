@@ -20,6 +20,12 @@
     ]
   },
   {
+    "id": "cards-download",
+    "components": [
+      "cards-download-card"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
@@ -38,6 +44,24 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "download-options",
+    "components": [
+      "download-option"
+    ]
+  },
+  {
+    "id": "form",
+    "components": [
+      "form-field"
+    ]
+  },
+  {
+    "id": "sidebar-nav",
+    "components": [
+      "sidebar-nav-item"
     ]
   }
 ]

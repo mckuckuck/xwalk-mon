@@ -1,0 +1,39 @@
+{
+  "variantName": "sidebar-nav",
+  "baseBlock": "sidebar-nav",
+  "version": "1.0.0",
+  "created": "2026-07-07T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.mongodb.com/try",
+    "originPage": "Try MongoDB Atlas signup page",
+    "blockPosition": "middle-left"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "product-download-nav",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "vertical list with grouped headings + nested items + active indicator",
+    "buttonCount": 0,
+    "imageCount": 0,
+    "shared": true
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product/download selector navigation shared across template pages",
+      "grouped hierarchical left-rail navigation with an active state"
+    ],
+    "notSuitableFor": [
+      "top-level global site navigation (use header block)",
+      "flat single-level menus that fit default content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/try", "/fragments/try/download/sidebar-nav"],
+    "reuseCount": 2,
+    "lastUsed": "2026-07-20T00:00:00.000Z",
+    "note": "Authored inline on the /try signup page. For the 25 /try/download/* pages the nav lives in a single shared fragment at /fragments/try/download/sidebar-nav, which each page references; the two-column grid is handled in styles.css for both the inline and fragment-injected shapes."
+  }
+}

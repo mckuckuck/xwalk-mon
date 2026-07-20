@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/database-tools",
+  "path": "try/download/database-tools",
+  "timestamp": "2026-07-08T18:49:45.454Z",
+  "title": "Download MongoDB Command Line Database Tools | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

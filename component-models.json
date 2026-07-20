@@ -154,6 +154,80 @@
     ]
   },
   {
+    "id": "cards-download-card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Icon",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Icon Alt Text"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "tag",
+        "label": "Product Tag"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "heading",
+        "label": "Heading"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "text",
+        "value": "",
+        "label": "Description"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "codeSnippet",
+        "label": "Code Snippet"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "versionLabel",
+        "label": "Version (selected value)"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "platformLabel",
+        "label": "Platform (selected value)"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "packageLabel",
+        "label": "Package (selected value)"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "downloadLink",
+        "label": "Download / Primary Link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "downloadText",
+        "label": "Download / Primary Link Text",
+        "value": "Download"
+      }
+    ]
+  },
+  {
     "id": "cards",
     "fields": [
       {
@@ -217,6 +291,98 @@
     ]
   },
   {
+    "id": "download-option",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "version",
+        "label": "Version"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "platform",
+        "label": "Platform"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "package",
+        "label": "Package"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "url",
+        "label": "Download URL"
+      }
+    ]
+  },
+  {
+    "id": "form",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Intro (heading / subheading)",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "form-field",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "label",
+        "value": "",
+        "label": "Label",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "type",
+        "label": "Type",
+        "valueType": "string",
+        "value": "text",
+        "options": [
+          {
+            "name": "Text",
+            "value": "text"
+          },
+          {
+            "name": "Email",
+            "value": "email"
+          },
+          {
+            "name": "Password",
+            "value": "password"
+          },
+          {
+            "name": "Telephone",
+            "value": "tel"
+          },
+          {
+            "name": "Checkbox",
+            "value": "checkbox"
+          },
+          {
+            "name": "Submit",
+            "value": "submit"
+          }
+        ]
+      },
+      {
+        "component": "boolean",
+        "name": "required",
+        "label": "Required",
+        "valueType": "boolean"
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {
@@ -261,6 +427,30 @@
         "name": "imageAlt",
         "label": "Alt",
         "value": ""
+      }
+    ]
+  },
+  {
+    "id": "sidebar-nav",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "ariaLabel",
+        "label": "Aria Label",
+        "value": "Download products"
+      }
+    ]
+  },
+  {
+    "id": "sidebar-nav-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Item / Group",
+        "valueType": "string"
       }
     ]
   },

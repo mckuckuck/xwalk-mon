@@ -1,0 +1,3 @@
+https://www.mongodb.com/try/download/community-edition
+https://www.mongodb.com/try/download/community
+https://www.mongodb.com/try/download/community-kubernetes-operator

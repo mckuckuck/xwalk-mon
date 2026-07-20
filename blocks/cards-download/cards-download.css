@@ -1,0 +1,264 @@
+.cards-download > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--mdb-space-2xl, 48px);
+}
+
+/* Each download panel is authored as its own cards-download block, so the
+   intra-block `ul` gap never applies (one panel per block). Space consecutive
+   card blocks apart via their wrappers instead. */
+.cards-download-wrapper + .cards-download-wrapper {
+  margin-top: var(--mdb-space-2xl, 48px);
+}
+
+.cards-download > ul > li.cards-download-panel {
+  border: 1px solid var(--mdb-border-subtle);
+  border-radius: var(--mdb-radius-lg, 24px);
+  background-color: var(--mdb-surface-white);
+  padding: var(--mdb-space-lg, 32px) var(--mdb-space-md, 24px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--mdb-space-sm, 16px);
+}
+
+/* Placeholder reserved for a sibling card being fetched. Sized to approximate a
+   real card so the group's total height is established up front — sibling cards
+   swap into these slots in place with no noticeable reflow. A subtle shimmer
+   signals loading. */
+.cards-download > ul > li.cards-download-placeholder {
+  min-height: 320px;
+  background:
+    linear-gradient(100deg, var(--mdb-surface-white) 40%, var(--mdb-surface-offwhite) 50%, var(--mdb-surface-white) 60%)
+    var(--mdb-surface-white);
+  background-size: 200% 100%;
+  animation: cards-download-shimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes cards-download-shimmer {
+  from { background-position: 150% 0; }
+  to { background-position: -50% 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cards-download > ul > li.cards-download-placeholder {
+    animation: none;
+  }
+}
+
+/* Product icon */
+.cards-download .cards-download-card-image {
+  line-height: 0;
+}
+
+.cards-download .cards-download-card-image img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+/* Content body: tag, heading, rich text, code snippet */
+.cards-download .cards-download-card-body {
+  margin: 0;
+  color: var(--mdb-text-tertiary);
+}
+
+.cards-download .cards-download-card-body > *:first-child {
+  margin-top: 0;
+}
+
+.cards-download .cards-download-card-body h3 {
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-small, 14px);
+  font-weight: var(--mdb-fw-medium, 500);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--mdb-green-forest);
+  margin: 0 0 var(--mdb-space-3xs, 4px);
+}
+
+.cards-download .cards-download-card-body h1 {
+  font-family: var(--mdb-font-heading);
+  font-size: var(--mdb-fs-h2, 32px);
+  font-weight: var(--mdb-fw-medium, 500);
+  color: var(--mdb-text-primary);
+  margin: 0 0 var(--mdb-space-sm, 16px);
+  line-height: 1.2;
+}
+
+.cards-download .cards-download-card-body p {
+  font-size: var(--mdb-fs-body, 16px);
+  margin: 0 0 var(--mdb-space-sm, 16px);
+}
+
+.cards-download .cards-download-card-body a:any-link {
+  color: var(--link-color);
+}
+
+/* Code snippet: reuse global <pre>, swap to mono + light surface */
+.cards-download .cards-download-card-body pre {
+  font-family: var(--mdb-font-mono);
+  background-color: var(--mdb-surface-offwhite);
+  border: 1px solid var(--mdb-border-subtle);
+  border-radius: var(--mdb-radius-md, 8px);
+  color: var(--mdb-text-primary);
+  margin: var(--mdb-space-sm, 16px) 0;
+}
+
+.cards-download .cards-download-card-body pre code {
+  font-family: var(--mdb-font-mono);
+  font-size: var(--mdb-fs-small, 14px);
+}
+
+/* Controls row: static selector pills + download button */
+.cards-download .cards-download-card-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--mdb-space-sm, 16px);
+  margin-top: var(--mdb-space-2xs, 8px);
+}
+
+.cards-download .cards-download-selectors {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mdb-space-xs, 12px);
+}
+
+/* Dropdown-styled pill (presentational) */
+.cards-download .cards-download-selector {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  min-height: 52px;
+  padding: var(--mdb-space-2xs, 8px) 40px var(--mdb-space-2xs, 8px) var(--mdb-space-sm, 16px);
+  border: 1px solid var(--mdb-border-subtle);
+  border-radius: var(--mdb-radius-md, 8px);
+  background-color: var(--mdb-surface-white);
+}
+
+.cards-download .cards-download-selector-value {
+  order: 2;
+  font-size: var(--mdb-fs-body, 16px);
+  font-weight: var(--mdb-fw-medium, 500);
+  color: var(--mdb-text-primary);
+  line-height: 1.2;
+}
+
+.cards-download .cards-download-selector-label {
+  order: 1;
+  font-size: var(--mdb-fs-eyebrow, 12px);
+  color: var(--mdb-text-secondary);
+  line-height: 1.2;
+}
+
+/* Functional dropdown: a native <select> styled to match the pill's value row.
+   The pill container provides the border/padding/chevron; the select is a
+   transparent, borderless control filling the value slot (order 2). */
+.cards-download .cards-download-selector:has(.cards-download-select) {
+  padding-right: var(--mdb-space-sm, 16px);
+  cursor: pointer;
+}
+
+.cards-download .cards-download-select {
+  order: 2;
+  appearance: none;
+  width: 100%;
+  border: 0;
+  padding: 0 24px 0 0;
+  background: transparent
+    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none"><path d="M26.6668 10.6666L16.0049 21.3333L5.3335 10.6761" stroke="%235d6c74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+    no-repeat right center / 16px 16px;
+  font: inherit;
+  font-size: var(--mdb-fs-body, 16px);
+  font-weight: var(--mdb-fw-medium, 500);
+  color: var(--mdb-text-primary);
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.cards-download .cards-download-select:focus-visible {
+  outline: 2px solid var(--mdb-green-forest);
+  outline-offset: 2px;
+}
+
+.cards-download .cards-download-chevron {
+  position: absolute;
+  top: 50%;
+  right: var(--mdb-space-sm, 16px);
+  width: 16px;
+  height: 16px;
+  transform: translateY(-50%);
+  color: var(--mdb-text-secondary);
+  pointer-events: none;
+}
+
+.cards-download .cards-download-chevron svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Green primary download button — extends global .button.primary */
+.cards-download .cards-download-card-controls a.button.primary.cards-download-action:any-link {
+  gap: var(--mdb-space-2xs, 8px);
+  white-space: normal;
+  align-self: flex-start;
+}
+
+.cards-download .cards-download-download-icon {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+}
+
+.cards-download .cards-download-download-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .cards-download .cards-download-selectors {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cards-download .cards-download-selector {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+
+  .cards-download .cards-download-card-controls {
+    align-items: center;
+  }
+
+  .cards-download .cards-download-card-controls a.button.primary.cards-download-action:any-link {
+    align-self: auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .cards-download > ul > li.cards-download-panel {
+    padding: var(--mdb-space-3xl, 64px) var(--mdb-space-xl, 40px);
+    gap: var(--mdb-space-md, 24px);
+  }
+
+  .cards-download .cards-download-card-body h1 {
+    font-size: var(--mdb-fs-h1, 40px);
+  }
+
+  .cards-download .cards-download-card-controls {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .cards-download .cards-download-selectors {
+    flex: 1 1 auto;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/app-services-cli",
+  "path": "try/download/app-services-cli",
+  "timestamp": "2026-07-08T18:50:08.330Z",
+  "title": "Download App Services CLI | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

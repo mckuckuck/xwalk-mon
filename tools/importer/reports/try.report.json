@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try",
+  "path": "try",
+  "timestamp": "2026-07-07T19:46:47.994Z",
+  "title": "Try MongoDB Atlas Products | MongoDB",
+  "template": "try-signup",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "form"
+  ]
+}
