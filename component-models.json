@@ -431,18 +431,6 @@
     ]
   },
   {
-    "id": "sidebar-nav",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "ariaLabel",
-        "label": "Aria Label",
-        "value": "Download products"
-      }
-    ]
-  },
-  {
     "id": "sidebar-nav-item",
     "fields": [
       {
