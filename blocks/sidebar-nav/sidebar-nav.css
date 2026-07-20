@@ -11,6 +11,25 @@
   border-left: 4px solid var(--mdb-green-base);
 }
 
+/* Universal Editor edit mode: the block keeps its authored rows (see
+   sidebar-nav.js) so each item stays editable. Give those raw rows a simple
+   readable layout with the brand green rail, since the accordion decoration is
+   intentionally skipped here. */
+.sidebar-nav.sidebar-nav-editing {
+  display: flex;
+  flex-direction: column;
+  border-left: 4px solid var(--mdb-green-base);
+}
+
+.sidebar-nav.sidebar-nav-editing > div {
+  padding: var(--mdb-space-2xs, 8px) var(--mdb-space-md, 24px);
+}
+
+.sidebar-nav.sidebar-nav-editing ul {
+  margin: var(--mdb-space-2xs, 8px) 0 0;
+  padding-left: var(--mdb-space-md, 24px);
+}
+
 /* accordion group: heading + collapsible children */
 .sidebar-nav .sidebar-nav-group {
   display: flex;
