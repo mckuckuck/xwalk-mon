@@ -1,3 +1,5 @@
+import { moveInstrumentation } from '../../scripts/scripts.js';
+
 /**
  * Normalize a path for comparison: drop a trailing slash and a `.html`
  * extension so `/try/download/community.html` and `/try/download/community/`
@@ -60,6 +62,11 @@ export default function decorate(block) {
 
     const group = document.createElement('div');
     group.className = 'sidebar-nav-group';
+    // Preserve Universal Editor instrumentation: each authored row is an
+    // editable `sidebar-nav-item`, so carry its data-aue-* attributes onto the
+    // group element that replaces it — otherwise the rebuilt nav has nothing
+    // for UE to select and the canvas renders blank in edit mode.
+    moveInstrumentation(row, group);
 
     headingLink.classList.add('sidebar-nav-heading');
     if (isCurrent(headingLink)) headingLink.classList.add('is-active');
