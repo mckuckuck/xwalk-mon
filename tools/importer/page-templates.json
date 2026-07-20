@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "projectType": "xwalk"
+  },
+  "templates": [
+    {
+      "name": "try-signup",
+      "urls": [
+        "https://www.mongodb.com/try"
+      ],
+      "representativeUrl": "https://www.mongodb.com/try",
+      "coverageGaps": [],
+      "description": "Product intro page with hero heading, description, explore-products link, left sidebar navigation, and an account signup form in the main column",
+      "blocks": [
+        {
+          "name": "columns",
+          "instances": [
+            ".pencil-banner-no-underline"
+          ],
+          "section": "banner-green"
+        },
+        {
+          "name": "hero",
+          "instances": [
+            "section.w-full.css-1x76i0b"
+          ]
+        },
+        {
+          "name": "sidebar-nav",
+          "instances": [
+            "section.w-full.css-11phdyl .css-17fcl61 nav.css-1syg30y"
+          ],
+          "section": "signup"
+        },
+        {
+          "name": "form",
+          "instances": [
+            "#atlas-form"
+          ],
+          "section": "signup"
+        }
+      ]
+    },
+    {
+      "name": "download-detail",
+      "urls": [
+        "https://www.mongodb.com/try/download/community"
+      ],
+      "representativeUrl": "https://www.mongodb.com/try/download/community",
+      "coverageGaps": [],
+      "description": "Download page with left sidebar navigation and a main column containing download hero, version/platform/package selectors, download button, and secondary download sections with release links",
+      "blocks": [
+        {
+          "name": "columns",
+          "instances": [
+            ".pencil-banner-no-underline"
+          ],
+          "section": "banner-green"
+        },
+        {
+          "name": "hero",
+          "instances": [
+            "section.w-full.css-1x76i0b"
+          ]
+        },
+        {
+          "name": "sidebar-nav",
+          "instances": [
+            "section.w-full.css-9gqv8y .css-17fcl61 nav.css-1syg30y"
+          ],
+          "section": "download"
+        },
+        {
+          "name": "cards-download",
+          "instances": [
+            "section.w-full.css-9gqv8y div.css-eeqf"
+          ],
+          "section": "download"
+        }
+      ]
+    }
+  ]
+}

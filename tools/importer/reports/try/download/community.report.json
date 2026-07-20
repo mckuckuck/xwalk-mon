@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/community",
+  "path": "try/download/community",
+  "timestamp": "2026-07-08T18:46:30.977Z",
+  "title": "Download MongoDB Community Server | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

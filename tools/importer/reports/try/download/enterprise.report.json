@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/enterprise",
+  "path": "try/download/enterprise",
+  "timestamp": "2026-07-08T18:47:14.068Z",
+  "title": "MongoDB Enterprise Server Download | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

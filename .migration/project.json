@@ -1,0 +1,14 @@
+{
+  "type": "xwalk",
+  "sites": {
+    "xwalk-mon": {
+      "previewOrg": "mckuckuck",
+      "previewSite": "xwalk-mon",
+      "aemSitePath": "/content/xwalk-mon",
+      "aemAssetsFolderPath": "/content/dam/xwalk-mon",
+      "aemSiteName": "xwalk-mon",
+      "aemSiteTitle": "Xwalk Mon",
+      "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json"
+    }
+  }
+}

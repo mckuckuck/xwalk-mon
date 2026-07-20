@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/ops-manager",
+  "path": "try/download/ops-manager",
+  "timestamp": "2026-07-08T18:47:23.828Z",
+  "title": "MongoDB Ops Manager Download | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/vs-code-extension",
+  "path": "try/download/vs-code-extension",
+  "timestamp": "2026-07-08T18:50:20.921Z",
+  "title": "MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

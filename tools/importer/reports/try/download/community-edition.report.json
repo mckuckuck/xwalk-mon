@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/community-edition",
+  "path": "try/download/community-edition",
+  "timestamp": "2026-07-08T18:46:14.876Z",
+  "title": "Try MongoDB Community Edition | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download",
+    "cards-download",
+    "cards-download"
+  ]
+}

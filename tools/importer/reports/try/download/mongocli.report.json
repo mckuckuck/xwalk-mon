@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/mongocli",
+  "path": "try/download/mongocli",
+  "timestamp": "2026-07-08T18:49:11.053Z",
+  "title": "Download MongoDB CLI for Cloud Manager and Ops Manager | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

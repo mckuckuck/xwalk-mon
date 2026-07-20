@@ -1,0 +1,153 @@
+.form {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: var(--mdb-space-lg, 32px) var(--mdb-space-md, 24px);
+  background: var(--mdb-surface-white, #fff);
+  border: 1px solid var(--mdb-border-subtle, #b8c4c2);
+  border-radius: var(--mdb-radius-lg, 24px);
+  box-shadow: var(--mdb-shadow-md, 0 1px 6px 0 rgb(0 0 0 / 6%));
+  color: var(--mdb-text-primary, #001e2b);
+}
+
+.form .form-intro {
+  margin-bottom: var(--mdb-space-md, 24px);
+  text-align: center;
+}
+
+.form .form-intro h1,
+.form .form-intro h2,
+.form .form-intro h3,
+.form .form-intro h4 {
+  margin: 0 0 var(--mdb-space-2xs, 8px);
+  font-size: var(--mdb-fs-h2-compact, 24px);
+  line-height: 1.25;
+}
+
+.form .form-intro p {
+  margin: 0;
+  color: var(--mdb-text-secondary, #5d6c74);
+  font-size: var(--mdb-fs-body, 16px);
+}
+
+.form .form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mdb-space-sm, 16px);
+}
+
+.form .form-field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.form .form-field label {
+  margin-bottom: var(--mdb-space-3xs, 4px);
+  color: var(--mdb-text-secondary, #5d6c74);
+  font-size: var(--mdb-fs-small, 14px);
+}
+
+.form .form-field input[type="text"],
+.form .form-field input[type="email"],
+.form .form-field input[type="password"],
+.form .form-field input[type="tel"] {
+  border: none;
+  border-bottom: 1px solid var(--mdb-border-subtle, #b8c4c2);
+  background: transparent;
+  padding: var(--mdb-space-2xs, 8px) 0;
+  color: var(--mdb-text-primary, #001e2b);
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-body, 16px);
+}
+
+.form .form-field input:focus {
+  outline: none;
+  border-bottom-width: 2px;
+  border-bottom-color: var(--mdb-green-forest, #00684a);
+}
+
+/* Terms of Service / Privacy checkbox row with rich-text links. */
+.form .form-field-checkbox {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--mdb-space-2xs, 8px);
+}
+
+.form .form-field-checkbox input[type="checkbox"] {
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  accent-color: var(--mdb-green-forest, #00684a);
+}
+
+.form .form-field-checkbox label {
+  margin-bottom: 0;
+  color: var(--mdb-text-primary, #001e2b);
+  font-size: var(--mdb-fs-small, 14px);
+  line-height: 1.4;
+}
+
+.form .form-field-checkbox label p {
+  margin: 0;
+}
+
+.form .form-field-checkbox label a {
+  text-decoration: underline;
+}
+
+/* Password show/hide toggle (eye icon). */
+.form .form-password-toggle {
+  position: absolute;
+  right: 0;
+  bottom: var(--mdb-space-2xs, 8px);
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0.55;
+}
+
+.form .form-password-toggle::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: currentcolor;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="black"><path d="M30.6667 16C30.6667 16 25.3463 26.1541 15.9996 26.1541C6.65299 26.1541 1.33252 16 1.33252 16C1.33252 16 6.65299 5.84583 15.9996 5.84583C25.3463 5.84583 30.6667 16 30.6667 16Z" stroke-width="2" stroke-linejoin="round"/><ellipse cx="16.0001" cy="15.9997" rx="5.64119" ry="5.64119" stroke-width="2"/></svg>') center / contain no-repeat;
+}
+
+.form .form-password-toggle:hover {
+  opacity: 0.9;
+}
+
+/* Full-width primary submit — reuses the global .button.primary green fill. */
+.form .form-submit {
+  width: 100%;
+  margin-top: var(--mdb-space-2xs, 8px);
+  font-weight: var(--mdb-fw-medium, 500);
+}
+
+/* "Sign in" / auxiliary links below the button. */
+.form .form-aux {
+  margin-top: var(--mdb-space-sm, 16px);
+  color: var(--mdb-text-secondary, #5d6c74);
+  font-size: var(--mdb-fs-small, 14px);
+  text-align: center;
+}
+
+.form .form-aux p {
+  margin: 0;
+}
+
+.form .form-aux a {
+  text-decoration: underline;
+}
+
+@media (width >= 600px) {
+  .form {
+    padding: var(--mdb-space-xl, 40px);
+  }
+}

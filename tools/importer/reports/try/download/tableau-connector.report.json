@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/tableau-connector",
+  "path": "try/download/tableau-connector",
+  "timestamp": "2026-07-08T18:51:42.314Z",
+  "title": "Download Tableau Connector | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

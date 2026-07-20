@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/atlas-kubernetes-operator",
+  "path": "try/download/atlas-kubernetes-operator",
+  "timestamp": "2026-07-08T18:48:57.958Z",
+  "title": "Download MongoDB Atlas Kubernetes Operator | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

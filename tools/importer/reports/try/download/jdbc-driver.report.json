@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/jdbc-driver",
+  "path": "try/download/jdbc-driver",
+  "timestamp": "2026-07-08T18:51:52.642Z",
+  "title": "Download Atlas SQL JDBC Driver | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

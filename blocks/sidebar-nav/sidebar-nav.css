@@ -1,0 +1,96 @@
+/* MongoDB "Try / Download" left-rail navigation.
+   Source: https://www.mongodb.com/try — an accordion of full-width link rows.
+   The rail carries a 4px green edge; each row has its own 2px accent border
+   that turns green on the active item. Each group is a heading + a collapsible
+   list of children; only the group matching the current page is expanded.
+   Values extracted from computed styles. */
+
+.sidebar-nav .sidebar-nav-list {
+  display: flex;
+  flex-direction: column;
+  border-left: 4px solid var(--mdb-green-base);
+}
+
+/* accordion group: heading + collapsible children */
+.sidebar-nav .sidebar-nav-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* children are collapsed by default; the active group expands them */
+.sidebar-nav .sidebar-nav-children {
+  display: none;
+}
+
+.sidebar-nav .sidebar-nav-group.is-expanded .sidebar-nav-children {
+  display: flex;
+  flex-direction: column;
+}
+
+/* every link is a full-width row */
+.sidebar-nav .sidebar-nav-list a {
+  display: flex;
+  align-items: center;
+  border-left: 2px solid var(--mdb-surface-mist);
+  padding: var(--mdb-space-sm) var(--mdb-space-md);
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-body);
+  line-height: 24px;
+  font-weight: var(--mdb-fw-regular);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sidebar-nav .sidebar-nav-list a:hover {
+  text-decoration: none;
+}
+
+/* top-level group headings render in MongoDB forest green */
+.sidebar-nav .sidebar-nav-heading {
+  color: var(--mdb-green-forest);
+}
+
+.sidebar-nav .sidebar-nav-heading:hover {
+  color: var(--mdb-green-forest);
+}
+
+/* nested child links are indented and use secondary text color.
+   NOTE: the base row rule `.sidebar-nav .sidebar-nav-list a` sets a
+   `padding` shorthand and outranks a plain `.sidebar-nav-child` selector
+   (element+2 classes vs 2 classes), so it would reset padding-left. Scoping
+   the child under `.sidebar-nav-list a` matches that specificity and lets the
+   indent win. */
+.sidebar-nav .sidebar-nav-list a.sidebar-nav-child {
+  padding-left: var(--mdb-space-xl);
+  color: var(--mdb-text-secondary);
+}
+
+.sidebar-nav .sidebar-nav-list a.sidebar-nav-child:hover {
+  color: var(--mdb-text-secondary);
+}
+
+/* active item (current page): bold, tertiary text, green accent bar on the left */
+.sidebar-nav .sidebar-nav-list a.is-active {
+  border-left-color: var(--mdb-green-forest);
+  color: var(--mdb-text-tertiary);
+  font-weight: 700;
+}
+
+.sidebar-nav .sidebar-nav-list a.is-active:hover {
+  color: var(--mdb-text-tertiary);
+}
+
+/* scroll-spy state: the nav item matching the download card currently in view.
+   Bolded with a green accent bar so the reader can see which section they're on.
+   Uses green text (vs. the tertiary text of the current-page item) so the two
+   states remain visually distinguishable if both ever apply. */
+.sidebar-nav .sidebar-nav-list a.is-current {
+  border-left-color: var(--mdb-green-forest);
+  color: var(--mdb-green-forest);
+  font-weight: 700;
+  transition: color 0.15s ease;
+}
+
+.sidebar-nav .sidebar-nav-list a.is-current:hover {
+  color: var(--mdb-green-forest);
+}

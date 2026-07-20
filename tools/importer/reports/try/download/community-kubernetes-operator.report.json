@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/community-kubernetes-operator",
+  "path": "try/download/community-kubernetes-operator",
+  "timestamp": "2026-07-08T18:46:43.335Z",
+  "title": "Install MongoDB Community Kubernetes Operator | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

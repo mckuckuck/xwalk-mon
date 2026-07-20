@@ -1,0 +1,39 @@
+{
+  "variantName": "form",
+  "baseBlock": "form",
+  "version": "1.0.0",
+  "created": "2026-07-07T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.mongodb.com/try",
+    "originPage": "Try MongoDB Atlas signup page",
+    "blockPosition": "middle-center"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "account-signup",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "heading + subheading + labeled inputs + terms checkbox + submit + SSO + sign-in link",
+    "buttonCount": 2,
+    "imageCount": 0,
+    "dynamic": true,
+    "note": "Backend-driven submission deferred; captured structurally only."
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "account creation / signup forms",
+      "lead-capture forms with labeled inputs and a terms checkbox"
+    ],
+    "notSuitableFor": [
+      "simple contact links (use default content)",
+      "search inputs (use search block)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/try"],
+    "reuseCount": 1,
+    "lastUsed": "2026-07-07T00:00:00.000Z"
+  }
+}

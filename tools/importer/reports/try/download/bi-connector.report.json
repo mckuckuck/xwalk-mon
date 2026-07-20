@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/bi-connector",
+  "path": "try/download/bi-connector",
+  "timestamp": "2026-07-08T18:49:56.545Z",
+  "title": "MongoDB BI Connector Download | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download"
+  ]
+}

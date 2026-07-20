@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/try/download/sql-interface",
+  "path": "try/download/sql-interface",
+  "timestamp": "2026-07-08T18:51:23.639Z",
+  "title": "Download Atlas SQL Interface | MongoDB",
+  "template": "download-detail",
+  "blocks": [
+    "columns",
+    "hero",
+    "sidebar-nav",
+    "cards-download",
+    "cards-download",
+    "cards-download",
+    "cards-download",
+    "cards-download"
+  ]
+}
