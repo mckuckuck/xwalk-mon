@@ -471,13 +471,14 @@ main .section.rounded-tr {
    1. INLINE nav (the /try signup page): the sidebar-nav block sits directly in
       the section, so EDS adds `sidebar-nav-container` to that top-level section.
       The `main > .section.sidebar-nav-container` rules key off it.
-   2. FRAGMENT nav (the /try/download/* pages): the nav is a shared fragment, so
-      it is injected as its own nested `section.sidebar-nav-container` wrapped in
-      a `default-content-wrapper` inside the CONTENT section (which EDS classes
-      `cards-download-container`). Here the OUTER content section is the grid; its
-      `default-content-wrapper` (holding the nav) is column 1 and every card /
-      download wrapper flows into column 2. The `main >` scoping on the inline
-      rules keeps them from firing on the fragment's nested nav section. */
+   2. FRAGMENT nav (the /try/download/* pages): the nav is a shared fragment
+      referenced via a `fragment` block. Once loaded, the fragment injects its
+      own nested `section.sidebar-nav-container` inside a `.fragment-wrapper`
+      within the CONTENT section (which EDS also classes `cards-download-container`
+      etc.). Here the OUTER content section is the grid; its `.fragment-wrapper`
+      (holding the nav) is column 1 and every card / download wrapper flows into
+      column 2. The `main >` scoping on the inline rules keeps them from firing on
+      the fragment's nested nav section. */
 @media (width >= 900px) {
   main > .section.sidebar-nav-container,
   main > .section:not(.sidebar-nav-container):has(.sidebar-nav) {
@@ -497,8 +498,8 @@ main .section.rounded-tr {
      they top-align at the row start. */
   main > .section.sidebar-nav-container > .sidebar-nav-wrapper,
   main > .section.sidebar-nav-container > *:not(.sidebar-nav-wrapper),
-  main > .section:not(.sidebar-nav-container):has(.sidebar-nav) > .default-content-wrapper,
-  main > .section:not(.sidebar-nav-container):has(.sidebar-nav) > *:not(.default-content-wrapper) {
+  main > .section:not(.sidebar-nav-container):has(.sidebar-nav) > .fragment-wrapper,
+  main > .section:not(.sidebar-nav-container):has(.sidebar-nav) > *:not(.fragment-wrapper) {
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -508,9 +509,9 @@ main .section.rounded-tr {
      it; a stretched item can never become sticky. If the nav is taller than the
      viewport it scrolls internally rather than clipping the last links.
      Inline case: the `.sidebar-nav-wrapper` is the grid item. Fragment case: the
-     `.default-content-wrapper` wrapping the injected nav section is the item. */
+     `.fragment-wrapper` wrapping the injected nav section is the item. */
   main > .section.sidebar-nav-container > .sidebar-nav-wrapper,
-  main > .section:not(.sidebar-nav-container):has(.sidebar-nav) > .default-content-wrapper {
+  main > .section:not(.sidebar-nav-container):has(.sidebar-nav) > .fragment-wrapper {
     grid-column: 1;
     grid-row: 1;
     align-self: start;
@@ -521,7 +522,7 @@ main .section.rounded-tr {
   }
 
   main > .section.sidebar-nav-container > *:not(.sidebar-nav-wrapper),
-  main > .section:not(.sidebar-nav-container):has(.sidebar-nav) > *:not(.default-content-wrapper) {
+  main > .section:not(.sidebar-nav-container):has(.sidebar-nav) > *:not(.fragment-wrapper) {
     grid-column: 2;
   }
 }
