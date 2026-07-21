@@ -292,48 +292,49 @@ function buildPanel(row, options) {
 
   const cells = [...row.children];
 
-  /**
-   * Resolve the model field name for the element(s) in a cell. Prefer the
-   * `field:` hint comment (local/preview). When hints are absent — published
-   * pages have their comments stripped by the backend — fall back to the cell's
-   * POSITION in FIELD_ORDER, which is exactly how the parser emits them.
-   */
-  const fieldFor = (cell, cellIndex) => {
-    const fallback = cell.querySelector('picture, img') ? 'image' : 'text';
-    const { fields, sawHint } = fieldsInCell(cell, fallback);
-    const name = sawHint ? fields[0]?.name : FIELD_ORDER[cellIndex];
-    return { name: name || fallback, els: fields.map((f) => f.el) };
-  };
+  // Whether ANY cell carries a `field:` hint comment. Present on the local dev
+  // server; STRIPPED from published `.plain.html` by the backend. When absent we
+  // map cells by POSITION (FIELD_ORDER) — the order the parser emits them.
+  const hasHints = cells.some((c) => fieldsInCell(c, '').sawHint);
 
   cells.forEach((cell, i) => {
-    const { name, els } = fieldFor(cell, i);
-    els.forEach((el) => {
-      const text = (el.textContent || '').trim();
-      if (name === 'image') {
-        image.append(el);
-      } else if (SELECTOR_LABELS[name]) {
-        if (text) selectors.append(buildSelector(name, text));
-      } else if (name === 'downloadLink') {
-        // downloadText is a collapsed field: the button label is the anchor's
-        // own text, not a separate cell.
-        const link = el.querySelector('a') || (el.tagName === 'A' ? el : null);
-        if (link) {
-          downloadHref = link.getAttribute('href') || '#';
-          downloadText = (link.textContent || '').trim();
-          hasDownload = true;
-        }
-      } else if ((name === 'tag' || name === 'heading') && text && !el.querySelector('h1,h2,h3,h4,h5,h6')) {
-        // Ensure the product tag and title render as real headings even when the
-        // JCR round-trip delivered them as plain <div>/<p> (published pages store
-        // these as text fields, losing the <h3>/<h1> the parser emitted). Real
-        // headings also let the sidebar-nav scroll-spy match cards to nav items.
+    // Field name: from the hint when present, else the cell's positional field.
+    const fallback = cell.querySelector('picture, img') ? 'image' : 'text';
+    const name = (hasHints ? fieldsInCell(cell, fallback).fields[0]?.name : FIELD_ORDER[i]) || fallback;
+    // Element children of the cell (may be empty when the cell is bare text, e.g.
+    // the tag/heading cells on published pages: `<div>MongoDB …</div>`).
+    const els = [...cell.children];
+    const text = (cell.textContent || '').trim();
+
+    if (name === 'image') {
+      els.forEach((el) => image.append(el));
+    } else if (SELECTOR_LABELS[name]) {
+      if (text) selectors.append(buildSelector(name, text));
+    } else if (name === 'downloadLink') {
+      // downloadText is a collapsed field: the button label is the anchor's own
+      // text, not a separate cell.
+      const link = cell.querySelector('a');
+      if (link) {
+        downloadHref = link.getAttribute('href') || '#';
+        downloadText = (link.textContent || '').trim();
+        hasDownload = true;
+      }
+    } else if (name === 'tag' || name === 'heading') {
+      // Render the product tag and title as real headings. Published pages store
+      // these as plain text fields (bare `<div>`/`<p>`, or a text-only cell),
+      // losing the <h3>/<h1> the parser emitted — so (re)build the heading from
+      // the cell's text. Real headings also let the sidebar-nav scroll-spy match
+      // cards to nav items. Skip if the cell already contains a heading.
+      if (text && !cell.querySelector('h1,h2,h3,h4,h5,h6')) {
         const h = document.createElement(name === 'tag' ? 'h3' : 'h1');
         h.textContent = text;
         body.append(h);
       } else {
-        body.append(el);
+        els.forEach((el) => body.append(el));
       }
-    });
+    } else {
+      els.forEach((el) => body.append(el));
+    }
   });
 
   const action = hasDownload ? buildAction(downloadHref, downloadText) : null;
