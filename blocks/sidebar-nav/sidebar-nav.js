@@ -228,7 +228,7 @@ function initScrollSpy(nav) {
       a.removeAttribute('aria-current');
     });
 
-    const setCurrent = (link) => {
+    const setCurrent = (link, syncUrl = false) => {
       links.forEach((a) => {
         a.classList.remove('is-current');
         a.removeAttribute('aria-current');
@@ -236,6 +236,17 @@ function initScrollSpy(nav) {
       if (link) {
         link.classList.add('is-current');
         link.setAttribute('aria-current', 'true');
+        // Keep the URL in sync with the card the reader is currently viewing, so
+        // a refresh lands on that same card. Use replaceState (not pushState) so
+        // scrolling doesn't flood the back-button history with intermediate
+        // cards — only explicit nav clicks (above) push a history entry.
+        if (syncUrl && window.history && window.history.replaceState) {
+          const href = link.getAttribute('href');
+          const target = href ? `${prefix}${normalize(href)}` : '';
+          if (target && normalize(window.location.pathname) !== normalize(target)) {
+            window.history.replaceState({}, '', target);
+          }
+        }
       }
     };
 
@@ -254,11 +265,12 @@ function initScrollSpy(nav) {
         if (entry.isIntersecting) visible.add(entry.target);
         else visible.delete(entry.target);
       });
-      // Highlight the topmost visible card's matching nav link.
+      // Highlight the topmost visible card's matching nav link, and sync the URL
+      // to it so a refresh lands on the card currently in view.
       const topCard = pairs
         .filter((p) => visible.has(p.card))
         .sort((a, b) => a.card.getBoundingClientRect().top - b.card.getBoundingClientRect().top)[0];
-      if (topCard) setCurrent(topCard.link);
+      if (topCard) setCurrent(topCard.link, true);
     }, {
       // Activation band is a thin strip across the vertical middle of the
       // viewport (45%–55%): a card becomes "current" once it reaches roughly the
