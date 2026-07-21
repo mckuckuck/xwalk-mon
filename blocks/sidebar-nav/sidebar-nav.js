@@ -195,12 +195,27 @@ function initScrollSpy(nav) {
 
     if (!pairs.length) return;
 
+    // Serving prefix: nav hrefs are root-relative (`/try/download/x`) but the page
+    // may be served under a prefix (dev `/content/xwalk-mon/...`). Derive it from
+    // this page's own nav item so pushed URLs stay within the current environment.
+    const currentPathRaw = normalize(window.location.pathname);
+    const ownLink = pairs
+      .map((p) => normalize(p.link.getAttribute('href') || ''))
+      .find((h) => h && currentPathRaw.endsWith(h));
+    const prefix = ownLink ? currentPathRaw.slice(0, currentPathRaw.length - ownLink.length) : '';
+
     // Clicking a nav item whose card is on THIS page should scroll to that card
-    // rather than navigating away. Items with no matching card keep their normal
-    // link behavior (they point to other pages).
+    // rather than navigating away, and update the URL to that item's path via
+    // history.pushState (no reload). On a later refresh the URL then points at
+    // the clicked item, and the initial-scroll logic below lands on its card.
+    // Items with no matching card keep their normal link behavior (other pages).
     pairs.forEach(({ card, link }) => {
       link.addEventListener('click', (e) => {
         e.preventDefault();
+        const href = link.getAttribute('href');
+        if (href && window.history && window.history.pushState) {
+          window.history.pushState({}, '', `${prefix}${normalize(href)}`);
+        }
         card.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
     });
@@ -254,18 +269,24 @@ function initScrollSpy(nav) {
 
     pairs.forEach((p) => observer.observe(p.card));
 
-    // On first assembly, scroll to the card matching the current page so the
-    // reader lands on their download. Height for all sibling cards is already
-    // reserved (placeholders), so this target position stays stable.
+    // Scroll to the card matching the CURRENT URL so the reader lands on the
+    // right download — whether they navigated to `/…/community` directly or
+    // refreshed after the nav updated the URL to a sibling (see the click
+    // handler's pushState). Runs once, but only after real (non-placeholder)
+    // sibling cards exist so the target position is final; deferred a frame so
+    // layout settles before scrolling (scrolling mid-reflow gets reset to 0).
     if (!didInitialScroll) {
       const currentPath = normalize(window.location.pathname);
       const own = pairs.find((p) => {
         const href = normalize(p.link.getAttribute('href') || '');
         return href && (currentPath === href || currentPath.endsWith(href));
       });
-      if (own && pairs.indexOf(own) > 0) {
+      const realCards = pairs.filter((p) => !p.card.classList.contains('cards-download-placeholder'));
+      if (own && pairs.indexOf(own) > 0 && realCards.length === pairs.length) {
         didInitialScroll = true;
-        own.card.scrollIntoView({ behavior: 'auto', block: 'start' });
+        requestAnimationFrame(() => {
+          own.card.scrollIntoView({ behavior: 'auto', block: 'start' });
+        });
       }
     }
   };

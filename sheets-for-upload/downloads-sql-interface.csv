@@ -1,0 +1,59 @@
+product,version,platform,package,url
+power-bi-connector,1.2.2,1.2.2,pqx,https://translators-connectors-releases.s3.amazonaws.com/mongo-powerbi-connector/MongoDBAtlasODBC-1.2.2.pqx
+tableau-connector,1.4.5,1.4.5,taco,https://translators-connectors-releases.s3.amazonaws.com/mongo-tableau-connector/mongodb-jdbc-1.4.5.taco
+odbc-driver,2.0.8,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/2.0.8/release/mongoodbc-2.0.8.msi
+odbc-driver,2.0.8,Linux x64 - Requires Openssl 3 - glibc 2.34+,tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/2.0.8/release/mongoodbc-2.0.8.tar.gz
+odbc-driver,2.0.7,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/2.0.7/release/mongoodbc-2.0.7.msi
+odbc-driver,2.0.7,Linux x64 - Requires Openssl 3 - glibc 2.34+,tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/2.0.7/release/mongoodbc-2.0.7.tar.gz
+odbc-driver,2.0.6,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/2.0.6/release/mongoodbc-2.0.6.msi
+odbc-driver,2.0.6,Linux x64 - Requires Openssl 3 - glibc 2.34+,tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/2.0.6/release/mongoodbc-2.0.6.tar.gz
+odbc-driver,2.0.5,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/2.0.5/release/mongoodbc-2.0.5.msi
+odbc-driver,2.0.5,Linux x64 - Requires Openssl 3 - glibc 2.34+,tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/2.0.5/release/mongoodbc-2.0.5.tar.gz
+odbc-driver,2.0.4,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/2.0.4/release/mongoodbc-2.0.4.msi
+odbc-driver,2.0.4,Linux x64 - Requires Openssl 3 - glibc 2.34+,tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/2.0.4/release/mongoodbc-2.0.4.tar.gz
+odbc-driver,2.0.3,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/2.0.3/release/mongoodbc-2.0.3.msi
+odbc-driver,2.0.3,Linux x64 - Requires Openssl 3 - glibc 2.34+,tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/2.0.3/release/mongoodbc-2.0.3.tar.gz
+odbc-driver,2.0.2,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/2.0.2/release/mongoodbc-2.0.2.msi
+odbc-driver,2.0.2,Linux x64 - Requires Openssl 3 - glibc 2.34+,tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/2.0.2/release/mongoodbc-2.0.2.tar.gz
+odbc-driver,2.0.1,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/2.0.1/release/mongoodbc-2.0.1.msi
+odbc-driver,2.0.1,Linux x64 - Requires Openssl 3 - glibc 2.34+,tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/2.0.1/release/mongoodbc-2.0.1.tar.gz
+odbc-driver,2.0.0,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/2.0.0/release/mongoodbc-2.0.0.msi
+odbc-driver,2.0.0,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/2.0.0/release/mongoodbc-2.0.0.tar.gz
+odbc-driver,1.4.6,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.4.6/release/mongoodbc-1.4.6.msi
+odbc-driver,1.4.6,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.4.6/release/mongoodbc-1.4.6.tar.gz
+odbc-driver,1.4.5,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.4.5/release/mongoodbc-1.4.5.msi
+odbc-driver,1.4.5,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.4.5/release/mongoodbc-1.4.5.tar.gz
+odbc-driver,1.4.4,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.4.4/release/mongoodbc.msi
+odbc-driver,1.4.4,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.4.4/release/mongoodbc.tar.gz
+odbc-driver,1.4.3,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.4.3/release/mongoodbc.msi
+odbc-driver,1.4.3,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.4.3/release/mongoodbc.tar.gz
+odbc-driver,1.4.2,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.4.2/release/mongoodbc.msi
+odbc-driver,1.4.2,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.4.2/release/mongoodbc.tar.gz
+odbc-driver,1.4.1,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.4.1/release/mongoodbc.msi
+odbc-driver,1.4.1,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.4.1/release/mongoodbc.tar.gz
+odbc-driver,1.4.0,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.4.0/release/mongoodbc.msi
+odbc-driver,1.4.0,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.4.0/release/mongoodbc.tar.gz
+odbc-driver,1.3.4,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.3.4/release/mongoodbc.msi
+odbc-driver,1.3.4,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.3.4/release/mongoodbc.tar.gz
+odbc-driver,1.3.3,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.3.3/release/mongoodbc.msi
+odbc-driver,1.3.3,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.3.3/release/mongoodbc.tar.gz
+odbc-driver,1.3.2,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.3.2/release/mongoodbc.msi
+odbc-driver,1.3.2,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.3.2/release/mongoodbc.tar.gz
+odbc-driver,1.3.1,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.3.1/release/mongoodbc.msi
+odbc-driver,1.3.1,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.3.1/release/mongoodbc.tar.gz
+odbc-driver,1.3.0,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.3.0/release/mongoodbc.msi
+odbc-driver,1.3.0,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.3.0/release/mongoodbc.tar.gz
+odbc-driver,1.2.0,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.2.0/release/mongoodbc.msi
+odbc-driver,1.2.0,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.2.0/release/mongoodbc.tar.gz
+odbc-driver,1.1.0,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.1.0/release/mongoodbc.msi
+odbc-driver,1.1.0,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.1.0/release/mongoodbc.tar.gz
+odbc-driver,1.0.2,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.0.2/release/mongoodbc.msi
+odbc-driver,1.0.2,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.0.2/release/mongoodbc.tar.gz
+odbc-driver,1.0.1,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.0.1/release/mongoodbc.msi
+odbc-driver,1.0.1,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.0.1/release/mongoodbc.tar.gz
+odbc-driver,1.0.0,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/1.0.0/release/mongoodbc.msi
+odbc-driver,1.0.0,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/1.0.0/release/mongoodbc.tar.gz
+odbc-driver,0.1.4,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/0.1.4/release/mongoodbc.msi
+odbc-driver,0.1.4,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/0.1.4/release/mongoodbc.tar.gz
+odbc-driver,0.1.3,Windows,msi,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/windows/0.1.3/release/mongoodbc.msi
+odbc-driver,0.1.3,Ubuntu 22.04 (x86_64),tgz,https://translators-connectors-releases.s3.amazonaws.com/mongosql-odbc-driver/ubuntu2204/0.1.3/release/mongoodbc.tar.gz

@@ -478,13 +478,18 @@ main .section.rounded-tr {
       etc.). Here the OUTER content section is the grid; its `.fragment-wrapper`
       (holding the nav) is column 1 and every card / download wrapper flows into
       column 2. The `main >` scoping on the inline rules keeps them from firing on
-      the fragment's nested nav section. */
-@media (width >= 900px) {
+      the fragment's nested nav section.
+
+   The two-column layout starts at TABLET (600px), matching the source site (the
+   rail stays beside the content on tablets rather than stacking). The nav column
+   is narrower on tablet (260px) and widens to 340px on desktop (see the 900px
+   block below). */
+@media (width >= 600px) {
   main > .section.sidebar-nav-container,
   main > .section:not(.sidebar-nav-container):has(.sidebar-nav) {
     display: grid;
-    grid-template-columns: 340px minmax(0, 1fr);
-    column-gap: var(--mdb-space-2xl, 48px);
+    grid-template-columns: 260px minmax(0, 1fr);
+    column-gap: var(--mdb-space-xl, 40px);
     align-items: start;
     /* Extra bottom room so the last (often short) download card can scroll up
        into the scroll-spy activation band and highlight its nav item. Doubled
@@ -524,5 +529,15 @@ main .section.rounded-tr {
   main > .section.sidebar-nav-container > *:not(.sidebar-nav-wrapper),
   main > .section:not(.sidebar-nav-container):has(.sidebar-nav) > *:not(.fragment-wrapper) {
     grid-column: 2;
+  }
+}
+
+/* Desktop: widen the nav rail from the tablet 260px to 340px and restore the
+   larger gutter. */
+@media (width >= 900px) {
+  main > .section.sidebar-nav-container,
+  main > .section:not(.sidebar-nav-container):has(.sidebar-nav) {
+    grid-template-columns: 340px minmax(0, 1fr);
+    column-gap: var(--mdb-space-2xl, 48px);
   }
 }

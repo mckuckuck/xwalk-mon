@@ -1,0 +1,306 @@
+product,version,platform,package,url
+shell,2.9.2,MacOS x64 (11.0+),zip,https://downloads.mongodb.com/compass/mongosh-2.9.2-darwin-x64.zip
+shell,2.9.2,MacOS Apple Silicon (11.0+),zip,https://downloads.mongodb.com/compass/mongosh-2.9.2-darwin-arm64.zip
+shell,2.9.2,Linux x64,tgz,https://downloads.mongodb.com/compass/mongosh-2.9.2-linux-x64.tgz
+shell,2.9.2,Linux x64,tgz with shared OpenSSL 1.1,https://downloads.mongodb.com/compass/mongosh-2.9.2-linux-x64-openssl11.tgz
+shell,2.9.2,Linux x64,tgz with shared OpenSSL 3,https://downloads.mongodb.com/compass/mongosh-2.9.2-linux-x64-openssl3.tgz
+shell,2.9.2,Debian (10+) / Ubuntu (18.04+) x64,deb,https://downloads.mongodb.com/compass/mongodb-mongosh_2.9.2_amd64.deb
+shell,2.9.2,Debian (10+) / Ubuntu (18.04+) x64,deb with shared OpenSSL 1.1,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl11_2.9.2_amd64.deb
+shell,2.9.2,Debian (10+) / Ubuntu (18.04+) x64,deb with shared OpenSSL 3,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl3_2.9.2_amd64.deb
+shell,2.9.2,RHEL / CentOS (7+) x64,rpm,https://downloads.mongodb.com/compass/mongodb-mongosh-2.9.2.x86_64.rpm
+shell,2.9.2,RHEL / CentOS (7+) x64,rpm with shared OpenSSL 1.1,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl11-2.9.2.x86_64.rpm
+shell,2.9.2,RHEL / CentOS (7+) x64,rpm with shared OpenSSL 3,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl3-2.9.2.x86_64.rpm
+shell,2.9.2,Linux arm64,tgz,https://downloads.mongodb.com/compass/mongosh-2.9.2-linux-arm64.tgz
+shell,2.9.2,Linux arm64,tgz with shared OpenSSL 1.1,https://downloads.mongodb.com/compass/mongosh-2.9.2-linux-arm64-openssl11.tgz
+shell,2.9.2,Linux arm64,tgz with shared OpenSSL 3,https://downloads.mongodb.com/compass/mongosh-2.9.2-linux-arm64-openssl3.tgz
+shell,2.9.2,Debian (10+) / Ubuntu (18.04+) arm64,deb,https://downloads.mongodb.com/compass/mongodb-mongosh_2.9.2_arm64.deb
+shell,2.9.2,Debian (10+) / Ubuntu (18.04+) arm64,deb with shared OpenSSL 1.1,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl11_2.9.2_arm64.deb
+shell,2.9.2,Debian (10+) / Ubuntu (18.04+) arm64,deb with shared OpenSSL 3,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl3_2.9.2_arm64.deb
+shell,2.9.2,RHEL / CentOS (7+) arm64,rpm,https://downloads.mongodb.com/compass/mongodb-mongosh-2.9.2.aarch64.rpm
+shell,2.9.2,RHEL / CentOS (7+) arm64,rpm with shared OpenSSL 1.1,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl11-2.9.2.aarch64.rpm
+shell,2.9.2,RHEL / CentOS (7+) arm64,rpm with shared OpenSSL 3,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl3-2.9.2.aarch64.rpm
+shell,2.9.2,Linux ppc64le,tgz,https://downloads.mongodb.com/compass/mongosh-2.9.2-linux-ppc64le.tgz
+shell,2.9.2,RHEL / CentOS (7+) ppc64le,rpm,https://downloads.mongodb.com/compass/mongodb-mongosh-2.9.2.ppc64le.rpm
+shell,2.9.2,Linux s390x,tgz,https://downloads.mongodb.com/compass/mongosh-2.9.2-linux-s390x.tgz
+shell,2.9.2,RHEL / CentOS (7+) s390x,rpm,https://downloads.mongodb.com/compass/mongodb-mongosh-2.9.2.s390x.rpm
+shell,2.9.2,Windows x64 (10+),zip,https://downloads.mongodb.com/compass/mongosh-2.9.2-win32-x64.zip
+shell,2.9.2,Windows x64 (10+),msi,https://downloads.mongodb.com/compass/mongosh-2.9.2-x64.msi
+shell,1.10.6,MacOS 64-bit (10.14+),zip,https://downloads.mongodb.com/compass/mongosh-1.10.6-darwin-x64.zip
+shell,1.10.6,MacOS M1 (11.0+),zip,https://downloads.mongodb.com/compass/mongosh-1.10.6-darwin-arm64.zip
+shell,1.10.6,Linux Tarball 64-bit,tgz,https://downloads.mongodb.com/compass/mongosh-1.10.6-linux-x64.tgz
+shell,1.10.6,Debian / Ubuntu 64-bit,deb,https://downloads.mongodb.com/compass/mongodb-mongosh_1.10.6_amd64.deb
+shell,1.10.6,RHEL / CentOS / Fedora / Suse 64-bit,rpm,https://downloads.mongodb.com/compass/mongodb-mongosh-1.10.6.x86_64.rpm
+shell,1.10.6,Linux Tarball 64-bit (shared OpenSSL 1.1),tgz,https://downloads.mongodb.com/compass/mongosh-1.10.6-linux-x64-openssl11.tgz
+shell,1.10.6,Debian / Ubuntu 64-bit (shared OpenSSL 1.1),deb,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl11_1.10.6_amd64.deb
+shell,1.10.6,RHEL / CentOS 64-bit (shared OpenSSL 1.1),deb,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl3_1.10.6_amd64.deb
+shell,1.10.6,Linux Tarball 64-bit (shared OpenSSL 3),tgz,https://downloads.mongodb.com/compass/mongosh-1.10.6-linux-x64-openssl3.tgz
+shell,1.10.6,Debian / Ubuntu 64-bit (shared OpenSSL 3),deb,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl3_1.10.6_arm64.deb
+shell,1.10.6,RHEL / CentOS 64-bit (shared OpenSSL 3),deb,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl3_1.10.6_arm64.deb
+shell,1.10.6,Linux Tarball arm64,tgz,https://downloads.mongodb.com/compass/mongosh-1.10.6-linux-arm64.tgz
+shell,1.10.6,Debian / Ubuntu arm64,deb,https://downloads.mongodb.com/compass/mongodb-mongosh_1.10.6_arm64.deb
+shell,1.10.6,RHEL / CentOS arm64,rpm,https://downloads.mongodb.com/compass/mongodb-mongosh-1.10.6.aarch64.rpm
+shell,1.10.6,Linux Tarball arm64 (shared OpenSSL 1.1),tgz,https://downloads.mongodb.com/compass/mongosh-1.10.6-linux-arm64-openssl11.tgz
+shell,1.10.6,Debian / Ubuntu arm64 (shared OpenSSL 1.1),deb,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl11_1.10.6_arm64.deb
+shell,1.10.6,Redhat / Centos arm64 (shared OpenSSL 1.1),rpm,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl11-1.10.6.aarch64.rpm
+shell,1.10.6,Linux Tarball arm64 (shared OpenSSL 3),tgz,https://downloads.mongodb.com/compass/mongosh-1.10.6-linux-arm64-openssl3.tgz
+shell,1.10.6,Debian / Ubuntu arm64 (shared OpenSSL 3),deb,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl3_1.10.6_amd64.deb
+shell,1.10.6,RHEL / CentOS arm64 (shared OpenSSL 3),rpm,https://downloads.mongodb.com/compass/mongodb-mongosh-shared-openssl3-1.10.6.aarch64.rpm
+shell,1.10.6,Linux Tarball ppc64le,tgz,https://downloads.mongodb.com/compass/mongosh-1.10.6-linux-ppc64le.tgz
+shell,1.10.6,Redhat / Centos ppc64le,rpm,https://downloads.mongodb.com/compass/mongodb-mongosh-1.10.6.ppc64le.rpm
+shell,1.10.6,Linux Tarball s390x,tgz,https://downloads.mongodb.com/compass/mongosh-1.10.6-linux-s390x.tgz
+shell,1.10.6,Redhat / Centos s390x,rpm,https://downloads.mongodb.com/compass/mongodb-mongosh-1.10.6.s390x.rpm
+shell,1.10.6,Windows 64-bit (8.1+),zip,https://downloads.mongodb.com/compass/mongosh-1.10.6-win32-x64.zip
+shell,1.10.6,Windows 64-bit (8.1+) (MSI),msi,https://downloads.mongodb.com/compass/mongosh-1.10.6-x64.msi
+compass,1.49.8,macOS arm64 (Apple silicon) (11.0+),dmg,https://downloads.mongodb.com/compass/mongodb-compass-1.49.8-darwin-arm64.dmg
+compass,1.49.8,macOS x64 (Intel) (11+),dmg,https://downloads.mongodb.com/compass/mongodb-compass-1.49.8-darwin-x64.dmg
+compass,1.49.8,Ubuntu 64-bit (20.04+),deb,https://downloads.mongodb.com/compass/mongodb-compass_1.49.8_amd64.deb
+compass,1.49.8,RedHat 64-bit (8+),rpm,https://downloads.mongodb.com/compass/mongodb-compass-1.49.8.x86_64.rpm
+compass,1.49.8,Windows 64-bit (10+),exe,https://downloads.mongodb.com/compass/mongodb-compass-1.49.8-win32-x64.exe
+compass,1.49.8,Windows 64-bit (10+) (MSI),msi,https://downloads.mongodb.com/compass/mongodb-compass-1.49.8-win32-x64.msi
+compass,1.49.8,Windows 64-bit (10+) (Zip),zip,https://downloads.mongodb.com/compass/mongodb-compass-1.49.8-win32-x64.zip
+atlascli,1.56.0,Linux (x86_64),tar.gz,https://fastdl.mongodb.org/mongocli/mongodb-atlas-cli_1.56.0_linux_x86_64.tar.gz
+atlascli,1.56.0,Linux (arm64),tar.gz,https://fastdl.mongodb.org/mongocli/mongodb-atlas-cli_1.56.0_linux_arm64.tar.gz
+atlascli,1.56.0,"Debian 11, 12 / Ubuntu 22.04, 24.04 (x86_64)",deb,https://fastdl.mongodb.org/mongocli/mongodb-atlas-cli_1.56.0_linux_x86_64.deb
+atlascli,1.56.0,"Debian 11, 12 / Ubuntu 22.04, 24.04 (arm64)",deb,https://fastdl.mongodb.org/mongocli/mongodb-atlas-cli_1.56.0_linux_arm64.deb
+atlascli,1.56.0,"Red Hat + CentOS 8, 9 / SUSE 12 + 15 / Amazon Linux 2023 (x86_64)",rpm,https://fastdl.mongodb.org/mongocli/mongodb-atlas-cli_1.56.0_linux_x86_64.rpm
+atlascli,1.56.0,"Red Hat + CentOS 8, 9 / SUSE 12 + 15 / Amazon Linux 2023 (arm64)",rpm,https://fastdl.mongodb.org/mongocli/mongodb-atlas-cli_1.56.0_linux_arm64.rpm
+atlascli,1.56.0,Microsoft Windows,msi,https://fastdl.mongodb.org/mongocli/mongodb-atlas-cli_1.56.0_windows_x86_64.msi
+atlascli,1.56.0,Microsoft Windows,zip,https://fastdl.mongodb.org/mongocli/mongodb-atlas-cli_1.56.0_windows_x86_64.zip
+atlascli,1.56.0,macOS (x86_64),zip,https://fastdl.mongodb.org/mongocli/mongodb-atlas-cli_1.56.0_macos_x86_64.zip
+atlascli,1.56.0,macOS (arm64),zip,https://fastdl.mongodb.org/mongocli/mongodb-atlas-cli_1.56.0_macos_arm64.zip
+mongocli,2.0.7,Linux (x86_64),tar.gz,https://fastdl.mongodb.org/mongocli/mongocli_2.0.7_linux_x86_64.tar.gz
+mongocli,2.0.7,Linux (arm64),tar.gz,https://fastdl.mongodb.org/mongocli/mongocli_2.0.7_linux_arm64.tar.gz
+mongocli,2.0.7,"Debian 10, 11, 12 / Ubuntu 20.04, 22.04 (x86_64)",deb,https://fastdl.mongodb.org/mongocli/mongocli_2.0.7_linux_x86_64.deb
+mongocli,2.0.7,"Debian 10, 11, 12 / Ubuntu 20.04, 22.04 (arm64)",deb,https://fastdl.mongodb.org/mongocli/mongocli_2.0.7_linux_arm64.deb
+mongocli,2.0.7,"Red Hat + CentOS 7, 8, 9 / SUSE 12 + 15 / Amazon Linux 2 (x86_64)",rpm,https://fastdl.mongodb.org/mongocli/mongocli_2.0.7_linux_x86_64.rpm
+mongocli,2.0.7,"Red Hat + CentOS 7, 8, 9 / SUSE 12 + 15 / Amazon Linux 2 (arm64)",rpm,https://fastdl.mongodb.org/mongocli/mongocli_2.0.7_linux_arm64.rpm
+mongocli,2.0.7,Microsoft Windows,msi,https://fastdl.mongodb.org/mongocli/mongocli_2.0.7_windows_x86_64.msi
+mongocli,2.0.7,Microsoft Windows,zip,https://fastdl.mongodb.org/mongocli/mongocli_2.0.7_windows_x86_64.zip
+mongocli,2.0.7,macOS (x86_64),zip,https://fastdl.mongodb.org/mongocli/mongocli_2.0.7_macos_x86_64.zip
+mongocli,2.0.7,macOS (arm64),zip,https://fastdl.mongodb.org/mongocli/mongocli_2.0.7_macos_arm64.zip
+mongosync,1.21.0,Amazon Linux 2 x86_64,tgz,https://fastdl.mongodb.org/tools/mongosync/mongosync-amazon2-x86_64-1.21.0.tgz
+mongosync,1.21.0,Amazon 2023 arm64,tgz,https://fastdl.mongodb.org/tools/mongosync/mongosync-amazon2023-arm64-arm64-1.21.0.tgz
+mongosync,1.21.0,Amazon Linux 2023 x86_64,tgz,https://fastdl.mongodb.org/tools/mongosync/mongosync-amazon2023-x86_64-1.21.0.tgz
+mongosync,1.21.0,RedHat / CentOS 7.0 x86_64,tgz,https://fastdl.mongodb.org/tools/mongosync/mongosync-rhel70-x86_64-1.21.0.tgz
+mongosync,1.21.0,RedHat / CentOS 8.8 x86_64,tgz,https://fastdl.mongodb.org/tools/mongosync/mongosync-rhel88-x86_64-1.21.0.tgz
+mongosync,1.21.0,RedHat / CentOS 9.0 x86_64,tgz,https://fastdl.mongodb.org/tools/mongosync/mongosync-rhel90-x86_64-1.21.0.tgz
+mongosync,1.21.0,macOS arm64,zip,https://fastdl.mongodb.org/tools/mongosync/mongosync-macos-arm-arm64-1.21.0.zip
+mongosync,1.21.0,macOS x86_64,zip,https://fastdl.mongodb.org/tools/mongosync/mongosync-macos-x86_64-1.21.0.zip
+mongosync,1.21.0,Ubuntu 20.04 x86_64,tgz,https://fastdl.mongodb.org/tools/mongosync/mongosync-ubuntu2004-x86_64-1.21.0.tgz
+mongosync,1.21.0,Ubuntu 22.04 x86_64,tgz,https://fastdl.mongodb.org/tools/mongosync/mongosync-ubuntu2204-x86_64-1.21.0.tgz
+mongosync,1.21.0,Ubuntu 24.04 x86_64,tgz,https://fastdl.mongodb.org/tools/mongosync/mongosync-ubuntu2404-x86_64-1.21.0.tgz
+relational-migrator,1.17.0,Windows,msi,https://downloads.mongodb.org/migrator/1.17.0/MongoDB%20Relational%20Migrator-1.17.0.msi
+relational-migrator,1.17.0,macOS arm64,dmg,https://downloads.mongodb.org/migrator/1.17.0/MongoDB%20Relational%20Migrator-1.17.0-arm64.dmg
+relational-migrator,1.17.0,macOS x64,dmg,https://downloads.mongodb.org/migrator/1.17.0/MongoDB%20Relational%20Migrator-1.17.0-x64.dmg
+relational-migrator,1.17.0,Debian / Ubuntu,deb,https://downloads.mongodb.org/migrator/1.17.0/mongodb-relational-migrator_1.17.0-1_amd64.deb
+relational-migrator,1.17.0,Redhat / Centos,rpm,https://downloads.mongodb.org/migrator/1.17.0/mongodb-relational-migrator-1.17.0-1.x86_64.rpm
+relational-migrator,1.17.0,Linux Tarball x64,tgz,https://downloads.mongodb.org/migrator/1.17.0/relational-migrator-1.17.0-linux-amd64.tar.gz
+relational-migrator,1.17.0,Linux Tarball arm64,tgz,https://downloads.mongodb.org/migrator/1.17.0/relational-migrator-1.17.0-linux-aarch64.tar.gz
+relational-migrator,1.17.0,Docker single machine,yml,https://downloads.mongodb.org/migrator/1.17.0/docker-compose-migrator-local.yml
+relational-migrator,1.17.0,Docker Kafka reference architecture,yml,https://downloads.mongodb.org/migrator/1.17.0/docker-compose-migrator-kafka.yml
+relational-migrator,1.17.0,Kafka Sink Connector Plugin,zip,https://downloads.mongodb.org/migrator/1.17.0/mongodb-kafka-connect-relational-migrator-1.17.0.zip
+database-tools,100.17.0,RedHat / CentOS 8.8 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel88-x86_64-100.17.0.tgz
+database-tools,100.17.0,RedHat / CentOS 8.8 x86_64,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel88-x86_64-100.17.0.rpm
+database-tools,100.17.0,Windows x86_64,zip,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.17.0.zip
+database-tools,100.17.0,Windows x86_64,msi,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.17.0.msi
+database-tools,100.17.0,Amazon Linux 2023 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-amazon2023-x86_64-100.17.0.tgz
+database-tools,100.17.0,Amazon Linux 2023 x86_64,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-amazon2023-x86_64-100.17.0.rpm
+database-tools,100.17.0,Amazon Linux 2023 aarch64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-amazon2023-aarch64-100.17.0.tgz
+database-tools,100.17.0,Amazon Linux 2023 aarch64,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-amazon2023-aarch64-100.17.0.rpm
+database-tools,100.17.0,Amazon Linux x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-amazon-x86_64-100.17.0.tgz
+database-tools,100.17.0,Amazon Linux x86_64,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-amazon-x86_64-100.17.0.rpm
+database-tools,100.17.0,Amazon Linux 2 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-amazon2-x86_64-100.17.0.tgz
+database-tools,100.17.0,Amazon Linux 2 x86_64,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-amazon2-x86_64-100.17.0.rpm
+database-tools,100.17.0,Amazon Linux 2 aarch64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-amazon2-aarch64-100.17.0.tgz
+database-tools,100.17.0,Amazon Linux 2 aarch64,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-amazon2-aarch64-100.17.0.rpm
+database-tools,100.17.0,Debian 10.0 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-debian10-x86_64-100.17.0.tgz
+database-tools,100.17.0,Debian 10.0 x86_64,deb,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-debian10-x86_64-100.17.0.deb
+database-tools,100.17.0,Debian 11.0 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-debian11-x86_64-100.17.0.tgz
+database-tools,100.17.0,Debian 11.0 x86_64,deb,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-debian11-x86_64-100.17.0.deb
+database-tools,100.17.0,Debian 12.0 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-debian12-x86_64-100.17.0.tgz
+database-tools,100.17.0,Debian 12.0 x86_64,deb,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-debian12-x86_64-100.17.0.deb
+database-tools,100.17.0,Debian 9.2 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-debian92-x86_64-100.17.0.tgz
+database-tools,100.17.0,Debian 9.2 x86_64,deb,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-debian92-x86_64-100.17.0.deb
+database-tools,100.17.0,macOS arm64,zip,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-macos-arm64-100.17.0.zip
+database-tools,100.17.0,macOS x86_64,zip,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-macos-x86_64-100.17.0.zip
+database-tools,100.17.0,RedHat / CentOS 7.0 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel70-x86_64-100.17.0.tgz
+database-tools,100.17.0,RedHat / CentOS 7.0 x86_64,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel70-x86_64-100.17.0.rpm
+database-tools,100.17.0,RedHat / CentOS 8.8 aarch64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel88-aarch64-100.17.0.tgz
+database-tools,100.17.0,RedHat / CentOS 8.8 aarch64,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel88-aarch64-100.17.0.rpm
+database-tools,100.17.0,RedHat / CentOS 9.3 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel93-x86_64-100.17.0.tgz
+database-tools,100.17.0,RedHat / CentOS 9.3 x86_64,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel93-x86_64-100.17.0.rpm
+database-tools,100.17.0,RedHat / CentOS 9.3 aarch64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel93-aarch64-100.17.0.tgz
+database-tools,100.17.0,RedHat / CentOS 9.3 aarch64,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel93-aarch64-100.17.0.rpm
+database-tools,100.17.0,SUSE 12 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-suse12-x86_64-100.17.0.tgz
+database-tools,100.17.0,SUSE 12 x86_64,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-suse12-x86_64-100.17.0.rpm
+database-tools,100.17.0,SUSE 15 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-suse15-x86_64-100.17.0.tgz
+database-tools,100.17.0,SUSE 15 x86_64,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-suse15-x86_64-100.17.0.rpm
+database-tools,100.17.0,Ubuntu 16.04 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu1604-x86_64-100.17.0.tgz
+database-tools,100.17.0,Ubuntu 16.04 x86_64,deb,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu1604-x86_64-100.17.0.deb
+database-tools,100.17.0,Ubuntu 18.04 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu1804-x86_64-100.17.0.tgz
+database-tools,100.17.0,Ubuntu 18.04 x86_64,deb,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu1804-x86_64-100.17.0.deb
+database-tools,100.17.0,Ubuntu 20.04 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2004-x86_64-100.17.0.tgz
+database-tools,100.17.0,Ubuntu 20.04 x86_64,deb,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2004-x86_64-100.17.0.deb
+database-tools,100.17.0,Ubuntu 22.04 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2204-x86_64-100.17.0.tgz
+database-tools,100.17.0,Ubuntu 22.04 x86_64,deb,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2204-x86_64-100.17.0.deb
+database-tools,100.17.0,Ubuntu 24.04 x86_64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2404-x86_64-100.17.0.tgz
+database-tools,100.17.0,Ubuntu 24.04 x86_64,deb,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2404-x86_64-100.17.0.deb
+database-tools,100.17.0,Ubuntu 16.04 arm64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu1604-arm64-100.17.0.tgz
+database-tools,100.17.0,Ubuntu 16.04 arm64,deb,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu1604-arm64-100.17.0.deb
+database-tools,100.17.0,Ubuntu 18.04 arm64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu1804-arm64-100.17.0.tgz
+database-tools,100.17.0,Ubuntu 18.04 arm64,deb,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu1804-arm64-100.17.0.deb
+database-tools,100.17.0,Ubuntu 20.04 arm64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2004-arm64-100.17.0.tgz
+database-tools,100.17.0,Ubuntu 20.04 arm64,deb,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2004-arm64-100.17.0.deb
+database-tools,100.17.0,Ubuntu 22.04 arm64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2204-arm64-100.17.0.tgz
+database-tools,100.17.0,Ubuntu 22.04 arm64,deb,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2204-arm64-100.17.0.deb
+database-tools,100.17.0,Ubuntu 24.04 arm64,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2404-arm64-100.17.0.tgz
+database-tools,100.17.0,Ubuntu 24.04 arm64,deb,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2404-arm64-100.17.0.deb
+database-tools,100.17.0,RedHat / CentOS 7.1 ppc64le,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel71-ppc64le-100.17.0.tgz
+database-tools,100.17.0,RedHat / CentOS 7.1 ppc64le,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel71-ppc64le-100.17.0.rpm
+database-tools,100.17.0,RedHat / CentOS 8.1 ppc64le,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel81-ppc64le-100.17.0.tgz
+database-tools,100.17.0,RedHat / CentOS 8.1 ppc64le,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel81-ppc64le-100.17.0.rpm
+database-tools,100.17.0,RedHat / CentOS 9 ppc64le,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel9-ppc64le-100.17.0.tgz
+database-tools,100.17.0,RedHat / CentOS 9 ppc64le,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel9-ppc64le-100.17.0.rpm
+database-tools,100.17.0,RedHat / CentOS 7.2 s390x,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel72-s390x-100.17.0.tgz
+database-tools,100.17.0,RedHat / CentOS 7.2 s390x,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel72-s390x-100.17.0.rpm
+database-tools,100.17.0,RedHat / CentOS 8.3 s390x,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel83-s390x-100.17.0.tgz
+database-tools,100.17.0,RedHat / CentOS 8.3 s390x,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel83-s390x-100.17.0.rpm
+database-tools,100.17.0,RedHat / CentOS 9 s390x,tgz,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel9-s390x-100.17.0.tgz
+database-tools,100.17.0,RedHat / CentOS 9 s390x,rpm,https://fastdl.mongodb.org/tools/db/mongodb-database-tools-rhel9-s390x-100.17.0.rpm
+bi-connector,2.14.29,Amazon Linux x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-amzn64-v2.14.29.tgz
+bi-connector,2.14.29,Amazon Linux x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-amzn64-v2.14.29.tgz.md5
+bi-connector,2.14.29,Amazon Linux x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-amzn64-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Amazon Linux x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-amzn64-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Amazon Linux 2 x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-amazon2-v2.14.29.tgz
+bi-connector,2.14.29,Amazon Linux 2 x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-amazon2-v2.14.29.tgz.md5
+bi-connector,2.14.29,Amazon Linux 2 x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-amazon2-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Amazon Linux 2 x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-amazon2-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Amazon Linux 2 ARM,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-amazon2-v2.14.29.tgz
+bi-connector,2.14.29,Amazon Linux 2 ARM,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-amazon2-v2.14.29.tgz.md5
+bi-connector,2.14.29,Amazon Linux 2 ARM,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-amazon2-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Amazon Linux 2 ARM,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-amazon2-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Amazon Linux 2023 x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-amazon2023-v2.14.29.tgz
+bi-connector,2.14.29,Amazon Linux 2023 x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-amazon2023-v2.14.29.tgz.md5
+bi-connector,2.14.29,Amazon Linux 2023 x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-amazon2023-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Amazon Linux 2023 x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-amazon2023-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Amazon Linux 2023 ARM,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-amazon2023-v2.14.29.tgz
+bi-connector,2.14.29,Amazon Linux 2023 ARM,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-amazon2023-v2.14.29.tgz.md5
+bi-connector,2.14.29,Amazon Linux 2023 ARM,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-amazon2023-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Amazon Linux 2023 ARM,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-amazon2023-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Debian 9.2 x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian92-v2.14.29.tgz
+bi-connector,2.14.29,Debian 9.2 x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian92-v2.14.29.tgz.md5
+bi-connector,2.14.29,Debian 9.2 x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian92-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Debian 9.2 x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian92-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Debian 10.0 x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian10-v2.14.29.tgz
+bi-connector,2.14.29,Debian 10.0 x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian10-v2.14.29.tgz.md5
+bi-connector,2.14.29,Debian 10.0 x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian10-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Debian 10.0 x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian10-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Debian 11.0 x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian11-v2.14.29.tgz
+bi-connector,2.14.29,Debian 11.0 x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian11-v2.14.29.tgz.md5
+bi-connector,2.14.29,Debian 11.0 x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian11-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Debian 11.0 x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian11-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Debian 12.0 x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian12-v2.14.29.tgz
+bi-connector,2.14.29,Debian 12.0 x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian12-v2.14.29.tgz.md5
+bi-connector,2.14.29,Debian 12.0 x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian12-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Debian 12.0 x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-debian12-v2.14.29.tgz.sha256
+bi-connector,2.14.29,macOS x64/OpenSSL 3.0,zip,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-macos-x86_64-macos14-v2.14.29.zip
+bi-connector,2.14.29,macOS x64/OpenSSL 3.0,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-macos-x86_64-macos14-v2.14.29.zip.md5
+bi-connector,2.14.29,macOS x64/OpenSSL 3.0,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-macos-x86_64-macos14-v2.14.29.zip.sha1
+bi-connector,2.14.29,macOS x64/OpenSSL 3.0,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-macos-x86_64-macos14-v2.14.29.zip.sha256
+bi-connector,2.14.29,macOS ARM/OpenSSL 3.0,zip,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-macos-arm64-macos14-v2.14.29.zip
+bi-connector,2.14.29,macOS ARM/OpenSSL 3.0,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-macos-arm64-macos14-v2.14.29.zip.md5
+bi-connector,2.14.29,macOS ARM/OpenSSL 3.0,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-macos-arm64-macos14-v2.14.29.zip.sha1
+bi-connector,2.14.29,macOS ARM/OpenSSL 3.0,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-macos-arm64-macos14-v2.14.29.zip.sha256
+bi-connector,2.14.29,RedHat / CentOS 6.2+ x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel62-v2.14.29.tgz
+bi-connector,2.14.29,RedHat / CentOS 6.2+ x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel62-v2.14.29.tgz.md5
+bi-connector,2.14.29,RedHat / CentOS 6.2+ x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel62-v2.14.29.tgz.sha1
+bi-connector,2.14.29,RedHat / CentOS 6.2+ x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel62-v2.14.29.tgz.sha256
+bi-connector,2.14.29,RedHat / CentOS 7.0+ x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel70-v2.14.29.tgz
+bi-connector,2.14.29,RedHat / CentOS 7.0+ x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel70-v2.14.29.tgz.md5
+bi-connector,2.14.29,RedHat / CentOS 7.0+ x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel70-v2.14.29.tgz.sha1
+bi-connector,2.14.29,RedHat / CentOS 7.0+ x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel70-v2.14.29.tgz.sha256
+bi-connector,2.14.29,RedHat / CentOS 8.0+ x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel80-v2.14.29.tgz
+bi-connector,2.14.29,RedHat / CentOS 8.0+ x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel80-v2.14.29.tgz.md5
+bi-connector,2.14.29,RedHat / CentOS 8.0+ x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel80-v2.14.29.tgz.sha1
+bi-connector,2.14.29,RedHat / CentOS 8.0+ x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel80-v2.14.29.tgz.sha256
+bi-connector,2.14.29,RedHat / CentOS 8.1 ppc64le (IBM POWER),tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-ppc64le-rhel8-v2.14.29.tgz
+bi-connector,2.14.29,RedHat / CentOS 8.1 ppc64le (IBM POWER),md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-ppc64le-rhel8-v2.14.29.tgz.md5
+bi-connector,2.14.29,RedHat / CentOS 8.1 ppc64le (IBM POWER),sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-ppc64le-rhel8-v2.14.29.tgz.sha1
+bi-connector,2.14.29,RedHat / CentOS 8.1 ppc64le (IBM POWER),sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-ppc64le-rhel8-v2.14.29.tgz.sha256
+bi-connector,2.14.29,RedHat / CentOS 8.2 ARM,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-rhel82-v2.14.29.tgz
+bi-connector,2.14.29,RedHat / CentOS 8.2 ARM,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-rhel82-v2.14.29.tgz.md5
+bi-connector,2.14.29,RedHat / CentOS 8.2 ARM,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-rhel82-v2.14.29.tgz.sha1
+bi-connector,2.14.29,RedHat / CentOS 8.2 ARM,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-rhel82-v2.14.29.tgz.sha256
+bi-connector,2.14.29,RedHat / CentOS 8.0+ s390x,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-s390x-rhel80-v2.14.29.tgz
+bi-connector,2.14.29,RedHat / CentOS 8.0+ s390x,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-s390x-rhel80-v2.14.29.tgz.md5
+bi-connector,2.14.29,RedHat / CentOS 8.0+ s390x,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-s390x-rhel80-v2.14.29.tgz.sha1
+bi-connector,2.14.29,RedHat / CentOS 8.0+ s390x,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-s390x-rhel80-v2.14.29.tgz.sha256
+bi-connector,2.14.29,RedHat / CentOS 9.0+ s390x,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-s390x-rhel90-v2.14.29.tgz
+bi-connector,2.14.29,RedHat / CentOS 9.0+ s390x,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-s390x-rhel90-v2.14.29.tgz.md5
+bi-connector,2.14.29,RedHat / CentOS 9.0+ s390x,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-s390x-rhel90-v2.14.29.tgz.sha1
+bi-connector,2.14.29,RedHat / CentOS 9.0+ s390x,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-s390x-rhel90-v2.14.29.tgz.sha256
+bi-connector,2.14.29,RedHat / CentOS 9.0+ ppc64le (IBM POWER),tgz,https://info-mongodb-com.s3.amazonaws.com/mongodb-bi/v2/mongodb-bi-linux-ppc64le-rhel9-v2.14.29.tgz
+bi-connector,2.14.29,RedHat / CentOS 9.0+ ppc64le (IBM POWER),md5,https://info-mongodb-com.s3.amazonaws.com/mongodb-bi/v2/mongodb-bi-linux-ppc64le-rhel9-v2.14.29.tgz.md5
+bi-connector,2.14.29,RedHat / CentOS 9.0+ ppc64le (IBM POWER),sha1,https://info-mongodb-com.s3.amazonaws.com/mongodb-bi/v2/mongodb-bi-linux-ppc64le-rhel9-v2.14.29.tgz.sha1
+bi-connector,2.14.29,RedHat / CentOS 9.0+ ppc64le (IBM POWER),sha256,https://info-mongodb-com.s3.amazonaws.com/mongodb-bi/v2/mongodb-bi-linux-ppc64le-rhel9-v2.14.29.tgz.sha256
+bi-connector,2.14.29,RedHat / CentOS 9.3+,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel93-v2.14.29.tgz
+bi-connector,2.14.29,RedHat / CentOS 9.3+,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel93-v2.14.29.tgz.md5
+bi-connector,2.14.29,RedHat / CentOS 9.3+,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel93-v2.14.29.tgz.sha1
+bi-connector,2.14.29,RedHat / CentOS 9.3+,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-rhel93-v2.14.29.tgz.sha256
+bi-connector,2.14.29,RedHat / CentOS 9.3+ ARM,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-rhel93-v2.14.29.tgz
+bi-connector,2.14.29,RedHat / CentOS 9.3+ ARM,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-rhel93-v2.14.29.tgz.md5
+bi-connector,2.14.29,RedHat / CentOS 9.3+ ARM,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-rhel93-v2.14.29.tgz.sha1
+bi-connector,2.14.29,RedHat / CentOS 9.3+ ARM,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-rhel93-v2.14.29.tgz.sha256
+bi-connector,2.14.29,SUSE 12 x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-suse12-v2.14.29.tgz
+bi-connector,2.14.29,SUSE 12 x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-suse12-v2.14.29.tgz.md5
+bi-connector,2.14.29,SUSE 12 x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-suse12-v2.14.29.tgz.sha1
+bi-connector,2.14.29,SUSE 12 x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-suse12-v2.14.29.tgz.sha256
+bi-connector,2.14.29,SUSE 15 x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-suse15-v2.14.29.tgz
+bi-connector,2.14.29,SUSE 15 x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-suse15-v2.14.29.tgz.md5
+bi-connector,2.14.29,SUSE 15 x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-suse15-v2.14.29.tgz.sha1
+bi-connector,2.14.29,SUSE 15 x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-suse15-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Ubuntu 16.04 x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu1604-v2.14.29.tgz
+bi-connector,2.14.29,Ubuntu 16.04 x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu1604-v2.14.29.tgz.md5
+bi-connector,2.14.29,Ubuntu 16.04 x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu1604-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Ubuntu 16.04 x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu1604-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Ubuntu 18.04 x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu1804-v2.14.29.tgz
+bi-connector,2.14.29,Ubuntu 18.04 x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu1804-v2.14.29.tgz.md5
+bi-connector,2.14.29,Ubuntu 18.04 x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu1804-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Ubuntu 18.04 x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu1804-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Ubuntu 18.04 ARM,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu1804-v2.14.29.tgz
+bi-connector,2.14.29,Ubuntu 18.04 ARM,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu1804-v2.14.29.tgz.md5
+bi-connector,2.14.29,Ubuntu 18.04 ARM,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu1804-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Ubuntu 18.04 ARM,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu1804-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Ubuntu 20.04 x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu2004-v2.14.29.tgz
+bi-connector,2.14.29,Ubuntu 20.04 x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu2004-v2.14.29.tgz.md5
+bi-connector,2.14.29,Ubuntu 20.04 x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu2004-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Ubuntu 20.04 x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu2004-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Ubuntu 20.04 ARM,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu2004-v2.14.29.tgz
+bi-connector,2.14.29,Ubuntu 20.04 ARM,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu2004-v2.14.29.tgz.md5
+bi-connector,2.14.29,Ubuntu 20.04 ARM,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu2004-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Ubuntu 20.04 ARM,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu2004-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Ubuntu 22.04 x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu2204-v2.14.29.tgz
+bi-connector,2.14.29,Ubuntu 22.04 x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu2204-v2.14.29.tgz.md5
+bi-connector,2.14.29,Ubuntu 22.04 x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu2204-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Ubuntu 22.04 x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu2204-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Ubuntu 22.04 ARM,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu2204-v2.14.29.tgz
+bi-connector,2.14.29,Ubuntu 22.04 ARM,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu2204-v2.14.29.tgz.md5
+bi-connector,2.14.29,Ubuntu 22.04 ARM,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu2204-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Ubuntu 22.04 ARM,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu2204-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Ubuntu 24.04 x64,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu2404-v2.14.29.tgz
+bi-connector,2.14.29,Ubuntu 24.04 x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu2404-v2.14.29.tgz.md5
+bi-connector,2.14.29,Ubuntu 24.04 x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu2404-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Ubuntu 24.04 x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu2404-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Ubuntu 24.04 ARM,tgz,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu2404-v2.14.29.tgz
+bi-connector,2.14.29,Ubuntu 24.04 ARM,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu2404-v2.14.29.tgz.md5
+bi-connector,2.14.29,Ubuntu 24.04 ARM,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu2404-v2.14.29.tgz.sha1
+bi-connector,2.14.29,Ubuntu 24.04 ARM,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-linux-arm64-ubuntu2404-v2.14.29.tgz.sha256
+bi-connector,2.14.29,Windows x64,msi,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-win32-x86_64-v2.14.29.msi
+bi-connector,2.14.29,Windows x64,md5,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-win32-x86_64-v2.14.29.msi.md5
+bi-connector,2.14.29,Windows x64,sha1,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-win32-x86_64-v2.14.29.msi.sha1
+bi-connector,2.14.29,Windows x64,sha256,https://downloads.mongodb.org/mongodb-bi/v2/mongodb-bi-win32-x86_64-v2.14.29.msi.sha256
+app-services-cli,,MacOS Intel 64-bit,zip,https://downloads.mongodb.com/app-services-cli/baas_appservices_cli_4e43be8bb8babc60814b4761a3429af4ad6985f3_25_08_08_14_59_15/atlas-app-services-cli_macos_x64.zip
+app-services-cli,,MacOS arm64,zip,https://downloads.mongodb.com/app-services-cli/baas_appservices_cli_4e43be8bb8babc60814b4761a3429af4ad6985f3_25_08_08_14_59_15/atlas-app-services-cli_macos_arm64.zip
+app-services-cli,,Linux 64-bit,tar.gz,https://downloads.mongodb.com/app-services-cli/baas_appservices_cli_4e43be8bb8babc60814b4761a3429af4ad6985f3_25_08_08_14_59_15/atlas-app-services-cli_linux_x64.tar.gz
+app-services-cli,,Linux arm64,tar.gz,https://downloads.mongodb.com/app-services-cli/baas_appservices_cli_4e43be8bb8babc60814b4761a3429af4ad6985f3_25_08_08_14_59_15/atlas-app-services-cli_linux_arm64.tar.gz
+app-services-cli,,Windows 64-bit,zip,https://downloads.mongodb.com/app-services-cli/baas_appservices_cli_4e43be8bb8babc60814b4761a3429af4ad6985f3_25_08_08_14_59_15/atlas-app-services-cli_windows_x64.zip

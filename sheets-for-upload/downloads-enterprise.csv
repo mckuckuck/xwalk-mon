@@ -1,0 +1,404 @@
+product,version,platform,package,url
+enterprise,8.3.4,RedHat / CentOS 8.1 ppc64le,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.3/ppc64le/RPMS/mongodb-enterprise-server-8.3.4-1.el8.ppc64le.rpm
+enterprise,8.3.4,RedHat / CentOS 8.1 ppc64le,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.3/ppc64le/RPMS/mongodb-enterprise-mongos-8.3.4-1.el8.ppc64le.rpm
+enterprise,8.3.4,RedHat / CentOS 8.1 ppc64le,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.3/ppc64le/RPMS/mongodb-enterprise-cryptd-8.3.4-1.el8.ppc64le.rpm
+enterprise,8.3.4,RedHat / CentOS 8.1 ppc64le,tgz,https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel81-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 8.1 ppc64le,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-ppc64le-enterprise-rhel81-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 9 ppc64le,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.3/ppc64le/RPMS/mongodb-enterprise-server-8.3.4-1.el9.ppc64le.rpm
+enterprise,8.3.4,RedHat / CentOS 9 ppc64le,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.3/ppc64le/RPMS/mongodb-enterprise-mongos-8.3.4-1.el9.ppc64le.rpm
+enterprise,8.3.4,RedHat / CentOS 9 ppc64le,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.3/ppc64le/RPMS/mongodb-enterprise-cryptd-8.3.4-1.el9.ppc64le.rpm
+enterprise,8.3.4,RedHat / CentOS 9 ppc64le,tgz,https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel9-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 9 ppc64le,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-ppc64le-enterprise-rhel9-8.3.4.tgz
+enterprise,8.3.4,Ubuntu 24.04 x64,server,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.3/multiverse/binary-amd64/mongodb-enterprise-server_8.3.4_amd64.deb
+enterprise,8.3.4,Ubuntu 24.04 x64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.3/multiverse/binary-amd64/mongodb-enterprise-mongos_8.3.4_amd64.deb
+enterprise,8.3.4,Ubuntu 24.04 x64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.3/multiverse/binary-amd64/mongodb-enterprise-cryptd_8.3.4_amd64.deb
+enterprise,8.3.4,Ubuntu 24.04 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu2404-8.3.4.tgz
+enterprise,8.3.4,Ubuntu 24.04 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-ubuntu2404-8.3.4.tgz
+enterprise,8.3.4,Ubuntu 24.04 ARM 64,server,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.3/multiverse/binary-arm64/mongodb-enterprise-server_8.3.4_arm64.deb
+enterprise,8.3.4,Ubuntu 24.04 ARM 64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.3/multiverse/binary-arm64/mongodb-enterprise-mongos_8.3.4_arm64.deb
+enterprise,8.3.4,Ubuntu 24.04 ARM 64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.3/multiverse/binary-arm64/mongodb-enterprise-cryptd_8.3.4_arm64.deb
+enterprise,8.3.4,Ubuntu 24.04 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-ubuntu2404-8.3.4.tgz
+enterprise,8.3.4,Ubuntu 24.04 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-ubuntu2404-8.3.4.tgz
+enterprise,8.3.4,Ubuntu 22.04 x64,server,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.3/multiverse/binary-amd64/mongodb-enterprise-server_8.3.4_amd64.deb
+enterprise,8.3.4,Ubuntu 22.04 x64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.3/multiverse/binary-amd64/mongodb-enterprise-mongos_8.3.4_amd64.deb
+enterprise,8.3.4,Ubuntu 22.04 x64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.3/multiverse/binary-amd64/mongodb-enterprise-cryptd_8.3.4_amd64.deb
+enterprise,8.3.4,Ubuntu 22.04 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu2204-8.3.4.tgz
+enterprise,8.3.4,Ubuntu 22.04 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-ubuntu2204-8.3.4.tgz
+enterprise,8.3.4,Ubuntu 22.04 ARM 64,server,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.3/multiverse/binary-arm64/mongodb-enterprise-server_8.3.4_arm64.deb
+enterprise,8.3.4,Ubuntu 22.04 ARM 64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.3/multiverse/binary-arm64/mongodb-enterprise-mongos_8.3.4_arm64.deb
+enterprise,8.3.4,Ubuntu 22.04 ARM 64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.3/multiverse/binary-arm64/mongodb-enterprise-cryptd_8.3.4_arm64.deb
+enterprise,8.3.4,Ubuntu 22.04 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-ubuntu2204-8.3.4.tgz
+enterprise,8.3.4,Ubuntu 22.04 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-ubuntu2204-8.3.4.tgz
+enterprise,8.3.4,Ubuntu 20.04 ARM 64,server,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.3/multiverse/binary-arm64/mongodb-enterprise-server_8.3.4_arm64.deb
+enterprise,8.3.4,Ubuntu 20.04 ARM 64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.3/multiverse/binary-arm64/mongodb-enterprise-mongos_8.3.4_arm64.deb
+enterprise,8.3.4,Ubuntu 20.04 ARM 64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.3/multiverse/binary-arm64/mongodb-enterprise-cryptd_8.3.4_arm64.deb
+enterprise,8.3.4,Ubuntu 20.04 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-ubuntu2004-8.3.4.tgz
+enterprise,8.3.4,Ubuntu 20.04 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-ubuntu2004-8.3.4.tgz
+enterprise,8.3.4,Ubuntu 20.04 x64,server,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.3/multiverse/binary-amd64/mongodb-enterprise-server_8.3.4_amd64.deb
+enterprise,8.3.4,Ubuntu 20.04 x64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.3/multiverse/binary-amd64/mongodb-enterprise-mongos_8.3.4_amd64.deb
+enterprise,8.3.4,Ubuntu 20.04 x64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.3/multiverse/binary-amd64/mongodb-enterprise-cryptd_8.3.4_amd64.deb
+enterprise,8.3.4,Ubuntu 20.04 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu2004-8.3.4.tgz
+enterprise,8.3.4,Ubuntu 20.04 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-ubuntu2004-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 8.3 s390x,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.3/s390x/RPMS/mongodb-enterprise-server-8.3.4-1.el8.s390x.rpm
+enterprise,8.3.4,RedHat / CentOS 8.3 s390x,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.3/s390x/RPMS/mongodb-enterprise-mongos-8.3.4-1.el8.s390x.rpm
+enterprise,8.3.4,RedHat / CentOS 8.3 s390x,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.3/s390x/RPMS/mongodb-enterprise-cryptd-8.3.4-1.el8.s390x.rpm
+enterprise,8.3.4,RedHat / CentOS 8.3 s390x,tgz,https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-rhel83-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 8.3 s390x,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-s390x-enterprise-rhel83-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 9 s390x,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.3/s390x/RPMS/mongodb-enterprise-server-8.3.4-1.el9.s390x.rpm
+enterprise,8.3.4,RedHat / CentOS 9 s390x,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.3/s390x/RPMS/mongodb-enterprise-mongos-8.3.4-1.el9.s390x.rpm
+enterprise,8.3.4,RedHat / CentOS 9 s390x,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.3/s390x/RPMS/mongodb-enterprise-cryptd-8.3.4-1.el9.s390x.rpm
+enterprise,8.3.4,RedHat / CentOS 9 s390x,tgz,https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-rhel9-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 9 s390x,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-s390x-enterprise-rhel9-8.3.4.tgz
+enterprise,8.3.4,macOS ARM 64,tgz,https://downloads.mongodb.com/osx/mongodb-macos-arm64-enterprise-8.3.4.tgz
+enterprise,8.3.4,macOS ARM 64,crypt_shared,https://downloads.mongodb.com/osx/mongo_crypt_shared_v1-macos-arm64-enterprise-8.3.4.tgz
+enterprise,8.3.4,Debian 12.0 x64,server,https://repo.mongodb.com/apt/debian/dists/bookworm/mongodb-enterprise/8.3/main/binary-amd64/mongodb-enterprise-server_8.3.4_amd64.deb
+enterprise,8.3.4,Debian 12.0 x64,mongos,https://repo.mongodb.com/apt/debian/dists/bookworm/mongodb-enterprise/8.3/main/binary-amd64/mongodb-enterprise-mongos_8.3.4_amd64.deb
+enterprise,8.3.4,Debian 12.0 x64,cryptd,https://repo.mongodb.com/apt/debian/dists/bookworm/mongodb-enterprise/8.3/main/binary-amd64/mongodb-enterprise-cryptd_8.3.4_amd64.deb
+enterprise,8.3.4,Debian 12.0 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian12-8.3.4.tgz
+enterprise,8.3.4,Debian 12.0 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-debian12-8.3.4.tgz
+enterprise,8.3.4,Windows x64,msi,https://downloads.mongodb.com/windows/mongodb-windows-x86_64-enterprise-8.3.4-signed.msi
+enterprise,8.3.4,Windows x64,zip,https://downloads.mongodb.com/windows/mongodb-windows-x86_64-enterprise-8.3.4.zip
+enterprise,8.3.4,Windows x64,crypt_shared,https://downloads.mongodb.com/windows/mongo_crypt_shared_v1-windows-x86_64-enterprise-8.3.4.zip
+enterprise,8.3.4,macOS x64,tgz,https://downloads.mongodb.com/osx/mongodb-macos-x86_64-enterprise-8.3.4.tgz
+enterprise,8.3.4,macOS x64,crypt_shared,https://downloads.mongodb.com/osx/mongo_crypt_shared_v1-macos-x86_64-enterprise-8.3.4.tgz
+enterprise,8.3.4,SUSE 15 x64,server,https://repo.mongodb.com/zypper/suse/15/mongodb-enterprise/8.3/x86_64/RPMS/mongodb-enterprise-server-8.3.4-1.suse15.x86_64.rpm
+enterprise,8.3.4,SUSE 15 x64,mongos,https://repo.mongodb.com/zypper/suse/15/mongodb-enterprise/8.3/x86_64/RPMS/mongodb-enterprise-mongos-8.3.4-1.suse15.x86_64.rpm
+enterprise,8.3.4,SUSE 15 x64,cryptd,https://repo.mongodb.com/zypper/suse/15/mongodb-enterprise/8.3/x86_64/RPMS/mongodb-enterprise-cryptd-8.3.4-1.suse15.x86_64.rpm
+enterprise,8.3.4,SUSE 15 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse15-8.3.4.tgz
+enterprise,8.3.4,SUSE 15 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-suse15-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 9.3 x64,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.3/x86_64/RPMS/mongodb-enterprise-server-8.3.4-1.el9.x86_64.rpm
+enterprise,8.3.4,RedHat / CentOS 9.3 x64,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.3/x86_64/RPMS/mongodb-enterprise-mongos-8.3.4-1.el9.x86_64.rpm
+enterprise,8.3.4,RedHat / CentOS 9.3 x64,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.3/x86_64/RPMS/mongodb-enterprise-cryptd-8.3.4-1.el9.x86_64.rpm
+enterprise,8.3.4,RedHat / CentOS 9.3 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel93-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 9.3 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-rhel93-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 9.3 ARM 64,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.3/aarch64/RPMS/mongodb-enterprise-server-8.3.4-1.el9.aarch64.rpm
+enterprise,8.3.4,RedHat / CentOS 9.3 ARM 64,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.3/aarch64/RPMS/mongodb-enterprise-mongos-8.3.4-1.el9.aarch64.rpm
+enterprise,8.3.4,RedHat / CentOS 9.3 ARM 64,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.3/aarch64/RPMS/mongodb-enterprise-cryptd-8.3.4-1.el9.aarch64.rpm
+enterprise,8.3.4,RedHat / CentOS 9.3 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-rhel93-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 9.3 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-rhel93-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 8.0 x64,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.3/x86_64/RPMS/mongodb-enterprise-server-8.3.4-1.el8.x86_64.rpm
+enterprise,8.3.4,RedHat / CentOS 8.0 x64,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.3/x86_64/RPMS/mongodb-enterprise-mongos-8.3.4-1.el8.x86_64.rpm
+enterprise,8.3.4,RedHat / CentOS 8.0 x64,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.3/x86_64/RPMS/mongodb-enterprise-cryptd-8.3.4-1.el8.x86_64.rpm
+enterprise,8.3.4,RedHat / CentOS 8.0 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel8-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 8.0 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-rhel8-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 8.0 ARM 64,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.3/aarch64/RPMS/mongodb-enterprise-server-8.3.4-1.el8.aarch64.rpm
+enterprise,8.3.4,RedHat / CentOS 8.0 ARM 64,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.3/aarch64/RPMS/mongodb-enterprise-mongos-8.3.4-1.el8.aarch64.rpm
+enterprise,8.3.4,RedHat / CentOS 8.0 ARM 64,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.3/aarch64/RPMS/mongodb-enterprise-cryptd-8.3.4-1.el8.aarch64.rpm
+enterprise,8.3.4,RedHat / CentOS 8.0 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-rhel8-8.3.4.tgz
+enterprise,8.3.4,RedHat / CentOS 8.0 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-rhel8-8.3.4.tgz
+enterprise,8.3.4,Amazon Linux 2023 ARM 64,server,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.3/aarch64/RPMS/mongodb-enterprise-server-8.3.4-1.amzn2023.aarch64.rpm
+enterprise,8.3.4,Amazon Linux 2023 ARM 64,mongos,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.3/aarch64/RPMS/mongodb-enterprise-mongos-8.3.4-1.amzn2023.aarch64.rpm
+enterprise,8.3.4,Amazon Linux 2023 ARM 64,cryptd,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.3/aarch64/RPMS/mongodb-enterprise-cryptd-8.3.4-1.amzn2023.aarch64.rpm
+enterprise,8.3.4,Amazon Linux 2023 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-amazon2023-8.3.4.tgz
+enterprise,8.3.4,Amazon Linux 2023 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-amazon2023-8.3.4.tgz
+enterprise,8.3.4,Amazon Linux 2023 x64,server,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.3/x86_64/RPMS/mongodb-enterprise-server-8.3.4-1.amzn2023.x86_64.rpm
+enterprise,8.3.4,Amazon Linux 2023 x64,mongos,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.3/x86_64/RPMS/mongodb-enterprise-mongos-8.3.4-1.amzn2023.x86_64.rpm
+enterprise,8.3.4,Amazon Linux 2023 x64,cryptd,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.3/x86_64/RPMS/mongodb-enterprise-cryptd-8.3.4-1.amzn2023.x86_64.rpm
+enterprise,8.3.4,Amazon Linux 2023 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amazon2023-8.3.4.tgz
+enterprise,8.3.4,Amazon Linux 2023 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-amazon2023-8.3.4.tgz
+enterprise,8.2.11,RedHat / CentOS 8.1 ppc64le,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.2/ppc64le/RPMS/mongodb-enterprise-server-8.2.11-1.el8.ppc64le.rpm
+enterprise,8.2.11,RedHat / CentOS 8.1 ppc64le,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.2/ppc64le/RPMS/mongodb-enterprise-mongos-8.2.11-1.el8.ppc64le.rpm
+enterprise,8.2.11,RedHat / CentOS 8.1 ppc64le,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.2/ppc64le/RPMS/mongodb-enterprise-cryptd-8.2.11-1.el8.ppc64le.rpm
+enterprise,8.2.11,RedHat / CentOS 8.1 ppc64le,tgz,https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel81-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 8.1 ppc64le,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-ppc64le-enterprise-rhel81-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 9 ppc64le,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.2/ppc64le/RPMS/mongodb-enterprise-server-8.2.11-1.el9.ppc64le.rpm
+enterprise,8.2.11,RedHat / CentOS 9 ppc64le,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.2/ppc64le/RPMS/mongodb-enterprise-mongos-8.2.11-1.el9.ppc64le.rpm
+enterprise,8.2.11,RedHat / CentOS 9 ppc64le,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.2/ppc64le/RPMS/mongodb-enterprise-cryptd-8.2.11-1.el9.ppc64le.rpm
+enterprise,8.2.11,RedHat / CentOS 9 ppc64le,tgz,https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel9-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 9 ppc64le,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-ppc64le-enterprise-rhel9-8.2.11.tgz
+enterprise,8.2.11,Ubuntu 24.04 x64,server,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.2/multiverse/binary-amd64/mongodb-enterprise-server_8.2.11_amd64.deb
+enterprise,8.2.11,Ubuntu 24.04 x64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.2/multiverse/binary-amd64/mongodb-enterprise-mongos_8.2.11_amd64.deb
+enterprise,8.2.11,Ubuntu 24.04 x64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.2/multiverse/binary-amd64/mongodb-enterprise-cryptd_8.2.11_amd64.deb
+enterprise,8.2.11,Ubuntu 24.04 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu2404-8.2.11.tgz
+enterprise,8.2.11,Ubuntu 24.04 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-ubuntu2404-8.2.11.tgz
+enterprise,8.2.11,Ubuntu 24.04 ARM 64,server,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.2/multiverse/binary-arm64/mongodb-enterprise-server_8.2.11_arm64.deb
+enterprise,8.2.11,Ubuntu 24.04 ARM 64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.2/multiverse/binary-arm64/mongodb-enterprise-mongos_8.2.11_arm64.deb
+enterprise,8.2.11,Ubuntu 24.04 ARM 64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.2/multiverse/binary-arm64/mongodb-enterprise-cryptd_8.2.11_arm64.deb
+enterprise,8.2.11,Ubuntu 24.04 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-ubuntu2404-8.2.11.tgz
+enterprise,8.2.11,Ubuntu 24.04 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-ubuntu2404-8.2.11.tgz
+enterprise,8.2.11,Ubuntu 22.04 x64,server,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.2/multiverse/binary-amd64/mongodb-enterprise-server_8.2.11_amd64.deb
+enterprise,8.2.11,Ubuntu 22.04 x64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.2/multiverse/binary-amd64/mongodb-enterprise-mongos_8.2.11_amd64.deb
+enterprise,8.2.11,Ubuntu 22.04 x64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.2/multiverse/binary-amd64/mongodb-enterprise-cryptd_8.2.11_amd64.deb
+enterprise,8.2.11,Ubuntu 22.04 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu2204-8.2.11.tgz
+enterprise,8.2.11,Ubuntu 22.04 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-ubuntu2204-8.2.11.tgz
+enterprise,8.2.11,Ubuntu 22.04 ARM 64,server,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.2/multiverse/binary-arm64/mongodb-enterprise-server_8.2.11_arm64.deb
+enterprise,8.2.11,Ubuntu 22.04 ARM 64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.2/multiverse/binary-arm64/mongodb-enterprise-mongos_8.2.11_arm64.deb
+enterprise,8.2.11,Ubuntu 22.04 ARM 64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.2/multiverse/binary-arm64/mongodb-enterprise-cryptd_8.2.11_arm64.deb
+enterprise,8.2.11,Ubuntu 22.04 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-ubuntu2204-8.2.11.tgz
+enterprise,8.2.11,Ubuntu 22.04 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-ubuntu2204-8.2.11.tgz
+enterprise,8.2.11,Ubuntu 20.04 ARM 64,server,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.2/multiverse/binary-arm64/mongodb-enterprise-server_8.2.11_arm64.deb
+enterprise,8.2.11,Ubuntu 20.04 ARM 64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.2/multiverse/binary-arm64/mongodb-enterprise-mongos_8.2.11_arm64.deb
+enterprise,8.2.11,Ubuntu 20.04 ARM 64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.2/multiverse/binary-arm64/mongodb-enterprise-cryptd_8.2.11_arm64.deb
+enterprise,8.2.11,Ubuntu 20.04 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-ubuntu2004-8.2.11.tgz
+enterprise,8.2.11,Ubuntu 20.04 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-ubuntu2004-8.2.11.tgz
+enterprise,8.2.11,Ubuntu 20.04 x64,server,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.2/multiverse/binary-amd64/mongodb-enterprise-server_8.2.11_amd64.deb
+enterprise,8.2.11,Ubuntu 20.04 x64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.2/multiverse/binary-amd64/mongodb-enterprise-mongos_8.2.11_amd64.deb
+enterprise,8.2.11,Ubuntu 20.04 x64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.2/multiverse/binary-amd64/mongodb-enterprise-cryptd_8.2.11_amd64.deb
+enterprise,8.2.11,Ubuntu 20.04 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu2004-8.2.11.tgz
+enterprise,8.2.11,Ubuntu 20.04 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-ubuntu2004-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 8.3 s390x,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.2/s390x/RPMS/mongodb-enterprise-server-8.2.11-1.el8.s390x.rpm
+enterprise,8.2.11,RedHat / CentOS 8.3 s390x,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.2/s390x/RPMS/mongodb-enterprise-mongos-8.2.11-1.el8.s390x.rpm
+enterprise,8.2.11,RedHat / CentOS 8.3 s390x,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.2/s390x/RPMS/mongodb-enterprise-cryptd-8.2.11-1.el8.s390x.rpm
+enterprise,8.2.11,RedHat / CentOS 8.3 s390x,tgz,https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-rhel83-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 8.3 s390x,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-s390x-enterprise-rhel83-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 9 s390x,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.2/s390x/RPMS/mongodb-enterprise-server-8.2.11-1.el9.s390x.rpm
+enterprise,8.2.11,RedHat / CentOS 9 s390x,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.2/s390x/RPMS/mongodb-enterprise-mongos-8.2.11-1.el9.s390x.rpm
+enterprise,8.2.11,RedHat / CentOS 9 s390x,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.2/s390x/RPMS/mongodb-enterprise-cryptd-8.2.11-1.el9.s390x.rpm
+enterprise,8.2.11,RedHat / CentOS 9 s390x,tgz,https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-rhel9-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 9 s390x,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-s390x-enterprise-rhel9-8.2.11.tgz
+enterprise,8.2.11,macOS ARM 64,tgz,https://downloads.mongodb.com/osx/mongodb-macos-arm64-enterprise-8.2.11.tgz
+enterprise,8.2.11,macOS ARM 64,crypt_shared,https://downloads.mongodb.com/osx/mongo_crypt_shared_v1-macos-arm64-enterprise-8.2.11.tgz
+enterprise,8.2.11,Debian 12.0 x64,server,https://repo.mongodb.com/apt/debian/dists/bookworm/mongodb-enterprise/8.2/main/binary-amd64/mongodb-enterprise-server_8.2.11_amd64.deb
+enterprise,8.2.11,Debian 12.0 x64,mongos,https://repo.mongodb.com/apt/debian/dists/bookworm/mongodb-enterprise/8.2/main/binary-amd64/mongodb-enterprise-mongos_8.2.11_amd64.deb
+enterprise,8.2.11,Debian 12.0 x64,cryptd,https://repo.mongodb.com/apt/debian/dists/bookworm/mongodb-enterprise/8.2/main/binary-amd64/mongodb-enterprise-cryptd_8.2.11_amd64.deb
+enterprise,8.2.11,Debian 12.0 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian12-8.2.11.tgz
+enterprise,8.2.11,Debian 12.0 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-debian12-8.2.11.tgz
+enterprise,8.2.11,Windows x64,msi,https://downloads.mongodb.com/windows/mongodb-windows-x86_64-enterprise-8.2.11-signed.msi
+enterprise,8.2.11,Windows x64,zip,https://downloads.mongodb.com/windows/mongodb-windows-x86_64-enterprise-8.2.11.zip
+enterprise,8.2.11,Windows x64,crypt_shared,https://downloads.mongodb.com/windows/mongo_crypt_shared_v1-windows-x86_64-enterprise-8.2.11.zip
+enterprise,8.2.11,macOS x64,tgz,https://downloads.mongodb.com/osx/mongodb-macos-x86_64-enterprise-8.2.11.tgz
+enterprise,8.2.11,macOS x64,crypt_shared,https://downloads.mongodb.com/osx/mongo_crypt_shared_v1-macos-x86_64-enterprise-8.2.11.tgz
+enterprise,8.2.11,SUSE 15 x64,server,https://repo.mongodb.com/zypper/suse/15/mongodb-enterprise/8.2/x86_64/RPMS/mongodb-enterprise-server-8.2.11-1.suse15.x86_64.rpm
+enterprise,8.2.11,SUSE 15 x64,mongos,https://repo.mongodb.com/zypper/suse/15/mongodb-enterprise/8.2/x86_64/RPMS/mongodb-enterprise-mongos-8.2.11-1.suse15.x86_64.rpm
+enterprise,8.2.11,SUSE 15 x64,cryptd,https://repo.mongodb.com/zypper/suse/15/mongodb-enterprise/8.2/x86_64/RPMS/mongodb-enterprise-cryptd-8.2.11-1.suse15.x86_64.rpm
+enterprise,8.2.11,SUSE 15 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse15-8.2.11.tgz
+enterprise,8.2.11,SUSE 15 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-suse15-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 9.3 x64,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.2/x86_64/RPMS/mongodb-enterprise-server-8.2.11-1.el9.x86_64.rpm
+enterprise,8.2.11,RedHat / CentOS 9.3 x64,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.2/x86_64/RPMS/mongodb-enterprise-mongos-8.2.11-1.el9.x86_64.rpm
+enterprise,8.2.11,RedHat / CentOS 9.3 x64,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.2/x86_64/RPMS/mongodb-enterprise-cryptd-8.2.11-1.el9.x86_64.rpm
+enterprise,8.2.11,RedHat / CentOS 9.3 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel93-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 9.3 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-rhel93-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 9.3 ARM 64,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.2/aarch64/RPMS/mongodb-enterprise-server-8.2.11-1.el9.aarch64.rpm
+enterprise,8.2.11,RedHat / CentOS 9.3 ARM 64,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.2/aarch64/RPMS/mongodb-enterprise-mongos-8.2.11-1.el9.aarch64.rpm
+enterprise,8.2.11,RedHat / CentOS 9.3 ARM 64,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.2/aarch64/RPMS/mongodb-enterprise-cryptd-8.2.11-1.el9.aarch64.rpm
+enterprise,8.2.11,RedHat / CentOS 9.3 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-rhel93-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 9.3 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-rhel93-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 8.0 x64,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.2/x86_64/RPMS/mongodb-enterprise-server-8.2.11-1.el8.x86_64.rpm
+enterprise,8.2.11,RedHat / CentOS 8.0 x64,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.2/x86_64/RPMS/mongodb-enterprise-mongos-8.2.11-1.el8.x86_64.rpm
+enterprise,8.2.11,RedHat / CentOS 8.0 x64,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.2/x86_64/RPMS/mongodb-enterprise-cryptd-8.2.11-1.el8.x86_64.rpm
+enterprise,8.2.11,RedHat / CentOS 8.0 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel8-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 8.0 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-rhel8-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 8.0 ARM 64,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.2/aarch64/RPMS/mongodb-enterprise-server-8.2.11-1.el8.aarch64.rpm
+enterprise,8.2.11,RedHat / CentOS 8.0 ARM 64,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.2/aarch64/RPMS/mongodb-enterprise-mongos-8.2.11-1.el8.aarch64.rpm
+enterprise,8.2.11,RedHat / CentOS 8.0 ARM 64,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.2/aarch64/RPMS/mongodb-enterprise-cryptd-8.2.11-1.el8.aarch64.rpm
+enterprise,8.2.11,RedHat / CentOS 8.0 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-rhel8-8.2.11.tgz
+enterprise,8.2.11,RedHat / CentOS 8.0 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-rhel8-8.2.11.tgz
+enterprise,8.2.11,Amazon Linux 2023 ARM 64,server,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.2/aarch64/RPMS/mongodb-enterprise-server-8.2.11-1.amzn2023.aarch64.rpm
+enterprise,8.2.11,Amazon Linux 2023 ARM 64,mongos,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.2/aarch64/RPMS/mongodb-enterprise-mongos-8.2.11-1.amzn2023.aarch64.rpm
+enterprise,8.2.11,Amazon Linux 2023 ARM 64,cryptd,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.2/aarch64/RPMS/mongodb-enterprise-cryptd-8.2.11-1.amzn2023.aarch64.rpm
+enterprise,8.2.11,Amazon Linux 2023 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-amazon2023-8.2.11.tgz
+enterprise,8.2.11,Amazon Linux 2023 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-amazon2023-8.2.11.tgz
+enterprise,8.2.11,Amazon Linux 2023 x64,server,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.2/x86_64/RPMS/mongodb-enterprise-server-8.2.11-1.amzn2023.x86_64.rpm
+enterprise,8.2.11,Amazon Linux 2023 x64,mongos,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.2/x86_64/RPMS/mongodb-enterprise-mongos-8.2.11-1.amzn2023.x86_64.rpm
+enterprise,8.2.11,Amazon Linux 2023 x64,cryptd,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.2/x86_64/RPMS/mongodb-enterprise-cryptd-8.2.11-1.amzn2023.x86_64.rpm
+enterprise,8.2.11,Amazon Linux 2023 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amazon2023-8.2.11.tgz
+enterprise,8.2.11,Amazon Linux 2023 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-amazon2023-8.2.11.tgz
+enterprise,8.0.26,RedHat / CentOS 8.1 ppc64le,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.0/ppc64le/RPMS/mongodb-enterprise-server-8.0.26-1.el8.ppc64le.rpm
+enterprise,8.0.26,RedHat / CentOS 8.1 ppc64le,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.0/ppc64le/RPMS/mongodb-enterprise-mongos-8.0.26-1.el8.ppc64le.rpm
+enterprise,8.0.26,RedHat / CentOS 8.1 ppc64le,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.0/ppc64le/RPMS/mongodb-enterprise-cryptd-8.0.26-1.el8.ppc64le.rpm
+enterprise,8.0.26,RedHat / CentOS 8.1 ppc64le,tgz,https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel81-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 8.1 ppc64le,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-ppc64le-enterprise-rhel81-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 9 ppc64le,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.0/ppc64le/RPMS/mongodb-enterprise-server-8.0.26-1.el9.ppc64le.rpm
+enterprise,8.0.26,RedHat / CentOS 9 ppc64le,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.0/ppc64le/RPMS/mongodb-enterprise-mongos-8.0.26-1.el9.ppc64le.rpm
+enterprise,8.0.26,RedHat / CentOS 9 ppc64le,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.0/ppc64le/RPMS/mongodb-enterprise-cryptd-8.0.26-1.el9.ppc64le.rpm
+enterprise,8.0.26,RedHat / CentOS 9 ppc64le,tgz,https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel9-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 9 ppc64le,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-ppc64le-enterprise-rhel9-8.0.26.tgz
+enterprise,8.0.26,Ubuntu 24.04 x64,server,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.0/multiverse/binary-amd64/mongodb-enterprise-server_8.0.26_amd64.deb
+enterprise,8.0.26,Ubuntu 24.04 x64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.0/multiverse/binary-amd64/mongodb-enterprise-mongos_8.0.26_amd64.deb
+enterprise,8.0.26,Ubuntu 24.04 x64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.0/multiverse/binary-amd64/mongodb-enterprise-cryptd_8.0.26_amd64.deb
+enterprise,8.0.26,Ubuntu 24.04 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu2404-8.0.26.tgz
+enterprise,8.0.26,Ubuntu 24.04 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-ubuntu2404-8.0.26.tgz
+enterprise,8.0.26,Ubuntu 24.04 ARM 64,server,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.0/multiverse/binary-arm64/mongodb-enterprise-server_8.0.26_arm64.deb
+enterprise,8.0.26,Ubuntu 24.04 ARM 64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.0/multiverse/binary-arm64/mongodb-enterprise-mongos_8.0.26_arm64.deb
+enterprise,8.0.26,Ubuntu 24.04 ARM 64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/noble/mongodb-enterprise/8.0/multiverse/binary-arm64/mongodb-enterprise-cryptd_8.0.26_arm64.deb
+enterprise,8.0.26,Ubuntu 24.04 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-ubuntu2404-8.0.26.tgz
+enterprise,8.0.26,Ubuntu 24.04 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-ubuntu2404-8.0.26.tgz
+enterprise,8.0.26,Ubuntu 22.04 x64,server,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.0/multiverse/binary-amd64/mongodb-enterprise-server_8.0.26_amd64.deb
+enterprise,8.0.26,Ubuntu 22.04 x64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.0/multiverse/binary-amd64/mongodb-enterprise-mongos_8.0.26_amd64.deb
+enterprise,8.0.26,Ubuntu 22.04 x64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.0/multiverse/binary-amd64/mongodb-enterprise-cryptd_8.0.26_amd64.deb
+enterprise,8.0.26,Ubuntu 22.04 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu2204-8.0.26.tgz
+enterprise,8.0.26,Ubuntu 22.04 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-ubuntu2204-8.0.26.tgz
+enterprise,8.0.26,Ubuntu 22.04 ARM 64,server,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.0/multiverse/binary-arm64/mongodb-enterprise-server_8.0.26_arm64.deb
+enterprise,8.0.26,Ubuntu 22.04 ARM 64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.0/multiverse/binary-arm64/mongodb-enterprise-mongos_8.0.26_arm64.deb
+enterprise,8.0.26,Ubuntu 22.04 ARM 64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/8.0/multiverse/binary-arm64/mongodb-enterprise-cryptd_8.0.26_arm64.deb
+enterprise,8.0.26,Ubuntu 22.04 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-ubuntu2204-8.0.26.tgz
+enterprise,8.0.26,Ubuntu 22.04 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-ubuntu2204-8.0.26.tgz
+enterprise,8.0.26,Ubuntu 20.04 ARM 64,server,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.0/multiverse/binary-arm64/mongodb-enterprise-server_8.0.26_arm64.deb
+enterprise,8.0.26,Ubuntu 20.04 ARM 64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.0/multiverse/binary-arm64/mongodb-enterprise-mongos_8.0.26_arm64.deb
+enterprise,8.0.26,Ubuntu 20.04 ARM 64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.0/multiverse/binary-arm64/mongodb-enterprise-cryptd_8.0.26_arm64.deb
+enterprise,8.0.26,Ubuntu 20.04 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-ubuntu2004-8.0.26.tgz
+enterprise,8.0.26,Ubuntu 20.04 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-ubuntu2004-8.0.26.tgz
+enterprise,8.0.26,Ubuntu 20.04 x64,server,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.0/multiverse/binary-amd64/mongodb-enterprise-server_8.0.26_amd64.deb
+enterprise,8.0.26,Ubuntu 20.04 x64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.0/multiverse/binary-amd64/mongodb-enterprise-mongos_8.0.26_amd64.deb
+enterprise,8.0.26,Ubuntu 20.04 x64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/8.0/multiverse/binary-amd64/mongodb-enterprise-cryptd_8.0.26_amd64.deb
+enterprise,8.0.26,Ubuntu 20.04 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu2004-8.0.26.tgz
+enterprise,8.0.26,Ubuntu 20.04 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-ubuntu2004-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 8.3 s390x,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.0/s390x/RPMS/mongodb-enterprise-server-8.0.26-1.el8.s390x.rpm
+enterprise,8.0.26,RedHat / CentOS 8.3 s390x,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.0/s390x/RPMS/mongodb-enterprise-mongos-8.0.26-1.el8.s390x.rpm
+enterprise,8.0.26,RedHat / CentOS 8.3 s390x,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.0/s390x/RPMS/mongodb-enterprise-cryptd-8.0.26-1.el8.s390x.rpm
+enterprise,8.0.26,RedHat / CentOS 8.3 s390x,tgz,https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-rhel83-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 8.3 s390x,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-s390x-enterprise-rhel83-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 9 s390x,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.0/s390x/RPMS/mongodb-enterprise-server-8.0.26-1.el9.s390x.rpm
+enterprise,8.0.26,RedHat / CentOS 9 s390x,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.0/s390x/RPMS/mongodb-enterprise-mongos-8.0.26-1.el9.s390x.rpm
+enterprise,8.0.26,RedHat / CentOS 9 s390x,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.0/s390x/RPMS/mongodb-enterprise-cryptd-8.0.26-1.el9.s390x.rpm
+enterprise,8.0.26,RedHat / CentOS 9 s390x,tgz,https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-rhel9-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 9 s390x,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-s390x-enterprise-rhel9-8.0.26.tgz
+enterprise,8.0.26,macOS ARM 64,tgz,https://downloads.mongodb.com/osx/mongodb-macos-arm64-enterprise-8.0.26.tgz
+enterprise,8.0.26,macOS ARM 64,crypt_shared,https://downloads.mongodb.com/osx/mongo_crypt_shared_v1-macos-arm64-enterprise-8.0.26.tgz
+enterprise,8.0.26,Debian 12.0 x64,server,https://repo.mongodb.com/apt/debian/dists/bookworm/mongodb-enterprise/8.0/main/binary-amd64/mongodb-enterprise-server_8.0.26_amd64.deb
+enterprise,8.0.26,Debian 12.0 x64,mongos,https://repo.mongodb.com/apt/debian/dists/bookworm/mongodb-enterprise/8.0/main/binary-amd64/mongodb-enterprise-mongos_8.0.26_amd64.deb
+enterprise,8.0.26,Debian 12.0 x64,cryptd,https://repo.mongodb.com/apt/debian/dists/bookworm/mongodb-enterprise/8.0/main/binary-amd64/mongodb-enterprise-cryptd_8.0.26_amd64.deb
+enterprise,8.0.26,Debian 12.0 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian12-8.0.26.tgz
+enterprise,8.0.26,Debian 12.0 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-debian12-8.0.26.tgz
+enterprise,8.0.26,Windows x64,msi,https://downloads.mongodb.com/windows/mongodb-windows-x86_64-enterprise-8.0.26-signed.msi
+enterprise,8.0.26,Windows x64,zip,https://downloads.mongodb.com/windows/mongodb-windows-x86_64-enterprise-8.0.26.zip
+enterprise,8.0.26,Windows x64,crypt_shared,https://downloads.mongodb.com/windows/mongo_crypt_shared_v1-windows-x86_64-enterprise-8.0.26.zip
+enterprise,8.0.26,macOS x64,tgz,https://downloads.mongodb.com/osx/mongodb-macos-x86_64-enterprise-8.0.26.tgz
+enterprise,8.0.26,macOS x64,crypt_shared,https://downloads.mongodb.com/osx/mongo_crypt_shared_v1-macos-x86_64-enterprise-8.0.26.tgz
+enterprise,8.0.26,SUSE 15 x64,server,https://repo.mongodb.com/zypper/suse/15/mongodb-enterprise/8.0/x86_64/RPMS/mongodb-enterprise-server-8.0.26-1.suse15.x86_64.rpm
+enterprise,8.0.26,SUSE 15 x64,mongos,https://repo.mongodb.com/zypper/suse/15/mongodb-enterprise/8.0/x86_64/RPMS/mongodb-enterprise-mongos-8.0.26-1.suse15.x86_64.rpm
+enterprise,8.0.26,SUSE 15 x64,cryptd,https://repo.mongodb.com/zypper/suse/15/mongodb-enterprise/8.0/x86_64/RPMS/mongodb-enterprise-cryptd-8.0.26-1.suse15.x86_64.rpm
+enterprise,8.0.26,SUSE 15 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse15-8.0.26.tgz
+enterprise,8.0.26,SUSE 15 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-suse15-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 9.3 x64,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.0/x86_64/RPMS/mongodb-enterprise-server-8.0.26-1.el9.x86_64.rpm
+enterprise,8.0.26,RedHat / CentOS 9.3 x64,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.0/x86_64/RPMS/mongodb-enterprise-mongos-8.0.26-1.el9.x86_64.rpm
+enterprise,8.0.26,RedHat / CentOS 9.3 x64,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.0/x86_64/RPMS/mongodb-enterprise-cryptd-8.0.26-1.el9.x86_64.rpm
+enterprise,8.0.26,RedHat / CentOS 9.3 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel93-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 9.3 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-rhel93-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 9.3 ARM 64,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.0/aarch64/RPMS/mongodb-enterprise-server-8.0.26-1.el9.aarch64.rpm
+enterprise,8.0.26,RedHat / CentOS 9.3 ARM 64,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.0/aarch64/RPMS/mongodb-enterprise-mongos-8.0.26-1.el9.aarch64.rpm
+enterprise,8.0.26,RedHat / CentOS 9.3 ARM 64,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/8.0/aarch64/RPMS/mongodb-enterprise-cryptd-8.0.26-1.el9.aarch64.rpm
+enterprise,8.0.26,RedHat / CentOS 9.3 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-rhel93-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 9.3 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-rhel93-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 8.0 x64,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.0/x86_64/RPMS/mongodb-enterprise-server-8.0.26-1.el8.x86_64.rpm
+enterprise,8.0.26,RedHat / CentOS 8.0 x64,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.0/x86_64/RPMS/mongodb-enterprise-mongos-8.0.26-1.el8.x86_64.rpm
+enterprise,8.0.26,RedHat / CentOS 8.0 x64,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.0/x86_64/RPMS/mongodb-enterprise-cryptd-8.0.26-1.el8.x86_64.rpm
+enterprise,8.0.26,RedHat / CentOS 8.0 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel8-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 8.0 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-rhel8-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 8.0 ARM 64,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.0/aarch64/RPMS/mongodb-enterprise-server-8.0.26-1.el8.aarch64.rpm
+enterprise,8.0.26,RedHat / CentOS 8.0 ARM 64,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.0/aarch64/RPMS/mongodb-enterprise-mongos-8.0.26-1.el8.aarch64.rpm
+enterprise,8.0.26,RedHat / CentOS 8.0 ARM 64,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/8.0/aarch64/RPMS/mongodb-enterprise-cryptd-8.0.26-1.el8.aarch64.rpm
+enterprise,8.0.26,RedHat / CentOS 8.0 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-rhel8-8.0.26.tgz
+enterprise,8.0.26,RedHat / CentOS 8.0 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-rhel8-8.0.26.tgz
+enterprise,8.0.26,Amazon Linux 2023 ARM 64,server,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.0/aarch64/RPMS/mongodb-enterprise-server-8.0.26-1.amzn2023.aarch64.rpm
+enterprise,8.0.26,Amazon Linux 2023 ARM 64,mongos,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.0/aarch64/RPMS/mongodb-enterprise-mongos-8.0.26-1.amzn2023.aarch64.rpm
+enterprise,8.0.26,Amazon Linux 2023 ARM 64,cryptd,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.0/aarch64/RPMS/mongodb-enterprise-cryptd-8.0.26-1.amzn2023.aarch64.rpm
+enterprise,8.0.26,Amazon Linux 2023 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-amazon2023-8.0.26.tgz
+enterprise,8.0.26,Amazon Linux 2023 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-amazon2023-8.0.26.tgz
+enterprise,8.0.26,Amazon Linux 2023 x64,server,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.0/x86_64/RPMS/mongodb-enterprise-server-8.0.26-1.amzn2023.x86_64.rpm
+enterprise,8.0.26,Amazon Linux 2023 x64,mongos,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.0/x86_64/RPMS/mongodb-enterprise-mongos-8.0.26-1.amzn2023.x86_64.rpm
+enterprise,8.0.26,Amazon Linux 2023 x64,cryptd,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/8.0/x86_64/RPMS/mongodb-enterprise-cryptd-8.0.26-1.amzn2023.x86_64.rpm
+enterprise,8.0.26,Amazon Linux 2023 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amazon2023-8.0.26.tgz
+enterprise,8.0.26,Amazon Linux 2023 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-amazon2023-8.0.26.tgz
+enterprise,7.0.37,RedHat / CentOS 8.1 ppc64le,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/7.0/ppc64le/RPMS/mongodb-enterprise-server-7.0.37-1.el8.ppc64le.rpm
+enterprise,7.0.37,RedHat / CentOS 8.1 ppc64le,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/7.0/ppc64le/RPMS/mongodb-enterprise-mongos-7.0.37-1.el8.ppc64le.rpm
+enterprise,7.0.37,RedHat / CentOS 8.1 ppc64le,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/7.0/ppc64le/RPMS/mongodb-enterprise-cryptd-7.0.37-1.el8.ppc64le.rpm
+enterprise,7.0.37,RedHat / CentOS 8.1 ppc64le,tgz,https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel81-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 8.1 ppc64le,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-ppc64le-enterprise-rhel81-7.0.37.tgz
+enterprise,7.0.37,Ubuntu 22.04 x64,server,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/7.0/multiverse/binary-amd64/mongodb-enterprise-server_7.0.37_amd64.deb
+enterprise,7.0.37,Ubuntu 22.04 x64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/7.0/multiverse/binary-amd64/mongodb-enterprise-mongos_7.0.37_amd64.deb
+enterprise,7.0.37,Ubuntu 22.04 x64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/7.0/multiverse/binary-amd64/mongodb-enterprise-cryptd_7.0.37_amd64.deb
+enterprise,7.0.37,Ubuntu 22.04 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu2204-7.0.37.tgz
+enterprise,7.0.37,Ubuntu 22.04 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-ubuntu2204-7.0.37.tgz
+enterprise,7.0.37,Ubuntu 22.04 ARM 64,server,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/7.0/multiverse/binary-arm64/mongodb-enterprise-server_7.0.37_arm64.deb
+enterprise,7.0.37,Ubuntu 22.04 ARM 64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/7.0/multiverse/binary-arm64/mongodb-enterprise-mongos_7.0.37_arm64.deb
+enterprise,7.0.37,Ubuntu 22.04 ARM 64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/jammy/mongodb-enterprise/7.0/multiverse/binary-arm64/mongodb-enterprise-cryptd_7.0.37_arm64.deb
+enterprise,7.0.37,Ubuntu 22.04 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-ubuntu2204-7.0.37.tgz
+enterprise,7.0.37,Ubuntu 22.04 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-ubuntu2204-7.0.37.tgz
+enterprise,7.0.37,Ubuntu 20.04 ARM 64,server,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/7.0/multiverse/binary-arm64/mongodb-enterprise-server_7.0.37_arm64.deb
+enterprise,7.0.37,Ubuntu 20.04 ARM 64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/7.0/multiverse/binary-arm64/mongodb-enterprise-mongos_7.0.37_arm64.deb
+enterprise,7.0.37,Ubuntu 20.04 ARM 64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/7.0/multiverse/binary-arm64/mongodb-enterprise-cryptd_7.0.37_arm64.deb
+enterprise,7.0.37,Ubuntu 20.04 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-ubuntu2004-7.0.37.tgz
+enterprise,7.0.37,Ubuntu 20.04 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-ubuntu2004-7.0.37.tgz
+enterprise,7.0.37,Ubuntu 20.04 x64,server,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/7.0/multiverse/binary-amd64/mongodb-enterprise-server_7.0.37_amd64.deb
+enterprise,7.0.37,Ubuntu 20.04 x64,mongos,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/7.0/multiverse/binary-amd64/mongodb-enterprise-mongos_7.0.37_amd64.deb
+enterprise,7.0.37,Ubuntu 20.04 x64,cryptd,https://repo.mongodb.com/apt/ubuntu/dists/focal/mongodb-enterprise/7.0/multiverse/binary-amd64/mongodb-enterprise-cryptd_7.0.37_amd64.deb
+enterprise,7.0.37,Ubuntu 20.04 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu2004-7.0.37.tgz
+enterprise,7.0.37,Ubuntu 20.04 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-ubuntu2004-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 8.3 s390x,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/7.0/s390x/RPMS/mongodb-enterprise-server-7.0.37-1.el8.s390x.rpm
+enterprise,7.0.37,RedHat / CentOS 8.3 s390x,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/7.0/s390x/RPMS/mongodb-enterprise-mongos-7.0.37-1.el8.s390x.rpm
+enterprise,7.0.37,RedHat / CentOS 8.3 s390x,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/7.0/s390x/RPMS/mongodb-enterprise-cryptd-7.0.37-1.el8.s390x.rpm
+enterprise,7.0.37,RedHat / CentOS 8.3 s390x,tgz,https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-rhel83-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 8.3 s390x,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-s390x-enterprise-rhel83-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 9 s390x,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/7.0/s390x/RPMS/mongodb-enterprise-server-7.0.37-1.el9.s390x.rpm
+enterprise,7.0.37,RedHat / CentOS 9 s390x,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/7.0/s390x/RPMS/mongodb-enterprise-mongos-7.0.37-1.el9.s390x.rpm
+enterprise,7.0.37,RedHat / CentOS 9 s390x,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/7.0/s390x/RPMS/mongodb-enterprise-cryptd-7.0.37-1.el9.s390x.rpm
+enterprise,7.0.37,RedHat / CentOS 9 s390x,tgz,https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-rhel9-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 9 s390x,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-s390x-enterprise-rhel9-7.0.37.tgz
+enterprise,7.0.37,SUSE 12 x64,server,https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-server-7.0.37-1.suse12.x86_64.rpm
+enterprise,7.0.37,SUSE 12 x64,mongos,https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-mongos-7.0.37-1.suse12.x86_64.rpm
+enterprise,7.0.37,SUSE 12 x64,cryptd,https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-cryptd-7.0.37-1.suse12.x86_64.rpm
+enterprise,7.0.37,SUSE 12 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse12-7.0.37.tgz
+enterprise,7.0.37,SUSE 12 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-suse12-7.0.37.tgz
+enterprise,7.0.37,macOS ARM 64,tgz,https://downloads.mongodb.com/osx/mongodb-macos-arm64-enterprise-7.0.37.tgz
+enterprise,7.0.37,macOS ARM 64,crypt_shared,https://downloads.mongodb.com/osx/mongo_crypt_shared_v1-macos-arm64-enterprise-7.0.37.tgz
+enterprise,7.0.37,Debian 12.0 x64,server,https://repo.mongodb.com/apt/debian/dists/bookworm/mongodb-enterprise/7.0/main/binary-amd64/mongodb-enterprise-server_7.0.37_amd64.deb
+enterprise,7.0.37,Debian 12.0 x64,mongos,https://repo.mongodb.com/apt/debian/dists/bookworm/mongodb-enterprise/7.0/main/binary-amd64/mongodb-enterprise-mongos_7.0.37_amd64.deb
+enterprise,7.0.37,Debian 12.0 x64,cryptd,https://repo.mongodb.com/apt/debian/dists/bookworm/mongodb-enterprise/7.0/main/binary-amd64/mongodb-enterprise-cryptd_7.0.37_amd64.deb
+enterprise,7.0.37,Debian 12.0 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian12-7.0.37.tgz
+enterprise,7.0.37,Debian 12.0 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-debian12-7.0.37.tgz
+enterprise,7.0.37,Debian 11.0 x64,server,https://repo.mongodb.com/apt/debian/dists/bullseye/mongodb-enterprise/7.0/main/binary-amd64/mongodb-enterprise-server_7.0.37_amd64.deb
+enterprise,7.0.37,Debian 11.0 x64,mongos,https://repo.mongodb.com/apt/debian/dists/bullseye/mongodb-enterprise/7.0/main/binary-amd64/mongodb-enterprise-mongos_7.0.37_amd64.deb
+enterprise,7.0.37,Debian 11.0 x64,cryptd,https://repo.mongodb.com/apt/debian/dists/bullseye/mongodb-enterprise/7.0/main/binary-amd64/mongodb-enterprise-cryptd_7.0.37_amd64.deb
+enterprise,7.0.37,Debian 11.0 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian11-7.0.37.tgz
+enterprise,7.0.37,Debian 11.0 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-debian11-7.0.37.tgz
+enterprise,7.0.37,Amazon Linux 2 x64,server,https://repo.mongodb.com/yum/amazon/2/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-server-7.0.37-1.amzn2.x86_64.rpm
+enterprise,7.0.37,Amazon Linux 2 x64,mongos,https://repo.mongodb.com/yum/amazon/2/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-mongos-7.0.37-1.amzn2.x86_64.rpm
+enterprise,7.0.37,Amazon Linux 2 x64,cryptd,https://repo.mongodb.com/yum/amazon/2/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-cryptd-7.0.37-1.amzn2.x86_64.rpm
+enterprise,7.0.37,Amazon Linux 2 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amazon2-7.0.37.tgz
+enterprise,7.0.37,Amazon Linux 2 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-amazon2-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 7.0 x64,server,https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-server-7.0.37-1.el7.x86_64.rpm
+enterprise,7.0.37,RedHat / CentOS 7.0 x64,mongos,https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-mongos-7.0.37-1.el7.x86_64.rpm
+enterprise,7.0.37,RedHat / CentOS 7.0 x64,cryptd,https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-cryptd-7.0.37-1.el7.x86_64.rpm
+enterprise,7.0.37,RedHat / CentOS 7.0 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel70-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 7.0 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-rhel70-7.0.37.tgz
+enterprise,7.0.37,Windows x64,msi,https://downloads.mongodb.com/windows/mongodb-windows-x86_64-enterprise-7.0.37-signed.msi
+enterprise,7.0.37,Windows x64,zip,https://downloads.mongodb.com/windows/mongodb-windows-x86_64-enterprise-7.0.37.zip
+enterprise,7.0.37,Windows x64,crypt_shared,https://downloads.mongodb.com/windows/mongo_crypt_shared_v1-windows-x86_64-enterprise-7.0.37.zip
+enterprise,7.0.37,macOS x64,tgz,https://downloads.mongodb.com/osx/mongodb-macos-x86_64-enterprise-7.0.37.tgz
+enterprise,7.0.37,macOS x64,crypt_shared,https://downloads.mongodb.com/osx/mongo_crypt_shared_v1-macos-x86_64-enterprise-7.0.37.tgz
+enterprise,7.0.37,SUSE 15 x64,server,https://repo.mongodb.com/zypper/suse/15/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-server-7.0.37-1.suse15.x86_64.rpm
+enterprise,7.0.37,SUSE 15 x64,mongos,https://repo.mongodb.com/zypper/suse/15/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-mongos-7.0.37-1.suse15.x86_64.rpm
+enterprise,7.0.37,SUSE 15 x64,cryptd,https://repo.mongodb.com/zypper/suse/15/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-cryptd-7.0.37-1.suse15.x86_64.rpm
+enterprise,7.0.37,SUSE 15 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse15-7.0.37.tgz
+enterprise,7.0.37,SUSE 15 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-suse15-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 9.0 x64,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-server-7.0.37-1.el9.x86_64.rpm
+enterprise,7.0.37,RedHat / CentOS 9.0 x64,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-mongos-7.0.37-1.el9.x86_64.rpm
+enterprise,7.0.37,RedHat / CentOS 9.0 x64,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-cryptd-7.0.37-1.el9.x86_64.rpm
+enterprise,7.0.37,RedHat / CentOS 9.0 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel90-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 9.0 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-rhel90-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 9.0 ARM 64,server,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/7.0/aarch64/RPMS/mongodb-enterprise-server-7.0.37-1.el9.aarch64.rpm
+enterprise,7.0.37,RedHat / CentOS 9.0 ARM 64,mongos,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/7.0/aarch64/RPMS/mongodb-enterprise-mongos-7.0.37-1.el9.aarch64.rpm
+enterprise,7.0.37,RedHat / CentOS 9.0 ARM 64,cryptd,https://repo.mongodb.com/yum/redhat/9/mongodb-enterprise/7.0/aarch64/RPMS/mongodb-enterprise-cryptd-7.0.37-1.el9.aarch64.rpm
+enterprise,7.0.37,RedHat / CentOS 9.0 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-rhel90-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 9.0 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-rhel90-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 8.0 x64,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-server-7.0.37-1.el8.x86_64.rpm
+enterprise,7.0.37,RedHat / CentOS 8.0 x64,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-mongos-7.0.37-1.el8.x86_64.rpm
+enterprise,7.0.37,RedHat / CentOS 8.0 x64,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-cryptd-7.0.37-1.el8.x86_64.rpm
+enterprise,7.0.37,RedHat / CentOS 8.0 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel8-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 8.0 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-rhel8-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 8.0 ARM 64,server,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/7.0/aarch64/RPMS/mongodb-enterprise-server-7.0.37-1.el8.aarch64.rpm
+enterprise,7.0.37,RedHat / CentOS 8.0 ARM 64,mongos,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/7.0/aarch64/RPMS/mongodb-enterprise-mongos-7.0.37-1.el8.aarch64.rpm
+enterprise,7.0.37,RedHat / CentOS 8.0 ARM 64,cryptd,https://repo.mongodb.com/yum/redhat/8/mongodb-enterprise/7.0/aarch64/RPMS/mongodb-enterprise-cryptd-7.0.37-1.el8.aarch64.rpm
+enterprise,7.0.37,RedHat / CentOS 8.0 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-rhel8-7.0.37.tgz
+enterprise,7.0.37,RedHat / CentOS 8.0 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-rhel8-7.0.37.tgz
+enterprise,7.0.37,Amazon Linux 2 ARM 64,server,https://repo.mongodb.com/yum/amazon/2/mongodb-enterprise/7.0/aarch64/RPMS/mongodb-enterprise-server-7.0.37-1.amzn2.aarch64.rpm
+enterprise,7.0.37,Amazon Linux 2 ARM 64,mongos,https://repo.mongodb.com/yum/amazon/2/mongodb-enterprise/7.0/aarch64/RPMS/mongodb-enterprise-mongos-7.0.37-1.amzn2.aarch64.rpm
+enterprise,7.0.37,Amazon Linux 2 ARM 64,cryptd,https://repo.mongodb.com/yum/amazon/2/mongodb-enterprise/7.0/aarch64/RPMS/mongodb-enterprise-cryptd-7.0.37-1.amzn2.aarch64.rpm
+enterprise,7.0.37,Amazon Linux 2 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-amazon2-7.0.37.tgz
+enterprise,7.0.37,Amazon Linux 2 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-amazon2-7.0.37.tgz
+enterprise,7.0.37,Amazon Linux 2023 ARM 64,server,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/7.0/aarch64/RPMS/mongodb-enterprise-server-7.0.37-1.amzn2023.aarch64.rpm
+enterprise,7.0.37,Amazon Linux 2023 ARM 64,mongos,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/7.0/aarch64/RPMS/mongodb-enterprise-mongos-7.0.37-1.amzn2023.aarch64.rpm
+enterprise,7.0.37,Amazon Linux 2023 ARM 64,cryptd,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/7.0/aarch64/RPMS/mongodb-enterprise-cryptd-7.0.37-1.amzn2023.aarch64.rpm
+enterprise,7.0.37,Amazon Linux 2023 ARM 64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-aarch64-enterprise-amazon2023-7.0.37.tgz
+enterprise,7.0.37,Amazon Linux 2023 ARM 64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-aarch64-enterprise-amazon2023-7.0.37.tgz
+enterprise,7.0.37,Amazon Linux 2023 x64,server,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-server-7.0.37-1.amzn2023.x86_64.rpm
+enterprise,7.0.37,Amazon Linux 2023 x64,mongos,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-mongos-7.0.37-1.amzn2023.x86_64.rpm
+enterprise,7.0.37,Amazon Linux 2023 x64,cryptd,https://repo.mongodb.com/yum/amazon/2023/mongodb-enterprise/7.0/x86_64/RPMS/mongodb-enterprise-cryptd-7.0.37-1.amzn2023.x86_64.rpm
+enterprise,7.0.37,Amazon Linux 2023 x64,tgz,https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amazon2023-7.0.37.tgz
+enterprise,7.0.37,Amazon Linux 2023 x64,crypt_shared,https://downloads.mongodb.com/linux/mongo_crypt_shared_v1-linux-x86_64-enterprise-amazon2023-7.0.37.tgz
+ops-manager,,Kubernetes,externalLink,https://docs.mongodb.com/kubernetes-operator/master/tutorial/plan-k8s-operator-install
+ops-manager,8.0.25,"Debian 11, 12 / Ubuntu 22.04, 24.04",deb,https://downloads.mongodb.com/on-prem-mms/deb/mongodb-mms-8.0.25.500.20260703T0841Z.amd64.deb
+ops-manager,8.0.25,"Debian 11, 12 / Ubuntu 22.04, 24.04",tar.gz,https://downloads.mongodb.com/on-prem-mms/tar/mongodb-mms-8.0.25.500.20260703T0841Z.tar.gz
+ops-manager,8.0.25,"Red Hat + CentOS 8, 9 / SUSE 15 / Amazon Linux 2, 2023",rpm,https://downloads.mongodb.com/on-prem-mms/rpm/mongodb-mms-8.0.25.500.20260703T0841Z.x86_64.rpm
+ops-manager,8.0.25,"Red Hat + CentOS 8, 9 / SUSE 15 / Amazon Linux 2, 2023",tar.gz,https://downloads.mongodb.com/on-prem-mms/tar/mongodb-mms-8.0.25.500.20260703T0841Z.tar.gz

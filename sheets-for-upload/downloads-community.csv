@@ -1,0 +1,404 @@
+product,version,platform,package,url
+community-server,8.3.4,Ubuntu 24.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/noble/mongodb-org/8.3/multiverse/binary-amd64/mongodb-org-server_8.3.4_amd64.deb
+community-server,8.3.4,Ubuntu 24.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/noble/mongodb-org/8.3/multiverse/binary-amd64/mongodb-org-mongos_8.3.4_amd64.deb
+community-server,8.3.4,Ubuntu 24.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2404-8.3.4.tgz
+community-server,8.3.4,Ubuntu 24.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/noble/mongodb-org/8.3/multiverse/binary-arm64/mongodb-org-server_8.3.4_arm64.deb
+community-server,8.3.4,Ubuntu 24.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/noble/mongodb-org/8.3/multiverse/binary-arm64/mongodb-org-mongos_8.3.4_arm64.deb
+community-server,8.3.4,Ubuntu 24.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2404-8.3.4.tgz
+community-server,8.3.4,Ubuntu 22.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/8.3/multiverse/binary-amd64/mongodb-org-server_8.3.4_amd64.deb
+community-server,8.3.4,Ubuntu 22.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/8.3/multiverse/binary-amd64/mongodb-org-mongos_8.3.4_amd64.deb
+community-server,8.3.4,Ubuntu 22.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2204-8.3.4.tgz
+community-server,8.3.4,Ubuntu 22.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/8.3/multiverse/binary-arm64/mongodb-org-server_8.3.4_arm64.deb
+community-server,8.3.4,Ubuntu 22.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/8.3/multiverse/binary-arm64/mongodb-org-mongos_8.3.4_arm64.deb
+community-server,8.3.4,Ubuntu 22.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2204-8.3.4.tgz
+community-server,8.3.4,Ubuntu 20.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/8.3/multiverse/binary-arm64/mongodb-org-server_8.3.4_arm64.deb
+community-server,8.3.4,Ubuntu 20.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/8.3/multiverse/binary-arm64/mongodb-org-mongos_8.3.4_arm64.deb
+community-server,8.3.4,Ubuntu 20.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2004-8.3.4.tgz
+community-server,8.3.4,Ubuntu 20.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/8.3/multiverse/binary-amd64/mongodb-org-server_8.3.4_amd64.deb
+community-server,8.3.4,Ubuntu 20.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/8.3/multiverse/binary-amd64/mongodb-org-mongos_8.3.4_amd64.deb
+community-server,8.3.4,Ubuntu 20.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2004-8.3.4.tgz
+community-server,8.3.4,macOS ARM 64,tgz,https://fastdl.mongodb.org/osx/mongodb-macos-arm64-8.3.4.tgz
+community-server,8.3.4,macOS x64,tgz,https://fastdl.mongodb.org/osx/mongodb-macos-x86_64-8.3.4.tgz
+community-server,8.3.4,Debian 12.0 x64,server,https://repo.mongodb.org/apt/debian/dists/bookworm/mongodb-org/8.3/main/binary-amd64/mongodb-org-server_8.3.4_amd64.deb
+community-server,8.3.4,Debian 12.0 x64,mongos,https://repo.mongodb.org/apt/debian/dists/bookworm/mongodb-org/8.3/main/binary-amd64/mongodb-org-mongos_8.3.4_amd64.deb
+community-server,8.3.4,Debian 12.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian12-8.3.4.tgz
+community-server,8.3.4,Windows x64,msi,https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.3.4-signed.msi
+community-server,8.3.4,Windows x64,zip,https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.3.4.zip
+community-server,8.3.4,SUSE 15 x64,server,https://repo.mongodb.org/zypper/suse/15/mongodb-org/8.3/x86_64/RPMS/mongodb-org-server-8.3.4-1.suse15.x86_64.rpm
+community-server,8.3.4,SUSE 15 x64,mongos,https://repo.mongodb.org/zypper/suse/15/mongodb-org/8.3/x86_64/RPMS/mongodb-org-mongos-8.3.4-1.suse15.x86_64.rpm
+community-server,8.3.4,SUSE 15 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse15-8.3.4.tgz
+community-server,8.3.4,RedHat / CentOS 9.3 x64,server,https://repo.mongodb.org/yum/redhat/9/mongodb-org/8.3/x86_64/RPMS/mongodb-org-server-8.3.4-1.el9.x86_64.rpm
+community-server,8.3.4,RedHat / CentOS 9.3 x64,mongos,https://repo.mongodb.org/yum/redhat/9/mongodb-org/8.3/x86_64/RPMS/mongodb-org-mongos-8.3.4-1.el9.x86_64.rpm
+community-server,8.3.4,RedHat / CentOS 9.3 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel93-8.3.4.tgz
+community-server,8.3.4,RedHat / CentOS 9.3 ARM 64,server,https://repo.mongodb.org/yum/redhat/9/mongodb-org/8.3/aarch64/RPMS/mongodb-org-server-8.3.4-1.el9.aarch64.rpm
+community-server,8.3.4,RedHat / CentOS 9.3 ARM 64,mongos,https://repo.mongodb.org/yum/redhat/9/mongodb-org/8.3/aarch64/RPMS/mongodb-org-mongos-8.3.4-1.el9.aarch64.rpm
+community-server,8.3.4,RedHat / CentOS 9.3 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-rhel93-8.3.4.tgz
+community-server,8.3.4,RedHat / CentOS 8.0 x64,server,https://repo.mongodb.org/yum/redhat/8/mongodb-org/8.3/x86_64/RPMS/mongodb-org-server-8.3.4-1.el8.x86_64.rpm
+community-server,8.3.4,RedHat / CentOS 8.0 x64,mongos,https://repo.mongodb.org/yum/redhat/8/mongodb-org/8.3/x86_64/RPMS/mongodb-org-mongos-8.3.4-1.el8.x86_64.rpm
+community-server,8.3.4,RedHat / CentOS 8.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel8-8.3.4.tgz
+community-server,8.3.4,RedHat / CentOS 8.0 ARM 64,server,https://repo.mongodb.org/yum/redhat/8/mongodb-org/8.3/aarch64/RPMS/mongodb-org-server-8.3.4-1.el8.aarch64.rpm
+community-server,8.3.4,RedHat / CentOS 8.0 ARM 64,mongos,https://repo.mongodb.org/yum/redhat/8/mongodb-org/8.3/aarch64/RPMS/mongodb-org-mongos-8.3.4-1.el8.aarch64.rpm
+community-server,8.3.4,RedHat / CentOS 8.0 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-rhel8-8.3.4.tgz
+community-server,8.3.4,Amazon Linux 2023 ARM 64,server,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/8.3/aarch64/RPMS/mongodb-org-server-8.3.4-1.amzn2023.aarch64.rpm
+community-server,8.3.4,Amazon Linux 2023 ARM 64,mongos,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/8.3/aarch64/RPMS/mongodb-org-mongos-8.3.4-1.amzn2023.aarch64.rpm
+community-server,8.3.4,Amazon Linux 2023 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-amazon2023-8.3.4.tgz
+community-server,8.3.4,Amazon Linux 2023 x64,server,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/8.3/x86_64/RPMS/mongodb-org-server-8.3.4-1.amzn2023.x86_64.rpm
+community-server,8.3.4,Amazon Linux 2023 x64,mongos,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/8.3/x86_64/RPMS/mongodb-org-mongos-8.3.4-1.amzn2023.x86_64.rpm
+community-server,8.3.4,Amazon Linux 2023 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon2023-8.3.4.tgz
+community-server,8.2.11,Ubuntu 24.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/noble/mongodb-org/8.2/multiverse/binary-amd64/mongodb-org-server_8.2.11_amd64.deb
+community-server,8.2.11,Ubuntu 24.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/noble/mongodb-org/8.2/multiverse/binary-amd64/mongodb-org-mongos_8.2.11_amd64.deb
+community-server,8.2.11,Ubuntu 24.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2404-8.2.11.tgz
+community-server,8.2.11,Ubuntu 24.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/noble/mongodb-org/8.2/multiverse/binary-arm64/mongodb-org-server_8.2.11_arm64.deb
+community-server,8.2.11,Ubuntu 24.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/noble/mongodb-org/8.2/multiverse/binary-arm64/mongodb-org-mongos_8.2.11_arm64.deb
+community-server,8.2.11,Ubuntu 24.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2404-8.2.11.tgz
+community-server,8.2.11,Ubuntu 22.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/8.2/multiverse/binary-amd64/mongodb-org-server_8.2.11_amd64.deb
+community-server,8.2.11,Ubuntu 22.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/8.2/multiverse/binary-amd64/mongodb-org-mongos_8.2.11_amd64.deb
+community-server,8.2.11,Ubuntu 22.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2204-8.2.11.tgz
+community-server,8.2.11,Ubuntu 22.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/8.2/multiverse/binary-arm64/mongodb-org-server_8.2.11_arm64.deb
+community-server,8.2.11,Ubuntu 22.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/8.2/multiverse/binary-arm64/mongodb-org-mongos_8.2.11_arm64.deb
+community-server,8.2.11,Ubuntu 22.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2204-8.2.11.tgz
+community-server,8.2.11,Ubuntu 20.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/8.2/multiverse/binary-arm64/mongodb-org-server_8.2.11_arm64.deb
+community-server,8.2.11,Ubuntu 20.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/8.2/multiverse/binary-arm64/mongodb-org-mongos_8.2.11_arm64.deb
+community-server,8.2.11,Ubuntu 20.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2004-8.2.11.tgz
+community-server,8.2.11,Ubuntu 20.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/8.2/multiverse/binary-amd64/mongodb-org-server_8.2.11_amd64.deb
+community-server,8.2.11,Ubuntu 20.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/8.2/multiverse/binary-amd64/mongodb-org-mongos_8.2.11_amd64.deb
+community-server,8.2.11,Ubuntu 20.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2004-8.2.11.tgz
+community-server,8.2.11,macOS ARM 64,tgz,https://fastdl.mongodb.org/osx/mongodb-macos-arm64-8.2.11.tgz
+community-server,8.2.11,macOS x64,tgz,https://fastdl.mongodb.org/osx/mongodb-macos-x86_64-8.2.11.tgz
+community-server,8.2.11,Debian 12.0 x64,server,https://repo.mongodb.org/apt/debian/dists/bookworm/mongodb-org/8.2/main/binary-amd64/mongodb-org-server_8.2.11_amd64.deb
+community-server,8.2.11,Debian 12.0 x64,mongos,https://repo.mongodb.org/apt/debian/dists/bookworm/mongodb-org/8.2/main/binary-amd64/mongodb-org-mongos_8.2.11_amd64.deb
+community-server,8.2.11,Debian 12.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian12-8.2.11.tgz
+community-server,8.2.11,Windows x64,msi,https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.2.11-signed.msi
+community-server,8.2.11,Windows x64,zip,https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.2.11.zip
+community-server,8.2.11,SUSE 15 x64,server,https://repo.mongodb.org/zypper/suse/15/mongodb-org/8.2/x86_64/RPMS/mongodb-org-server-8.2.11-1.suse15.x86_64.rpm
+community-server,8.2.11,SUSE 15 x64,mongos,https://repo.mongodb.org/zypper/suse/15/mongodb-org/8.2/x86_64/RPMS/mongodb-org-mongos-8.2.11-1.suse15.x86_64.rpm
+community-server,8.2.11,SUSE 15 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse15-8.2.11.tgz
+community-server,8.2.11,RedHat / CentOS 9.3 x64,server,https://repo.mongodb.org/yum/redhat/9/mongodb-org/8.2/x86_64/RPMS/mongodb-org-server-8.2.11-1.el9.x86_64.rpm
+community-server,8.2.11,RedHat / CentOS 9.3 x64,mongos,https://repo.mongodb.org/yum/redhat/9/mongodb-org/8.2/x86_64/RPMS/mongodb-org-mongos-8.2.11-1.el9.x86_64.rpm
+community-server,8.2.11,RedHat / CentOS 9.3 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel93-8.2.11.tgz
+community-server,8.2.11,RedHat / CentOS 9.3 ARM 64,server,https://repo.mongodb.org/yum/redhat/9/mongodb-org/8.2/aarch64/RPMS/mongodb-org-server-8.2.11-1.el9.aarch64.rpm
+community-server,8.2.11,RedHat / CentOS 9.3 ARM 64,mongos,https://repo.mongodb.org/yum/redhat/9/mongodb-org/8.2/aarch64/RPMS/mongodb-org-mongos-8.2.11-1.el9.aarch64.rpm
+community-server,8.2.11,RedHat / CentOS 9.3 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-rhel93-8.2.11.tgz
+community-server,8.2.11,RedHat / CentOS 8.0 x64,server,https://repo.mongodb.org/yum/redhat/8/mongodb-org/8.2/x86_64/RPMS/mongodb-org-server-8.2.11-1.el8.x86_64.rpm
+community-server,8.2.11,RedHat / CentOS 8.0 x64,mongos,https://repo.mongodb.org/yum/redhat/8/mongodb-org/8.2/x86_64/RPMS/mongodb-org-mongos-8.2.11-1.el8.x86_64.rpm
+community-server,8.2.11,RedHat / CentOS 8.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel8-8.2.11.tgz
+community-server,8.2.11,RedHat / CentOS 8.0 ARM 64,server,https://repo.mongodb.org/yum/redhat/8/mongodb-org/8.2/aarch64/RPMS/mongodb-org-server-8.2.11-1.el8.aarch64.rpm
+community-server,8.2.11,RedHat / CentOS 8.0 ARM 64,mongos,https://repo.mongodb.org/yum/redhat/8/mongodb-org/8.2/aarch64/RPMS/mongodb-org-mongos-8.2.11-1.el8.aarch64.rpm
+community-server,8.2.11,RedHat / CentOS 8.0 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-rhel8-8.2.11.tgz
+community-server,8.2.11,Amazon Linux 2023 ARM 64,server,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/8.2/aarch64/RPMS/mongodb-org-server-8.2.11-1.amzn2023.aarch64.rpm
+community-server,8.2.11,Amazon Linux 2023 ARM 64,mongos,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/8.2/aarch64/RPMS/mongodb-org-mongos-8.2.11-1.amzn2023.aarch64.rpm
+community-server,8.2.11,Amazon Linux 2023 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-amazon2023-8.2.11.tgz
+community-server,8.2.11,Amazon Linux 2023 x64,server,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/8.2/x86_64/RPMS/mongodb-org-server-8.2.11-1.amzn2023.x86_64.rpm
+community-server,8.2.11,Amazon Linux 2023 x64,mongos,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/8.2/x86_64/RPMS/mongodb-org-mongos-8.2.11-1.amzn2023.x86_64.rpm
+community-server,8.2.11,Amazon Linux 2023 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon2023-8.2.11.tgz
+community-server,8.0.26,Ubuntu 24.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/noble/mongodb-org/8.0/multiverse/binary-amd64/mongodb-org-server_8.0.26_amd64.deb
+community-server,8.0.26,Ubuntu 24.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/noble/mongodb-org/8.0/multiverse/binary-amd64/mongodb-org-mongos_8.0.26_amd64.deb
+community-server,8.0.26,Ubuntu 24.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2404-8.0.26.tgz
+community-server,8.0.26,Ubuntu 24.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/noble/mongodb-org/8.0/multiverse/binary-arm64/mongodb-org-server_8.0.26_arm64.deb
+community-server,8.0.26,Ubuntu 24.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/noble/mongodb-org/8.0/multiverse/binary-arm64/mongodb-org-mongos_8.0.26_arm64.deb
+community-server,8.0.26,Ubuntu 24.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2404-8.0.26.tgz
+community-server,8.0.26,Ubuntu 22.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/8.0/multiverse/binary-amd64/mongodb-org-server_8.0.26_amd64.deb
+community-server,8.0.26,Ubuntu 22.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/8.0/multiverse/binary-amd64/mongodb-org-mongos_8.0.26_amd64.deb
+community-server,8.0.26,Ubuntu 22.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2204-8.0.26.tgz
+community-server,8.0.26,Ubuntu 22.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/8.0/multiverse/binary-arm64/mongodb-org-server_8.0.26_arm64.deb
+community-server,8.0.26,Ubuntu 22.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/8.0/multiverse/binary-arm64/mongodb-org-mongos_8.0.26_arm64.deb
+community-server,8.0.26,Ubuntu 22.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2204-8.0.26.tgz
+community-server,8.0.26,Ubuntu 20.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/8.0/multiverse/binary-arm64/mongodb-org-server_8.0.26_arm64.deb
+community-server,8.0.26,Ubuntu 20.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/8.0/multiverse/binary-arm64/mongodb-org-mongos_8.0.26_arm64.deb
+community-server,8.0.26,Ubuntu 20.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2004-8.0.26.tgz
+community-server,8.0.26,Ubuntu 20.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/8.0/multiverse/binary-amd64/mongodb-org-server_8.0.26_amd64.deb
+community-server,8.0.26,Ubuntu 20.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/8.0/multiverse/binary-amd64/mongodb-org-mongos_8.0.26_amd64.deb
+community-server,8.0.26,Ubuntu 20.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2004-8.0.26.tgz
+community-server,8.0.26,macOS ARM 64,tgz,https://fastdl.mongodb.org/osx/mongodb-macos-arm64-8.0.26.tgz
+community-server,8.0.26,macOS x64,tgz,https://fastdl.mongodb.org/osx/mongodb-macos-x86_64-8.0.26.tgz
+community-server,8.0.26,Debian 12.0 x64,server,https://repo.mongodb.org/apt/debian/dists/bookworm/mongodb-org/8.0/main/binary-amd64/mongodb-org-server_8.0.26_amd64.deb
+community-server,8.0.26,Debian 12.0 x64,mongos,https://repo.mongodb.org/apt/debian/dists/bookworm/mongodb-org/8.0/main/binary-amd64/mongodb-org-mongos_8.0.26_amd64.deb
+community-server,8.0.26,Debian 12.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian12-8.0.26.tgz
+community-server,8.0.26,Windows x64,msi,https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.0.26-signed.msi
+community-server,8.0.26,Windows x64,zip,https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.0.26.zip
+community-server,8.0.26,SUSE 15 x64,server,https://repo.mongodb.org/zypper/suse/15/mongodb-org/8.0/x86_64/RPMS/mongodb-org-server-8.0.26-1.suse15.x86_64.rpm
+community-server,8.0.26,SUSE 15 x64,mongos,https://repo.mongodb.org/zypper/suse/15/mongodb-org/8.0/x86_64/RPMS/mongodb-org-mongos-8.0.26-1.suse15.x86_64.rpm
+community-server,8.0.26,SUSE 15 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse15-8.0.26.tgz
+community-server,8.0.26,RedHat / CentOS 9.3 x64,server,https://repo.mongodb.org/yum/redhat/9/mongodb-org/8.0/x86_64/RPMS/mongodb-org-server-8.0.26-1.el9.x86_64.rpm
+community-server,8.0.26,RedHat / CentOS 9.3 x64,mongos,https://repo.mongodb.org/yum/redhat/9/mongodb-org/8.0/x86_64/RPMS/mongodb-org-mongos-8.0.26-1.el9.x86_64.rpm
+community-server,8.0.26,RedHat / CentOS 9.3 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel93-8.0.26.tgz
+community-server,8.0.26,RedHat / CentOS 9.3 ARM 64,server,https://repo.mongodb.org/yum/redhat/9/mongodb-org/8.0/aarch64/RPMS/mongodb-org-server-8.0.26-1.el9.aarch64.rpm
+community-server,8.0.26,RedHat / CentOS 9.3 ARM 64,mongos,https://repo.mongodb.org/yum/redhat/9/mongodb-org/8.0/aarch64/RPMS/mongodb-org-mongos-8.0.26-1.el9.aarch64.rpm
+community-server,8.0.26,RedHat / CentOS 9.3 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-rhel93-8.0.26.tgz
+community-server,8.0.26,RedHat / CentOS 8.0 x64,server,https://repo.mongodb.org/yum/redhat/8/mongodb-org/8.0/x86_64/RPMS/mongodb-org-server-8.0.26-1.el8.x86_64.rpm
+community-server,8.0.26,RedHat / CentOS 8.0 x64,mongos,https://repo.mongodb.org/yum/redhat/8/mongodb-org/8.0/x86_64/RPMS/mongodb-org-mongos-8.0.26-1.el8.x86_64.rpm
+community-server,8.0.26,RedHat / CentOS 8.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel8-8.0.26.tgz
+community-server,8.0.26,RedHat / CentOS 8.0 ARM 64,server,https://repo.mongodb.org/yum/redhat/8/mongodb-org/8.0/aarch64/RPMS/mongodb-org-server-8.0.26-1.el8.aarch64.rpm
+community-server,8.0.26,RedHat / CentOS 8.0 ARM 64,mongos,https://repo.mongodb.org/yum/redhat/8/mongodb-org/8.0/aarch64/RPMS/mongodb-org-mongos-8.0.26-1.el8.aarch64.rpm
+community-server,8.0.26,RedHat / CentOS 8.0 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-rhel8-8.0.26.tgz
+community-server,8.0.26,Amazon Linux 2023 ARM 64,server,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/8.0/aarch64/RPMS/mongodb-org-server-8.0.26-1.amzn2023.aarch64.rpm
+community-server,8.0.26,Amazon Linux 2023 ARM 64,mongos,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/8.0/aarch64/RPMS/mongodb-org-mongos-8.0.26-1.amzn2023.aarch64.rpm
+community-server,8.0.26,Amazon Linux 2023 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-amazon2023-8.0.26.tgz
+community-server,8.0.26,Amazon Linux 2023 x64,server,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/8.0/x86_64/RPMS/mongodb-org-server-8.0.26-1.amzn2023.x86_64.rpm
+community-server,8.0.26,Amazon Linux 2023 x64,mongos,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/8.0/x86_64/RPMS/mongodb-org-mongos-8.0.26-1.amzn2023.x86_64.rpm
+community-server,8.0.26,Amazon Linux 2023 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon2023-8.0.26.tgz
+community-server,7.0.37,Ubuntu 22.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/7.0/multiverse/binary-amd64/mongodb-org-server_7.0.37_amd64.deb
+community-server,7.0.37,Ubuntu 22.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/7.0/multiverse/binary-amd64/mongodb-org-mongos_7.0.37_amd64.deb
+community-server,7.0.37,Ubuntu 22.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2204-7.0.37.tgz
+community-server,7.0.37,Ubuntu 22.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/7.0/multiverse/binary-arm64/mongodb-org-server_7.0.37_arm64.deb
+community-server,7.0.37,Ubuntu 22.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/7.0/multiverse/binary-arm64/mongodb-org-mongos_7.0.37_arm64.deb
+community-server,7.0.37,Ubuntu 22.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2204-7.0.37.tgz
+community-server,7.0.37,Ubuntu 20.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/7.0/multiverse/binary-arm64/mongodb-org-server_7.0.37_arm64.deb
+community-server,7.0.37,Ubuntu 20.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/7.0/multiverse/binary-arm64/mongodb-org-mongos_7.0.37_arm64.deb
+community-server,7.0.37,Ubuntu 20.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2004-7.0.37.tgz
+community-server,7.0.37,Ubuntu 20.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/7.0/multiverse/binary-amd64/mongodb-org-server_7.0.37_amd64.deb
+community-server,7.0.37,Ubuntu 20.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/7.0/multiverse/binary-amd64/mongodb-org-mongos_7.0.37_amd64.deb
+community-server,7.0.37,Ubuntu 20.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2004-7.0.37.tgz
+community-server,7.0.37,macOS ARM 64,tgz,https://fastdl.mongodb.org/osx/mongodb-macos-arm64-7.0.37.tgz
+community-server,7.0.37,macOS x64,tgz,https://fastdl.mongodb.org/osx/mongodb-macos-x86_64-7.0.37.tgz
+community-server,7.0.37,RedHat / CentOS 7.0 x64,server,https://repo.mongodb.org/yum/redhat/7/mongodb-org/7.0/x86_64/RPMS/mongodb-org-server-7.0.37-1.el7.x86_64.rpm
+community-server,7.0.37,RedHat / CentOS 7.0 x64,mongos,https://repo.mongodb.org/yum/redhat/7/mongodb-org/7.0/x86_64/RPMS/mongodb-org-mongos-7.0.37-1.el7.x86_64.rpm
+community-server,7.0.37,RedHat / CentOS 7.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-7.0.37.tgz
+community-server,7.0.37,Debian 12.0 x64,server,https://repo.mongodb.org/apt/debian/dists/bookworm/mongodb-org/7.0/main/binary-amd64/mongodb-org-server_7.0.37_amd64.deb
+community-server,7.0.37,Debian 12.0 x64,mongos,https://repo.mongodb.org/apt/debian/dists/bookworm/mongodb-org/7.0/main/binary-amd64/mongodb-org-mongos_7.0.37_amd64.deb
+community-server,7.0.37,Debian 12.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian12-7.0.37.tgz
+community-server,7.0.37,Debian 11.0 x64,server,https://repo.mongodb.org/apt/debian/dists/bullseye/mongodb-org/7.0/main/binary-amd64/mongodb-org-server_7.0.37_amd64.deb
+community-server,7.0.37,Debian 11.0 x64,mongos,https://repo.mongodb.org/apt/debian/dists/bullseye/mongodb-org/7.0/main/binary-amd64/mongodb-org-mongos_7.0.37_amd64.deb
+community-server,7.0.37,Debian 11.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian11-7.0.37.tgz
+community-server,7.0.37,Amazon Linux 2 x64,server,https://repo.mongodb.org/yum/amazon/2/mongodb-org/7.0/x86_64/RPMS/mongodb-org-server-7.0.37-1.amzn2.x86_64.rpm
+community-server,7.0.37,Amazon Linux 2 x64,mongos,https://repo.mongodb.org/yum/amazon/2/mongodb-org/7.0/x86_64/RPMS/mongodb-org-mongos-7.0.37-1.amzn2.x86_64.rpm
+community-server,7.0.37,Amazon Linux 2 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon2-7.0.37.tgz
+community-server,7.0.37,SUSE 12 x64,server,https://repo.mongodb.org/zypper/suse/12/mongodb-org/7.0/x86_64/RPMS/mongodb-org-server-7.0.37-1.suse12.x86_64.rpm
+community-server,7.0.37,SUSE 12 x64,mongos,https://repo.mongodb.org/zypper/suse/12/mongodb-org/7.0/x86_64/RPMS/mongodb-org-mongos-7.0.37-1.suse12.x86_64.rpm
+community-server,7.0.37,SUSE 12 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse12-7.0.37.tgz
+community-server,7.0.37,Windows x64,msi,https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.37-signed.msi
+community-server,7.0.37,Windows x64,zip,https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.37.zip
+community-server,7.0.37,SUSE 15 x64,server,https://repo.mongodb.org/zypper/suse/15/mongodb-org/7.0/x86_64/RPMS/mongodb-org-server-7.0.37-1.suse15.x86_64.rpm
+community-server,7.0.37,SUSE 15 x64,mongos,https://repo.mongodb.org/zypper/suse/15/mongodb-org/7.0/x86_64/RPMS/mongodb-org-mongos-7.0.37-1.suse15.x86_64.rpm
+community-server,7.0.37,SUSE 15 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse15-7.0.37.tgz
+community-server,7.0.37,RedHat / CentOS 9.0 x64,server,https://repo.mongodb.org/yum/redhat/9/mongodb-org/7.0/x86_64/RPMS/mongodb-org-server-7.0.37-1.el9.x86_64.rpm
+community-server,7.0.37,RedHat / CentOS 9.0 x64,mongos,https://repo.mongodb.org/yum/redhat/9/mongodb-org/7.0/x86_64/RPMS/mongodb-org-mongos-7.0.37-1.el9.x86_64.rpm
+community-server,7.0.37,RedHat / CentOS 9.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel90-7.0.37.tgz
+community-server,7.0.37,RedHat / CentOS 9.0 ARM 64,server,https://repo.mongodb.org/yum/redhat/9/mongodb-org/7.0/aarch64/RPMS/mongodb-org-server-7.0.37-1.el9.aarch64.rpm
+community-server,7.0.37,RedHat / CentOS 9.0 ARM 64,mongos,https://repo.mongodb.org/yum/redhat/9/mongodb-org/7.0/aarch64/RPMS/mongodb-org-mongos-7.0.37-1.el9.aarch64.rpm
+community-server,7.0.37,RedHat / CentOS 9.0 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-rhel90-7.0.37.tgz
+community-server,7.0.37,RedHat / CentOS 8.0 x64,server,https://repo.mongodb.org/yum/redhat/8/mongodb-org/7.0/x86_64/RPMS/mongodb-org-server-7.0.37-1.el8.x86_64.rpm
+community-server,7.0.37,RedHat / CentOS 8.0 x64,mongos,https://repo.mongodb.org/yum/redhat/8/mongodb-org/7.0/x86_64/RPMS/mongodb-org-mongos-7.0.37-1.el8.x86_64.rpm
+community-server,7.0.37,RedHat / CentOS 8.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel8-7.0.37.tgz
+community-server,7.0.37,RedHat / CentOS 8.0 ARM 64,server,https://repo.mongodb.org/yum/redhat/8/mongodb-org/7.0/aarch64/RPMS/mongodb-org-server-7.0.37-1.el8.aarch64.rpm
+community-server,7.0.37,RedHat / CentOS 8.0 ARM 64,mongos,https://repo.mongodb.org/yum/redhat/8/mongodb-org/7.0/aarch64/RPMS/mongodb-org-mongos-7.0.37-1.el8.aarch64.rpm
+community-server,7.0.37,RedHat / CentOS 8.0 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-rhel8-7.0.37.tgz
+community-server,7.0.37,Amazon Linux 2 ARM 64,server,https://repo.mongodb.org/yum/amazon/2/mongodb-org/7.0/aarch64/RPMS/mongodb-org-server-7.0.37-1.amzn2.aarch64.rpm
+community-server,7.0.37,Amazon Linux 2 ARM 64,mongos,https://repo.mongodb.org/yum/amazon/2/mongodb-org/7.0/aarch64/RPMS/mongodb-org-mongos-7.0.37-1.amzn2.aarch64.rpm
+community-server,7.0.37,Amazon Linux 2 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-amazon2-7.0.37.tgz
+community-server,7.0.37,Amazon Linux 2023 ARM 64,server,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/7.0/aarch64/RPMS/mongodb-org-server-7.0.37-1.amzn2023.aarch64.rpm
+community-server,7.0.37,Amazon Linux 2023 ARM 64,mongos,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/7.0/aarch64/RPMS/mongodb-org-mongos-7.0.37-1.amzn2023.aarch64.rpm
+community-server,7.0.37,Amazon Linux 2023 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-amazon2023-7.0.37.tgz
+community-server,7.0.37,Amazon Linux 2023 x64,server,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/7.0/x86_64/RPMS/mongodb-org-server-7.0.37-1.amzn2023.x86_64.rpm
+community-server,7.0.37,Amazon Linux 2023 x64,mongos,https://repo.mongodb.org/yum/amazon/2023/mongodb-org/7.0/x86_64/RPMS/mongodb-org-mongos-7.0.37-1.amzn2023.x86_64.rpm
+community-server,7.0.37,Amazon Linux 2023 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon2023-7.0.37.tgz
+community-server,6.0.29,Ubuntu 22.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/6.0/multiverse/binary-amd64/mongodb-org-server_6.0.29_amd64.deb
+community-server,6.0.29,Ubuntu 22.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/6.0/multiverse/binary-amd64/mongodb-org-mongos_6.0.29_amd64.deb
+community-server,6.0.29,Ubuntu 22.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2204-6.0.29.tgz
+community-server,6.0.29,Ubuntu 22.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/6.0/multiverse/binary-arm64/mongodb-org-server_6.0.29_arm64.deb
+community-server,6.0.29,Ubuntu 22.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/6.0/multiverse/binary-arm64/mongodb-org-mongos_6.0.29_arm64.deb
+community-server,6.0.29,Ubuntu 22.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2204-6.0.29.tgz
+community-server,6.0.29,Ubuntu 20.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/6.0/multiverse/binary-arm64/mongodb-org-server_6.0.29_arm64.deb
+community-server,6.0.29,Ubuntu 20.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/6.0/multiverse/binary-arm64/mongodb-org-mongos_6.0.29_arm64.deb
+community-server,6.0.29,Ubuntu 20.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2004-6.0.29.tgz
+community-server,6.0.29,Ubuntu 20.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/6.0/multiverse/binary-amd64/mongodb-org-server_6.0.29_amd64.deb
+community-server,6.0.29,Ubuntu 20.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/6.0/multiverse/binary-amd64/mongodb-org-mongos_6.0.29_amd64.deb
+community-server,6.0.29,Ubuntu 20.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2004-6.0.29.tgz
+community-server,6.0.29,macOS ARM 64,tgz,https://fastdl.mongodb.org/osx/mongodb-macos-arm64-6.0.29.tgz
+community-server,6.0.29,macOS x64,tgz,https://fastdl.mongodb.org/osx/mongodb-macos-x86_64-6.0.29.tgz
+community-server,6.0.29,RedHat / CentOS 7.0 x64,server,https://repo.mongodb.org/yum/redhat/7/mongodb-org/6.0/x86_64/RPMS/mongodb-org-server-6.0.29-1.el7.x86_64.rpm
+community-server,6.0.29,RedHat / CentOS 7.0 x64,mongos,https://repo.mongodb.org/yum/redhat/7/mongodb-org/6.0/x86_64/RPMS/mongodb-org-mongos-6.0.29-1.el7.x86_64.rpm
+community-server,6.0.29,RedHat / CentOS 7.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-6.0.29.tgz
+community-server,6.0.29,Debian 11.0 x64,server,https://repo.mongodb.org/apt/debian/dists/bullseye/mongodb-org/6.0/main/binary-amd64/mongodb-org-server_6.0.29_amd64.deb
+community-server,6.0.29,Debian 11.0 x64,mongos,https://repo.mongodb.org/apt/debian/dists/bullseye/mongodb-org/6.0/main/binary-amd64/mongodb-org-mongos_6.0.29_amd64.deb
+community-server,6.0.29,Debian 11.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian11-6.0.29.tgz
+community-server,6.0.29,Amazon Linux 2 x64,server,https://repo.mongodb.org/yum/amazon/2/mongodb-org/6.0/x86_64/RPMS/mongodb-org-server-6.0.29-1.amzn2.x86_64.rpm
+community-server,6.0.29,Amazon Linux 2 x64,mongos,https://repo.mongodb.org/yum/amazon/2/mongodb-org/6.0/x86_64/RPMS/mongodb-org-mongos-6.0.29-1.amzn2.x86_64.rpm
+community-server,6.0.29,Amazon Linux 2 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon2-6.0.29.tgz
+community-server,6.0.29,SUSE 12 x64,server,https://repo.mongodb.org/zypper/suse/12/mongodb-org/6.0/x86_64/RPMS/mongodb-org-server-6.0.29-1.suse12.x86_64.rpm
+community-server,6.0.29,SUSE 12 x64,mongos,https://repo.mongodb.org/zypper/suse/12/mongodb-org/6.0/x86_64/RPMS/mongodb-org-mongos-6.0.29-1.suse12.x86_64.rpm
+community-server,6.0.29,SUSE 12 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse12-6.0.29.tgz
+community-server,6.0.29,Windows x64,msi,https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.29-signed.msi
+community-server,6.0.29,Windows x64,zip,https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.29.zip
+community-server,6.0.29,Ubuntu 18.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/6.0/multiverse/binary-amd64/mongodb-org-server_6.0.29_amd64.deb
+community-server,6.0.29,Ubuntu 18.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/6.0/multiverse/binary-amd64/mongodb-org-mongos_6.0.29_amd64.deb
+community-server,6.0.29,Ubuntu 18.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1804-6.0.29.tgz
+community-server,6.0.29,SUSE 15 x64,server,https://repo.mongodb.org/zypper/suse/15/mongodb-org/6.0/x86_64/RPMS/mongodb-org-server-6.0.29-1.suse15.x86_64.rpm
+community-server,6.0.29,SUSE 15 x64,mongos,https://repo.mongodb.org/zypper/suse/15/mongodb-org/6.0/x86_64/RPMS/mongodb-org-mongos-6.0.29-1.suse15.x86_64.rpm
+community-server,6.0.29,SUSE 15 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse15-6.0.29.tgz
+community-server,6.0.29,Ubuntu 18.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/6.0/multiverse/binary-arm64/mongodb-org-server_6.0.29_arm64.deb
+community-server,6.0.29,Ubuntu 18.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/6.0/multiverse/binary-arm64/mongodb-org-mongos_6.0.29_arm64.deb
+community-server,6.0.29,Ubuntu 18.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu1804-6.0.29.tgz
+community-server,6.0.29,Debian 10.0 x64,server,https://repo.mongodb.org/apt/debian/dists/buster/mongodb-org/6.0/main/binary-amd64/mongodb-org-server_6.0.29_amd64.deb
+community-server,6.0.29,Debian 10.0 x64,mongos,https://repo.mongodb.org/apt/debian/dists/buster/mongodb-org/6.0/main/binary-amd64/mongodb-org-mongos_6.0.29_amd64.deb
+community-server,6.0.29,Debian 10.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian10-6.0.29.tgz
+community-server,6.0.29,RedHat / CentOS 9.0 x64,server,https://repo.mongodb.org/yum/redhat/9/mongodb-org/6.0/x86_64/RPMS/mongodb-org-server-6.0.29-1.el9.x86_64.rpm
+community-server,6.0.29,RedHat / CentOS 9.0 x64,mongos,https://repo.mongodb.org/yum/redhat/9/mongodb-org/6.0/x86_64/RPMS/mongodb-org-mongos-6.0.29-1.el9.x86_64.rpm
+community-server,6.0.29,RedHat / CentOS 9.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel90-6.0.29.tgz
+community-server,6.0.29,RedHat / CentOS 9.0 ARM 64,server,https://repo.mongodb.org/yum/redhat/9/mongodb-org/6.0/aarch64/RPMS/mongodb-org-server-6.0.29-1.el9.aarch64.rpm
+community-server,6.0.29,RedHat / CentOS 9.0 ARM 64,mongos,https://repo.mongodb.org/yum/redhat/9/mongodb-org/6.0/aarch64/RPMS/mongodb-org-mongos-6.0.29-1.el9.aarch64.rpm
+community-server,6.0.29,RedHat / CentOS 9.0 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-rhel90-6.0.29.tgz
+community-server,6.0.29,RedHat / CentOS 8.0 x64,server,https://repo.mongodb.org/yum/redhat/8/mongodb-org/6.0/x86_64/RPMS/mongodb-org-server-6.0.29-1.el8.x86_64.rpm
+community-server,6.0.29,RedHat / CentOS 8.0 x64,mongos,https://repo.mongodb.org/yum/redhat/8/mongodb-org/6.0/x86_64/RPMS/mongodb-org-mongos-6.0.29-1.el8.x86_64.rpm
+community-server,6.0.29,RedHat / CentOS 8.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel8-6.0.29.tgz
+community-server,6.0.29,RedHat / CentOS 8.0 ARM 64,server,https://repo.mongodb.org/yum/redhat/8/mongodb-org/6.0/aarch64/RPMS/mongodb-org-server-6.0.29-1.el8.aarch64.rpm
+community-server,6.0.29,RedHat / CentOS 8.0 ARM 64,mongos,https://repo.mongodb.org/yum/redhat/8/mongodb-org/6.0/aarch64/RPMS/mongodb-org-mongos-6.0.29-1.el8.aarch64.rpm
+community-server,6.0.29,RedHat / CentOS 8.0 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-rhel8-6.0.29.tgz
+community-server,6.0.29,Amazon Linux 2 ARM 64,server,https://repo.mongodb.org/yum/amazon/2/mongodb-org/6.0/aarch64/RPMS/mongodb-org-server-6.0.29-1.amzn2.aarch64.rpm
+community-server,6.0.29,Amazon Linux 2 ARM 64,mongos,https://repo.mongodb.org/yum/amazon/2/mongodb-org/6.0/aarch64/RPMS/mongodb-org-mongos-6.0.29-1.amzn2.aarch64.rpm
+community-server,6.0.29,Amazon Linux 2 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-amazon2-6.0.29.tgz
+community-server,5.0.34,Ubuntu 20.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org-server_5.0.34_arm64.deb
+community-server,5.0.34,Ubuntu 20.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org-mongos_5.0.34_arm64.deb
+community-server,5.0.34,Ubuntu 20.04 ARM 64,shell (deb),https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org-shell_5.0.34_arm64.deb
+community-server,5.0.34,Ubuntu 20.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2004-5.0.34.tgz
+community-server,5.0.34,Ubuntu 20.04 ARM 64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-aarch64-ubuntu2004-5.0.34.tgz
+community-server,5.0.34,Ubuntu 20.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/5.0/multiverse/binary-amd64/mongodb-org-server_5.0.34_amd64.deb
+community-server,5.0.34,Ubuntu 20.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/5.0/multiverse/binary-amd64/mongodb-org-mongos_5.0.34_amd64.deb
+community-server,5.0.34,Ubuntu 20.04 x64,shell (deb),https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/5.0/multiverse/binary-amd64/mongodb-org-shell_5.0.34_amd64.deb
+community-server,5.0.34,Ubuntu 20.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2004-5.0.34.tgz
+community-server,5.0.34,Ubuntu 20.04 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-ubuntu2004-5.0.34.tgz
+community-server,5.0.34,RedHat / CentOS 7.0 x64,server,https://repo.mongodb.org/yum/redhat/7/mongodb-org/5.0/x86_64/RPMS/mongodb-org-server-5.0.34-1.el7.x86_64.rpm
+community-server,5.0.34,RedHat / CentOS 7.0 x64,mongos,https://repo.mongodb.org/yum/redhat/7/mongodb-org/5.0/x86_64/RPMS/mongodb-org-mongos-5.0.34-1.el7.x86_64.rpm
+community-server,5.0.34,RedHat / CentOS 7.0 x64,shell (rpm),https://repo.mongodb.org/yum/redhat/7/mongodb-org/5.0/x86_64/RPMS/mongodb-org-shell-5.0.34-1.el7.x86_64.rpm
+community-server,5.0.34,RedHat / CentOS 7.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-5.0.34.tgz
+community-server,5.0.34,RedHat / CentOS 7.0 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-rhel70-5.0.34.tgz
+community-server,5.0.34,Debian 11.0 x64,server,https://repo.mongodb.org/apt/debian/dists/bullseye/mongodb-org/5.0/main/binary-amd64/mongodb-org-server_5.0.34_amd64.deb
+community-server,5.0.34,Debian 11.0 x64,mongos,https://repo.mongodb.org/apt/debian/dists/bullseye/mongodb-org/5.0/main/binary-amd64/mongodb-org-mongos_5.0.34_amd64.deb
+community-server,5.0.34,Debian 11.0 x64,shell (deb),https://repo.mongodb.org/apt/debian/dists/bullseye/mongodb-org/5.0/main/binary-amd64/mongodb-org-shell_5.0.34_amd64.deb
+community-server,5.0.34,Debian 11.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian11-5.0.34.tgz
+community-server,5.0.34,Debian 11.0 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-debian11-5.0.34.tgz
+community-server,5.0.34,Amazon Linux x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon-5.0.34.tgz
+community-server,5.0.34,Amazon Linux x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-amazon-5.0.34.tgz
+community-server,5.0.34,Amazon Linux 2 x64,server,https://repo.mongodb.org/yum/amazon/2/mongodb-org/5.0/x86_64/RPMS/mongodb-org-server-5.0.34-1.amzn2.x86_64.rpm
+community-server,5.0.34,Amazon Linux 2 x64,mongos,https://repo.mongodb.org/yum/amazon/2/mongodb-org/5.0/x86_64/RPMS/mongodb-org-mongos-5.0.34-1.amzn2.x86_64.rpm
+community-server,5.0.34,Amazon Linux 2 x64,shell (rpm),https://repo.mongodb.org/yum/amazon/2/mongodb-org/5.0/x86_64/RPMS/mongodb-org-shell-5.0.34-1.amzn2.x86_64.rpm
+community-server,5.0.34,Amazon Linux 2 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon2-5.0.34.tgz
+community-server,5.0.34,Amazon Linux 2 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-amazon2-5.0.34.tgz
+community-server,5.0.34,Debian 9.2 x64,server,https://repo.mongodb.org/apt/debian/dists/stretch/mongodb-org/5.0/main/binary-amd64/mongodb-org-server_5.0.34_amd64.deb
+community-server,5.0.34,Debian 9.2 x64,mongos,https://repo.mongodb.org/apt/debian/dists/stretch/mongodb-org/5.0/main/binary-amd64/mongodb-org-mongos_5.0.34_amd64.deb
+community-server,5.0.34,Debian 9.2 x64,shell (deb),https://repo.mongodb.org/apt/debian/dists/stretch/mongodb-org/5.0/main/binary-amd64/mongodb-org-shell_5.0.34_amd64.deb
+community-server,5.0.34,Debian 9.2 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian92-5.0.34.tgz
+community-server,5.0.34,Debian 9.2 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-debian92-5.0.34.tgz
+community-server,5.0.34,SUSE 12 x64,server,https://repo.mongodb.org/zypper/suse/12/mongodb-org/5.0/x86_64/RPMS/mongodb-org-server-5.0.34-1.suse12.x86_64.rpm
+community-server,5.0.34,SUSE 12 x64,mongos,https://repo.mongodb.org/zypper/suse/12/mongodb-org/5.0/x86_64/RPMS/mongodb-org-mongos-5.0.34-1.suse12.x86_64.rpm
+community-server,5.0.34,SUSE 12 x64,shell (rpm),https://repo.mongodb.org/zypper/suse/12/mongodb-org/5.0/x86_64/RPMS/mongodb-org-shell-5.0.34-1.suse12.x86_64.rpm
+community-server,5.0.34,SUSE 12 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse12-5.0.34.tgz
+community-server,5.0.34,SUSE 12 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-suse12-5.0.34.tgz
+community-server,5.0.34,Windows x64,msi,https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-5.0.34-signed.msi
+community-server,5.0.34,Windows x64,zip,https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-5.0.34.zip
+community-server,5.0.34,Ubuntu 18.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-amd64/mongodb-org-server_5.0.34_amd64.deb
+community-server,5.0.34,Ubuntu 18.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-amd64/mongodb-org-mongos_5.0.34_amd64.deb
+community-server,5.0.34,Ubuntu 18.04 x64,shell (deb),https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-amd64/mongodb-org-shell_5.0.34_amd64.deb
+community-server,5.0.34,Ubuntu 18.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1804-5.0.34.tgz
+community-server,5.0.34,Ubuntu 18.04 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-ubuntu1804-5.0.34.tgz
+community-server,5.0.34,SUSE 15 x64,server,https://repo.mongodb.org/zypper/suse/15/mongodb-org/5.0/x86_64/RPMS/mongodb-org-server-5.0.34-1.suse15.x86_64.rpm
+community-server,5.0.34,SUSE 15 x64,mongos,https://repo.mongodb.org/zypper/suse/15/mongodb-org/5.0/x86_64/RPMS/mongodb-org-mongos-5.0.34-1.suse15.x86_64.rpm
+community-server,5.0.34,SUSE 15 x64,shell (rpm),https://repo.mongodb.org/zypper/suse/15/mongodb-org/5.0/x86_64/RPMS/mongodb-org-shell-5.0.34-1.suse15.x86_64.rpm
+community-server,5.0.34,SUSE 15 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse15-5.0.34.tgz
+community-server,5.0.34,SUSE 15 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-suse15-5.0.34.tgz
+community-server,5.0.34,Ubuntu 18.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org-server_5.0.34_arm64.deb
+community-server,5.0.34,Ubuntu 18.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org-mongos_5.0.34_arm64.deb
+community-server,5.0.34,Ubuntu 18.04 ARM 64,shell (deb),https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org-shell_5.0.34_arm64.deb
+community-server,5.0.34,Ubuntu 18.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu1804-5.0.34.tgz
+community-server,5.0.34,Ubuntu 18.04 ARM 64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-aarch64-ubuntu1804-5.0.34.tgz
+community-server,5.0.34,Debian 10.0 x64,server,https://repo.mongodb.org/apt/debian/dists/buster/mongodb-org/5.0/main/binary-amd64/mongodb-org-server_5.0.34_amd64.deb
+community-server,5.0.34,Debian 10.0 x64,mongos,https://repo.mongodb.org/apt/debian/dists/buster/mongodb-org/5.0/main/binary-amd64/mongodb-org-mongos_5.0.34_amd64.deb
+community-server,5.0.34,Debian 10.0 x64,shell (deb),https://repo.mongodb.org/apt/debian/dists/buster/mongodb-org/5.0/main/binary-amd64/mongodb-org-shell_5.0.34_amd64.deb
+community-server,5.0.34,Debian 10.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian10-5.0.34.tgz
+community-server,5.0.34,Debian 10.0 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-debian10-5.0.34.tgz
+community-server,5.0.34,RedHat / CentOS 8.0 x64,server,https://repo.mongodb.org/yum/redhat/8/mongodb-org/5.0/x86_64/RPMS/mongodb-org-server-5.0.34-1.el8.x86_64.rpm
+community-server,5.0.34,RedHat / CentOS 8.0 x64,mongos,https://repo.mongodb.org/yum/redhat/8/mongodb-org/5.0/x86_64/RPMS/mongodb-org-mongos-5.0.34-1.el8.x86_64.rpm
+community-server,5.0.34,RedHat / CentOS 8.0 x64,shell (rpm),https://repo.mongodb.org/yum/redhat/8/mongodb-org/5.0/x86_64/RPMS/mongodb-org-shell-5.0.34-1.el8.x86_64.rpm
+community-server,5.0.34,RedHat / CentOS 8.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel8-5.0.34.tgz
+community-server,5.0.34,RedHat / CentOS 8.0 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-rhel8-5.0.34.tgz
+community-server,5.0.34,RedHat / CentOS 8.0 ARM 64,server,https://repo.mongodb.org/yum/redhat/8/mongodb-org/5.0/aarch64/RPMS/mongodb-org-server-5.0.34-1.el8.aarch64.rpm
+community-server,5.0.34,RedHat / CentOS 8.0 ARM 64,mongos,https://repo.mongodb.org/yum/redhat/8/mongodb-org/5.0/aarch64/RPMS/mongodb-org-mongos-5.0.34-1.el8.aarch64.rpm
+community-server,5.0.34,RedHat / CentOS 8.0 ARM 64,shell (rpm),https://repo.mongodb.org/yum/redhat/8/mongodb-org/5.0/aarch64/RPMS/mongodb-org-shell-5.0.34-1.el8.aarch64.rpm
+community-server,5.0.34,RedHat / CentOS 8.0 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-rhel8-5.0.34.tgz
+community-server,5.0.34,RedHat / CentOS 8.0 ARM 64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-aarch64-rhel8-5.0.34.tgz
+community-server,5.0.34,Amazon Linux 2 ARM 64,server,https://repo.mongodb.org/yum/amazon/2/mongodb-org/5.0/aarch64/RPMS/mongodb-org-server-5.0.34-1.amzn2.aarch64.rpm
+community-server,5.0.34,Amazon Linux 2 ARM 64,mongos,https://repo.mongodb.org/yum/amazon/2/mongodb-org/5.0/aarch64/RPMS/mongodb-org-mongos-5.0.34-1.amzn2.aarch64.rpm
+community-server,5.0.34,Amazon Linux 2 ARM 64,shell (rpm),https://repo.mongodb.org/yum/amazon/2/mongodb-org/5.0/aarch64/RPMS/mongodb-org-shell-5.0.34-1.amzn2.aarch64.rpm
+community-server,5.0.34,Amazon Linux 2 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-amazon2-5.0.34.tgz
+community-server,5.0.34,Amazon Linux 2 ARM 64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-aarch64-amazon2-5.0.34.tgz
+community-server,4.4.31,Ubuntu 20.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/4.4/multiverse/binary-arm64/mongodb-org-server_4.4.31_arm64.deb
+community-server,4.4.31,Ubuntu 20.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/4.4/multiverse/binary-arm64/mongodb-org-mongos_4.4.31_arm64.deb
+community-server,4.4.31,Ubuntu 20.04 ARM 64,shell (deb),https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/4.4/multiverse/binary-arm64/mongodb-org-shell_4.4.31_arm64.deb
+community-server,4.4.31,Ubuntu 20.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2004-4.4.31.tgz
+community-server,4.4.31,Ubuntu 20.04 ARM 64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-aarch64-ubuntu2004-4.4.31.tgz
+community-server,4.4.31,Ubuntu 20.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/4.4/multiverse/binary-amd64/mongodb-org-server_4.4.31_amd64.deb
+community-server,4.4.31,Ubuntu 20.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/4.4/multiverse/binary-amd64/mongodb-org-mongos_4.4.31_amd64.deb
+community-server,4.4.31,Ubuntu 20.04 x64,shell (deb),https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/4.4/multiverse/binary-amd64/mongodb-org-shell_4.4.31_amd64.deb
+community-server,4.4.31,Ubuntu 20.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2004-4.4.31.tgz
+community-server,4.4.31,Ubuntu 20.04 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-ubuntu2004-4.4.31.tgz
+community-server,4.4.31,Ubuntu 16.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/4.4/multiverse/binary-amd64/mongodb-org-server_4.4.31_amd64.deb
+community-server,4.4.31,Ubuntu 16.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/4.4/multiverse/binary-amd64/mongodb-org-mongos_4.4.31_amd64.deb
+community-server,4.4.31,Ubuntu 16.04 x64,shell (deb),https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/4.4/multiverse/binary-amd64/mongodb-org-shell_4.4.31_amd64.deb
+community-server,4.4.31,Ubuntu 16.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-4.4.31.tgz
+community-server,4.4.31,Ubuntu 16.04 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-ubuntu1604-4.4.31.tgz
+community-server,4.4.31,RedHat / CentOS 7.0 x64,server,https://repo.mongodb.org/yum/redhat/7/mongodb-org/4.4/x86_64/RPMS/mongodb-org-server-4.4.31-1.el7.x86_64.rpm
+community-server,4.4.31,RedHat / CentOS 7.0 x64,mongos,https://repo.mongodb.org/yum/redhat/7/mongodb-org/4.4/x86_64/RPMS/mongodb-org-mongos-4.4.31-1.el7.x86_64.rpm
+community-server,4.4.31,RedHat / CentOS 7.0 x64,shell (rpm),https://repo.mongodb.org/yum/redhat/7/mongodb-org/4.4/x86_64/RPMS/mongodb-org-shell-4.4.31-1.el7.x86_64.rpm
+community-server,4.4.31,RedHat / CentOS 7.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-4.4.31.tgz
+community-server,4.4.31,RedHat / CentOS 7.0 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-rhel70-4.4.31.tgz
+community-server,4.4.31,RedHat / CentOS 6.2+ x64,server,https://repo.mongodb.org/yum/redhat/6/mongodb-org/4.4/x86_64/RPMS/mongodb-org-server-4.4.31-1.el6.x86_64.rpm
+community-server,4.4.31,RedHat / CentOS 6.2+ x64,mongos,https://repo.mongodb.org/yum/redhat/6/mongodb-org/4.4/x86_64/RPMS/mongodb-org-mongos-4.4.31-1.el6.x86_64.rpm
+community-server,4.4.31,RedHat / CentOS 6.2+ x64,shell (rpm),https://repo.mongodb.org/yum/redhat/6/mongodb-org/4.4/x86_64/RPMS/mongodb-org-shell-4.4.31-1.el6.x86_64.rpm
+community-server,4.4.31,RedHat / CentOS 6.2+ x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel62-4.4.31.tgz
+community-server,4.4.31,RedHat / CentOS 6.2+ x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-rhel62-4.4.31.tgz
+community-server,4.4.31,Amazon Linux x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon-4.4.31.tgz
+community-server,4.4.31,Amazon Linux x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-amazon-4.4.31.tgz
+community-server,4.4.31,Amazon Linux 2 x64,server,https://repo.mongodb.org/yum/amazon/2/mongodb-org/4.4/x86_64/RPMS/mongodb-org-server-4.4.31-1.amzn2.x86_64.rpm
+community-server,4.4.31,Amazon Linux 2 x64,mongos,https://repo.mongodb.org/yum/amazon/2/mongodb-org/4.4/x86_64/RPMS/mongodb-org-mongos-4.4.31-1.amzn2.x86_64.rpm
+community-server,4.4.31,Amazon Linux 2 x64,shell (rpm),https://repo.mongodb.org/yum/amazon/2/mongodb-org/4.4/x86_64/RPMS/mongodb-org-shell-4.4.31-1.amzn2.x86_64.rpm
+community-server,4.4.31,Amazon Linux 2 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon2-4.4.31.tgz
+community-server,4.4.31,Amazon Linux 2 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-amazon2-4.4.31.tgz
+community-server,4.4.31,Debian 9.2 x64,server,https://repo.mongodb.org/apt/debian/dists/stretch/mongodb-org/4.4/main/binary-amd64/mongodb-org-server_4.4.31_amd64.deb
+community-server,4.4.31,Debian 9.2 x64,mongos,https://repo.mongodb.org/apt/debian/dists/stretch/mongodb-org/4.4/main/binary-amd64/mongodb-org-mongos_4.4.31_amd64.deb
+community-server,4.4.31,Debian 9.2 x64,shell (deb),https://repo.mongodb.org/apt/debian/dists/stretch/mongodb-org/4.4/main/binary-amd64/mongodb-org-shell_4.4.31_amd64.deb
+community-server,4.4.31,Debian 9.2 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian92-4.4.31.tgz
+community-server,4.4.31,Debian 9.2 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-debian92-4.4.31.tgz
+community-server,4.4.31,SUSE 12 x64,server,https://repo.mongodb.org/zypper/suse/12/mongodb-org/4.4/x86_64/RPMS/mongodb-org-server-4.4.31-1.suse12.x86_64.rpm
+community-server,4.4.31,SUSE 12 x64,mongos,https://repo.mongodb.org/zypper/suse/12/mongodb-org/4.4/x86_64/RPMS/mongodb-org-mongos-4.4.31-1.suse12.x86_64.rpm
+community-server,4.4.31,SUSE 12 x64,shell (rpm),https://repo.mongodb.org/zypper/suse/12/mongodb-org/4.4/x86_64/RPMS/mongodb-org-shell-4.4.31-1.suse12.x86_64.rpm
+community-server,4.4.31,SUSE 12 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse12-4.4.31.tgz
+community-server,4.4.31,SUSE 12 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-suse12-4.4.31.tgz
+community-server,4.4.31,Windows x64,msi,https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.31-signed.msi
+community-server,4.4.31,Windows x64,zip,https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.31.zip
+community-server,4.4.31,Ubuntu 18.04 x64,server,https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/4.4/multiverse/binary-amd64/mongodb-org-server_4.4.31_amd64.deb
+community-server,4.4.31,Ubuntu 18.04 x64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/4.4/multiverse/binary-amd64/mongodb-org-mongos_4.4.31_amd64.deb
+community-server,4.4.31,Ubuntu 18.04 x64,shell (deb),https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/4.4/multiverse/binary-amd64/mongodb-org-shell_4.4.31_amd64.deb
+community-server,4.4.31,Ubuntu 18.04 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1804-4.4.31.tgz
+community-server,4.4.31,Ubuntu 18.04 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-ubuntu1804-4.4.31.tgz
+community-server,4.4.31,SUSE 15 x64,server,https://repo.mongodb.org/zypper/suse/15/mongodb-org/4.4/x86_64/RPMS/mongodb-org-server-4.4.31-1.suse15.x86_64.rpm
+community-server,4.4.31,SUSE 15 x64,mongos,https://repo.mongodb.org/zypper/suse/15/mongodb-org/4.4/x86_64/RPMS/mongodb-org-mongos-4.4.31-1.suse15.x86_64.rpm
+community-server,4.4.31,SUSE 15 x64,shell (rpm),https://repo.mongodb.org/zypper/suse/15/mongodb-org/4.4/x86_64/RPMS/mongodb-org-shell-4.4.31-1.suse15.x86_64.rpm
+community-server,4.4.31,SUSE 15 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse15-4.4.31.tgz
+community-server,4.4.31,SUSE 15 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-suse15-4.4.31.tgz
+community-server,4.4.31,Ubuntu 18.04 ARM 64,server,https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/4.4/multiverse/binary-arm64/mongodb-org-server_4.4.31_arm64.deb
+community-server,4.4.31,Ubuntu 18.04 ARM 64,mongos,https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/4.4/multiverse/binary-arm64/mongodb-org-mongos_4.4.31_arm64.deb
+community-server,4.4.31,Ubuntu 18.04 ARM 64,shell (deb),https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/4.4/multiverse/binary-arm64/mongodb-org-shell_4.4.31_arm64.deb
+community-server,4.4.31,Ubuntu 18.04 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu1804-4.4.31.tgz
+community-server,4.4.31,Ubuntu 18.04 ARM 64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-aarch64-ubuntu1804-4.4.31.tgz
+community-server,4.4.31,Debian 10.0 x64,server,https://repo.mongodb.org/apt/debian/dists/buster/mongodb-org/4.4/main/binary-amd64/mongodb-org-server_4.4.31_amd64.deb
+community-server,4.4.31,Debian 10.0 x64,mongos,https://repo.mongodb.org/apt/debian/dists/buster/mongodb-org/4.4/main/binary-amd64/mongodb-org-mongos_4.4.31_amd64.deb
+community-server,4.4.31,Debian 10.0 x64,shell (deb),https://repo.mongodb.org/apt/debian/dists/buster/mongodb-org/4.4/main/binary-amd64/mongodb-org-shell_4.4.31_amd64.deb
+community-server,4.4.31,Debian 10.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian10-4.4.31.tgz
+community-server,4.4.31,Debian 10.0 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-debian10-4.4.31.tgz
+community-server,4.4.31,RedHat / CentOS 8.0 x64,server,https://repo.mongodb.org/yum/redhat/8/mongodb-org/4.4/x86_64/RPMS/mongodb-org-server-4.4.31-1.el8.x86_64.rpm
+community-server,4.4.31,RedHat / CentOS 8.0 x64,mongos,https://repo.mongodb.org/yum/redhat/8/mongodb-org/4.4/x86_64/RPMS/mongodb-org-mongos-4.4.31-1.el8.x86_64.rpm
+community-server,4.4.31,RedHat / CentOS 8.0 x64,shell (rpm),https://repo.mongodb.org/yum/redhat/8/mongodb-org/4.4/x86_64/RPMS/mongodb-org-shell-4.4.31-1.el8.x86_64.rpm
+community-server,4.4.31,RedHat / CentOS 8.0 x64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel80-4.4.31.tgz
+community-server,4.4.31,RedHat / CentOS 8.0 x64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-x86_64-rhel80-4.4.31.tgz
+community-server,4.4.31,RedHat / CentOS 8.2 ARM 64,server,https://repo.mongodb.org/yum/redhat/8/mongodb-org/4.4/aarch64/RPMS/mongodb-org-server-4.4.31-1.el8.aarch64.rpm
+community-server,4.4.31,RedHat / CentOS 8.2 ARM 64,mongos,https://repo.mongodb.org/yum/redhat/8/mongodb-org/4.4/aarch64/RPMS/mongodb-org-mongos-4.4.31-1.el8.aarch64.rpm
+community-server,4.4.31,RedHat / CentOS 8.2 ARM 64,shell (rpm),https://repo.mongodb.org/yum/redhat/8/mongodb-org/4.4/aarch64/RPMS/mongodb-org-shell-4.4.31-1.el8.aarch64.rpm
+community-server,4.4.31,RedHat / CentOS 8.2 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-rhel82-4.4.31.tgz
+community-server,4.4.31,RedHat / CentOS 8.2 ARM 64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-aarch64-rhel82-4.4.31.tgz
+community-server,4.4.31,Amazon Linux 2 ARM 64,server,https://repo.mongodb.org/yum/amazon/2/mongodb-org/4.4/aarch64/RPMS/mongodb-org-server-4.4.31-1.amzn2.aarch64.rpm
+community-server,4.4.31,Amazon Linux 2 ARM 64,mongos,https://repo.mongodb.org/yum/amazon/2/mongodb-org/4.4/aarch64/RPMS/mongodb-org-mongos-4.4.31-1.amzn2.aarch64.rpm
+community-server,4.4.31,Amazon Linux 2 ARM 64,shell (rpm),https://repo.mongodb.org/yum/amazon/2/mongodb-org/4.4/aarch64/RPMS/mongodb-org-shell-4.4.31-1.amzn2.aarch64.rpm
+community-server,4.4.31,Amazon Linux 2 ARM 64,tgz,https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-amazon2-4.4.31.tgz
+community-server,4.4.31,Amazon Linux 2 ARM 64,shell (tgz),https://fastdl.mongodb.org/linux/mongodb-shell-linux-aarch64-amazon2-4.4.31.tgz
+community-search,1.70.1,linux (x86_64),tgz,https://downloads.mongodb.org/mongodb-search-community/1.70.1/mongot_community_1.70.1_linux_x86_64.tgz
+community-search,1.70.1,linux (aarch64),tgz,https://downloads.mongodb.org/mongodb-search-community/1.70.1/mongot_community_1.70.1_linux_aarch64.tgz
