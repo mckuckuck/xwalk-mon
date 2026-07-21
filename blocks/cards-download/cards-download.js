@@ -95,9 +95,12 @@ function buildAction(href, text) {
   const action = document.createElement('a');
   action.className = 'button primary cards-download-action';
   action.href = href || '#';
-  const isGithub = /view on github/i.test(text);
+  // Detect a GitHub link by the label OR the href — on published pages the
+  // anchor text is the raw URL, so the label alone isn't reliable.
+  const isGithub = /view on github/i.test(text) || /github\.com/i.test(href || '');
   const span = document.createElement('span');
-  span.textContent = text || 'Download';
+  // Default label: "View on Github" for GitHub links, else "Download".
+  span.textContent = text || (isGithub ? 'View on Github' : 'Download');
   action.append(span);
   if (!isGithub) {
     action.classList.add('cards-download-action-download');
@@ -316,7 +319,13 @@ function buildPanel(row, options) {
       const link = cell.querySelector('a');
       if (link) {
         downloadHref = link.getAttribute('href') || '#';
-        downloadText = (link.textContent || '').trim();
+        // downloadText is the button label. The `downloadText` field collapses
+        // into the anchor's text — but on published pages the anchor text is the
+        // raw URL (`<a href="…tgz">https://…tgz</a>`), not a label. Treat a
+        // URL-like or href-matching label as "no label" so buildAction falls back
+        // to the default "Download".
+        const raw = (link.textContent || '').trim();
+        downloadText = (!raw || /^https?:\/\//i.test(raw) || raw === downloadHref) ? '' : raw;
         hasDownload = true;
       }
     } else if (name === 'tag' || name === 'heading') {
