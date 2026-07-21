@@ -8,9 +8,24 @@ const SELECTOR_LABELS = {
 };
 
 /**
+ * The non-collapsed fields of the `cards-download-card` item model, in the exact
+ * order the parser emits one cell per field. Used to map cells positionally when
+ * `<!-- field:name -->` hint comments are unavailable (see below).
+ */
+const FIELD_ORDER = [
+  'image', 'tag', 'heading', 'text', 'codeSnippet',
+  'versionLabel', 'platformLabel', 'packageLabel', 'downloadLink',
+];
+
+/**
  * Walks a cell's child nodes and groups its element children by the preceding
- * `<!-- field:name -->` hint comment. Elements before any hint (or when a cell
- * carries a single implicit field, e.g. an image) fall under `fallback`.
+ * `<!-- field:name -->` hint comment. Elements before any hint fall under
+ * `fallback`.
+ *
+ * IMPORTANT: the AEM backend strips HTML comments from published `.plain.html`,
+ * so the field hints exist only on the local dev server. On published pages the
+ * caller must instead map cells positionally (see `fieldNameForCell`). This
+ * function still honors hints when they ARE present (local/preview).
  *
  * @param {Element} cell The authored cell (`<div>` inside a row)
  * @param {string} fallback Field name to use for elements with no preceding hint
@@ -19,15 +34,16 @@ const SELECTOR_LABELS = {
 function fieldsInCell(cell, fallback) {
   const fields = [];
   let current = fallback;
+  let sawHint = false;
   for (let node = cell.firstChild; node; node = node.nextSibling) {
     if (node.nodeType === Node.COMMENT_NODE) {
       const match = node.textContent.trim().match(/^field:(\w+)/);
-      if (match) current = match[1];
+      if (match) { current = match[1]; sawHint = true; }
     } else if (node.nodeType === Node.ELEMENT_NODE) {
       fields.push({ name: current, el: node });
     }
   }
-  return fields;
+  return { fields, sawHint };
 }
 
 /**
@@ -274,9 +290,24 @@ function buildPanel(row, options) {
   let downloadText = '';
   let hasDownload = false;
 
-  [...row.children].forEach((cell) => {
+  const cells = [...row.children];
+
+  /**
+   * Resolve the model field name for the element(s) in a cell. Prefer the
+   * `field:` hint comment (local/preview). When hints are absent — published
+   * pages have their comments stripped by the backend — fall back to the cell's
+   * POSITION in FIELD_ORDER, which is exactly how the parser emits them.
+   */
+  const fieldFor = (cell, cellIndex) => {
     const fallback = cell.querySelector('picture, img') ? 'image' : 'text';
-    fieldsInCell(cell, fallback).forEach(({ name, el }) => {
+    const { fields, sawHint } = fieldsInCell(cell, fallback);
+    const name = sawHint ? fields[0]?.name : FIELD_ORDER[cellIndex];
+    return { name: name || fallback, els: fields.map((f) => f.el) };
+  };
+
+  cells.forEach((cell, i) => {
+    const { name, els } = fieldFor(cell, i);
+    els.forEach((el) => {
       const text = (el.textContent || '').trim();
       if (name === 'image') {
         image.append(el);
@@ -291,6 +322,14 @@ function buildPanel(row, options) {
           downloadText = (link.textContent || '').trim();
           hasDownload = true;
         }
+      } else if ((name === 'tag' || name === 'heading') && text && !el.querySelector('h1,h2,h3,h4,h5,h6')) {
+        // Ensure the product tag and title render as real headings even when the
+        // JCR round-trip delivered them as plain <div>/<p> (published pages store
+        // these as text fields, losing the <h3>/<h1> the parser emitted). Real
+        // headings also let the sidebar-nav scroll-spy match cards to nav items.
+        const h = document.createElement(name === 'tag' ? 'h3' : 'h1');
+        h.textContent = text;
+        body.append(h);
       } else {
         body.append(el);
       }
