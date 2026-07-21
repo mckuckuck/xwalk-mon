@@ -146,11 +146,10 @@ function arrangeSections(main, document, pageBlocks) {
  */
 const GROUPS = {
   'enterprise-advanced': ['enterprise', 'ops-manager', 'enterprise-kubernetes-operator'],
-  'community-edition': ['community', 'community-kubernetes-operator'],
+  'community-edition': ['community', 'community-kubernetes-operator', 'search-in-community'],
   tools: [
-    'terraform-provider', 'shell', 'compass', 'atlascli', 'atlas-kubernetes-operator',
-    'mongocli', 'mongosync', 'relational-migrator', 'database-tools', 'bi-connector',
-    'app-services-cli', 'vs-code-extension',
+    'shell', 'compass', 'atlascli', 'atlas-kubernetes-operator', 'mongocli',
+    'mongosync', 'relational-migrator', 'database-tools', 'bi-connector',
   ],
   'sql-interface': ['power-bi-connector', 'tableau-connector', 'jdbc-driver', 'odbc-driver'],
 };

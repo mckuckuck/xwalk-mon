@@ -1,3 +1,4 @@
 https://www.mongodb.com/try/download/community-edition
 https://www.mongodb.com/try/download/community
 https://www.mongodb.com/try/download/community-kubernetes-operator
+https://www.mongodb.com/try/download/search-in-community

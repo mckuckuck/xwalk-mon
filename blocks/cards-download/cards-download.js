@@ -98,15 +98,55 @@ function buildAction(href, text) {
   return action;
 }
 
+/** True when a string looks like a sheet path we should fetch (…\.json). */
+function isSheetPath(value) {
+  return /^\/.*\.json$/.test((value || '').trim());
+}
+
 /**
- * Reads a download-options block's rows into a combo list. The block holds one
- * row per {version, platform, package, url}. Returns [] if block is null.
+ * Fetches the release matrix from an EDS spreadsheet. `sheetName` selects a tab
+ * in a multi-sheet workbook; `product` filters the `product` column.
+ */
+async function fetchSheetOptions(sheetPath, sheetName, product) {
+  try {
+    const resp = await fetch(sheetPath);
+    if (!resp.ok) return [];
+    const json = await resp.json();
+    let rows = [];
+    if (json[':type'] === 'multi-sheet') {
+      const tab = sheetName && json[sheetName] ? json[sheetName] : json[json[':names']?.[0]];
+      rows = tab?.data || [];
+    } else {
+      rows = json.data || [];
+    }
+    return rows
+      .filter((r) => !product || r.product === product)
+      .map((r) => ({
+        version: r.version, platform: r.platform, package: r.package, url: r.url,
+      }))
+      .filter((o) => o.version && o.platform && o.package && o.url);
+  } catch (e) {
+    return [];
+  }
+}
+
+/**
+ * Reads a download-options block into a combo list. Supports two shapes: INLINE
+ * rows ({version, platform, package, url} per row), or a SHEET reference (first
+ * cell is a `…\.json` path, then tab name, then product key) that is fetched and
+ * filtered. Returns [] if block is null.
  *
  * @param {Element|null} optionsBlock A `.download-options` element
- * @returns {Array<{version,platform,package,url}>}
+ * @returns {Promise<Array<{version,platform,package,url}>>}
  */
-function readOptions(optionsBlock) {
+async function readOptions(optionsBlock) {
   if (!optionsBlock) return [];
+  const firstRow = optionsBlock.firstElementChild;
+  const firstCellText = firstRow?.firstElementChild?.textContent.trim() || '';
+  if (isSheetPath(firstCellText)) {
+    const [sheetPath, sheetName, product] = [...firstRow.children].map((c) => c.textContent.trim());
+    return fetchSheetOptions(sheetPath, sheetName, product);
+  }
   return [...optionsBlock.children].map((row) => {
     const [v, p, pkg, u] = [...row.children];
     const text = (el) => (el ? el.textContent.trim() : '');
@@ -396,7 +436,7 @@ async function assembleGroupCards(block, ul, ownPanels) {
       const row = srcBlock && srcBlock.firstElementChild;
       // The sibling page's release matrix is the download-options block that
       // follows its cards-download block.
-      const sibOptions = readOptions(srcBlock && srcBlock.nextElementSibling
+      const sibOptions = await readOptions(srcBlock && srcBlock.nextElementSibling
         && srcBlock.nextElementSibling.classList.contains('download-options')
         ? srcBlock.nextElementSibling
         : doc.querySelector('.download-options'));
@@ -427,12 +467,23 @@ export default async function decorate(block) {
   // The release matrix (if any) is authored as a sibling download-options block
   // placed immediately after this card block. Consume + remove it so it doesn't
   // render on its own.
-  const optionsBlock = block.nextElementSibling
+  // The download-options block may sit as a direct sibling (raw import markup) OR,
+  // once EDS wraps each block in its own `-wrapper`, as a sibling WRAPPER. Look in
+  // both places, and fall back to the first one in the section/document.
+  const optionsBlock = (block.nextElementSibling
     && block.nextElementSibling.classList.contains('download-options')
-    ? block.nextElementSibling
-    : block.parentElement && block.parentElement.querySelector(':scope > .download-options');
-  const options = readOptions(optionsBlock);
-  if (optionsBlock) optionsBlock.remove();
+    && block.nextElementSibling)
+    || (block.parentElement
+      && block.parentElement.nextElementSibling
+      && block.parentElement.nextElementSibling.querySelector(':scope > .download-options'))
+    || (block.closest('.section') || document).querySelector('.download-options');
+  const options = await readOptions(optionsBlock);
+  if (optionsBlock) {
+    // Remove the block's own wrapper too, so no empty `download-options-wrapper`
+    // is left behind in the section grid.
+    const wrapper = optionsBlock.closest('.download-options-wrapper');
+    (wrapper || optionsBlock).remove();
+  }
 
   const rows = [...block.children];
   const ownPanels = rows.map((row) => buildPanel(row, options)).filter(Boolean);

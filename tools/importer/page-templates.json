@@ -44,7 +44,8 @@
     {
       "name": "download-detail",
       "urls": [
-        "https://www.mongodb.com/try/download/community"
+        "https://www.mongodb.com/try/download/community",
+        "https://www.mongodb.com/try/download/search-in-community"
       ],
       "representativeUrl": "https://www.mongodb.com/try/download/community",
       "coverageGaps": [],
