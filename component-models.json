@@ -224,6 +224,13 @@
         "name": "downloadText",
         "label": "Download / Primary Link Text",
         "value": "Download"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "moreOptions",
+        "value": "",
+        "label": "More Options (link list)"
       }
     ]
   },

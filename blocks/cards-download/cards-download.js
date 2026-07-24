@@ -14,7 +14,7 @@ const SELECTOR_LABELS = {
  */
 const FIELD_ORDER = [
   'image', 'tag', 'heading', 'text', 'codeSnippet',
-  'versionLabel', 'platformLabel', 'packageLabel', 'downloadLink',
+  'versionLabel', 'platformLabel', 'packageLabel', 'downloadLink', 'moreOptions',
 ];
 
 /**
@@ -115,6 +115,106 @@ function buildAction(href, text) {
     action.append(icon);
   }
   return action;
+}
+
+/** Copy icon glyph for the "Copy link" button. */
+function copyIcon() {
+  const span = document.createElement('span');
+  span.className = 'cards-download-copy-icon';
+  span.setAttribute('aria-hidden', 'true');
+  span.innerHTML = '<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">'
+    + '<path d="M20 20h6.67A2.66 2.66 0 0 0 29.33 17.33V5.33A2.66 2.66 0 0 0 26.67 2.67'
+    + 'H14.67A2.66 2.66 0 0 0 12 5.33V12M5.33 12h12A2.67 2.67 0 0 1 20 14.67v12'
+    + 'A2.67 2.67 0 0 1 17.33 29.33h-12A2.67 2.67 0 0 1 2.67 26.67v-12'
+    + 'A2.67 2.67 0 0 1 5.33 12Z" stroke="currentColor" stroke-width="2" '
+    + 'stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  return span;
+}
+
+/**
+ * Builds the "Copy link" button. Copies the CURRENT download href (the action
+ * anchor, which the selectors keep in sync) to the clipboard. Purely client-side
+ * — no authoring needed.
+ *
+ * @param {HTMLAnchorElement|null} action The download action anchor to read from
+ * @returns {HTMLElement} The copy button
+ */
+function buildCopyLink(action) {
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'cards-download-copy';
+  const label = document.createElement('span');
+  label.className = 'cards-download-copy-label';
+  label.textContent = 'Copy link';
+  btn.append(copyIcon(), label);
+  btn.addEventListener('click', async () => {
+    const href = action ? action.getAttribute('href') : '';
+    if (!href || href === '#') return;
+    try {
+      await navigator.clipboard.writeText(new URL(href, window.location.href).href);
+      const prev = label.textContent;
+      label.textContent = 'Copied!';
+      btn.classList.add('is-copied');
+      setTimeout(() => { label.textContent = prev; btn.classList.remove('is-copied'); }, 1500);
+    } catch (e) { /* clipboard unavailable — no-op */ }
+  });
+  return btn;
+}
+
+/**
+ * Builds the "More Options" popover from the authored `moreOptions` link list.
+ * The cell holds a normal list of links (`<ul><li><a>…` or bare `<a>`s); each
+ * becomes a menu item. Returns null when there are no links.
+ *
+ * @param {Element|null} cell The moreOptions field cell
+ * @returns {HTMLElement|null} The More Options wrapper, or null if no links
+ */
+function buildMoreOptions(cell) {
+  const anchors = cell ? [...cell.querySelectorAll('a[href]')] : [];
+  if (!anchors.length) return null;
+
+  const wrap = document.createElement('div');
+  wrap.className = 'cards-download-more';
+
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'cards-download-more-toggle';
+  btn.setAttribute('aria-expanded', 'false');
+  btn.setAttribute('aria-haspopup', 'true');
+  const label = document.createElement('span');
+  label.textContent = 'More Options';
+  const dots = document.createElement('span');
+  dots.className = 'cards-download-more-dots';
+  dots.setAttribute('aria-hidden', 'true');
+  dots.textContent = '⋯'; // ⋯
+  btn.append(label, dots);
+
+  const menu = document.createElement('div');
+  menu.className = 'cards-download-more-menu';
+  menu.hidden = true;
+  anchors.forEach((a) => {
+    const item = document.createElement('a');
+    item.className = 'cards-download-more-item';
+    item.href = a.getAttribute('href');
+    item.textContent = (a.textContent || '').trim();
+    if (a.getAttribute('target')) item.target = a.getAttribute('target');
+    else { item.target = '_blank'; item.rel = 'noopener'; }
+    menu.append(item);
+  });
+
+  const close = () => { menu.hidden = true; btn.setAttribute('aria-expanded', 'false'); };
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const open = menu.hidden;
+    menu.hidden = !open;
+    btn.setAttribute('aria-expanded', String(open));
+  });
+  // Dismiss on outside click / Escape.
+  document.addEventListener('click', (e) => { if (!wrap.contains(e.target)) close(); });
+  wrap.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+
+  wrap.append(btn, menu);
+  return wrap;
 }
 
 /** True when a string looks like a sheet path we should fetch (…\.json). */
@@ -292,6 +392,7 @@ function buildPanel(row, options) {
   let downloadHref = '';
   let downloadText = '';
   let hasDownload = false;
+  let moreOptionsCell = null;
 
   const cells = [...row.children];
 
@@ -328,6 +429,9 @@ function buildPanel(row, options) {
         downloadText = (!raw || /^https?:\/\//i.test(raw) || raw === downloadHref) ? '' : raw;
         hasDownload = true;
       }
+    } else if (name === 'moreOptions') {
+      // Captured for the footer row's "More Options" popover (built below).
+      moreOptionsCell = cell;
     } else if (name === 'tag' || name === 'heading') {
       // Render the product tag and title as real headings. Published pages store
       // these as plain text fields (bare `<div>`/`<p>`, or a text-only cell),
@@ -356,7 +460,21 @@ function buildPanel(row, options) {
   } else if (selectors.children.length) {
     controls.append(selectors);
   }
-  if (action) controls.append(action);
+
+  // Footer action row: primary Download/GitHub button, then Copy link, then the
+  // More Options popover. Copy link only appears alongside a real download href.
+  if (action) {
+    const footer = document.createElement('div');
+    footer.className = 'cards-download-actions';
+    footer.append(action);
+    const isGithub = /github\.com/i.test(downloadHref);
+    if (!isGithub && downloadHref && downloadHref !== '#') {
+      footer.append(buildCopyLink(action));
+    }
+    const more = buildMoreOptions(moreOptionsCell);
+    if (more) footer.append(more);
+    controls.append(footer);
+  }
 
   if (image.children.length) li.append(image);
   li.append(body);

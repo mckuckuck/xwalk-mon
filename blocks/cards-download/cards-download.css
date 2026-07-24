@@ -261,4 +261,112 @@
   .cards-download .cards-download-selectors {
     flex: 1 1 auto;
   }
+
+  /* The footer action row spans the full width below the selectors. */
+  .cards-download .cards-download-actions {
+    flex: 1 1 100%;
+  }
+}
+
+/* Footer action row: Download button, Copy link, More Options — left-aligned,
+   wrapping on narrow widths. */
+.cards-download .cards-download-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--mdb-space-md, 24px);
+}
+
+/* Copy link — a text+icon button, no fill (secondary to the green Download). */
+.cards-download .cards-download-copy {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--mdb-space-2xs, 8px);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--mdb-text-primary);
+  font: inherit;
+  font-weight: var(--mdb-fw-medium, 500);
+  cursor: pointer;
+}
+
+.cards-download .cards-download-copy:hover {
+  color: var(--mdb-green-forest);
+}
+
+.cards-download .cards-download-copy-icon {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+}
+
+.cards-download .cards-download-copy-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.cards-download .cards-download-copy.is-copied {
+  color: var(--mdb-green-forest);
+}
+
+/* More Options — a text+dots toggle opening a popover of links. */
+.cards-download .cards-download-more {
+  position: relative;
+}
+
+.cards-download .cards-download-more-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--mdb-space-2xs, 8px);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--mdb-text-primary);
+  font: inherit;
+  font-weight: var(--mdb-fw-medium, 500);
+  cursor: pointer;
+}
+
+.cards-download .cards-download-more-toggle:hover {
+  color: var(--mdb-green-forest);
+}
+
+.cards-download .cards-download-more-dots {
+  font-size: var(--mdb-fs-lead, 20px);
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+.cards-download .cards-download-more-menu {
+  position: absolute;
+  top: calc(100% + var(--mdb-space-2xs, 8px));
+  left: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+  padding: var(--mdb-space-2xs, 8px) 0;
+  border: 1px solid var(--mdb-border-subtle);
+  border-radius: var(--mdb-radius-md, 8px);
+  background-color: var(--mdb-surface-white);
+  box-shadow: var(--mdb-shadow-lg, 0 0 18px 0 rgb(0 0 0 / 20%));
+}
+
+.cards-download .cards-download-more-menu[hidden] {
+  display: none;
+}
+
+.cards-download .cards-download-more-item:any-link {
+  padding: var(--mdb-space-2xs, 8px) var(--mdb-space-md, 24px);
+  color: var(--mdb-blue);
+  font-weight: var(--mdb-fw-medium, 500);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.cards-download .cards-download-more-item:hover {
+  background-color: var(--mdb-surface-offwhite);
+  text-decoration: none;
 }

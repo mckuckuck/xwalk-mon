@@ -130,6 +130,11 @@ export default function parse(element, { document }) {
     return a;
   });
 
+  // 10. moreOptions (link list for the "More Options" popover). The source keeps
+  // these links in client JS state, not scrapable DOM — so emit an EMPTY cell to
+  // keep the 10-cell/model alignment; authors add the links per card in content.
+  const moreOptionsCell = cell('moreOptions');
+
   const cells = [[
     imageCell,
     tagCell,
@@ -140,6 +145,7 @@ export default function parse(element, { document }) {
     platformCell,
     packageCell,
     downloadCell,
+    moreOptionsCell,
   ]];
   const block = WebImporter.Blocks.createBlock(document, { name: 'cards-download', cells });
   element.replaceWith(block);
