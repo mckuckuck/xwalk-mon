@@ -1,0 +1,147 @@
+/* Atlas plan comparison table. A 4-column grid (feature label + 3 plans),
+   authored as one flat block; JS groups rows into <details> accordions and
+   pins the plan header. Mobile-first: on narrow screens the grid collapses to
+   a stacked, readable layout. */
+
+.pricing-compare .pricing-compare-table {
+  --pc-cols: 1.5fr 1fr 1fr 1fr;
+
+  width: 100%;
+}
+
+/* Sticky plan header (Free / Flex / Dedicated). */
+.pricing-compare .pricing-compare-header {
+  position: sticky;
+  top: var(--nav-height, 64px);
+  z-index: 2;
+  display: grid;
+  grid-template-columns: var(--pc-cols);
+  gap: var(--mdb-space-sm, 16px);
+  align-items: start;
+  padding: var(--mdb-space-md, 24px) var(--mdb-space-sm, 16px);
+  border-bottom: 2px solid var(--mdb-evergreen, #001e2b);
+  background-color: var(--mdb-surface-white, #fff);
+}
+
+.pricing-compare .pricing-compare-header-cell {
+  font-size: var(--mdb-fs-h3, 18px);
+  font-weight: var(--mdb-fw-medium, 500);
+}
+
+.pricing-compare .pricing-compare-header-cell a.button {
+  margin-top: var(--mdb-space-sm, 16px);
+}
+
+.pricing-compare .pricing-compare-header-label {
+  font-weight: var(--mdb-fw-semibold, 600);
+}
+
+/* Accordion section (<details>/<summary>). */
+.pricing-compare .pricing-compare-group {
+  border-bottom: 1px solid var(--mdb-border-rule, rgb(0 0 0 / 15%));
+}
+
+.pricing-compare .pricing-compare-group-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--mdb-space-sm, 16px);
+  background-color: var(--mdb-surface-offwhite, #fafbfc);
+  font-size: var(--mdb-fs-lead, 20px);
+  color: var(--mdb-text-secondary, #5d6c74);
+  cursor: pointer;
+  list-style: none;
+}
+
+/* Replace the default disclosure triangle with a rotating chevron. */
+.pricing-compare .pricing-compare-group-heading::-webkit-details-marker { display: none; }
+
+.pricing-compare .pricing-compare-group-heading::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-right: 2px solid currentcolor;
+  border-bottom: 2px solid currentcolor;
+  transform: rotate(-135deg); /* points up when open */
+  transition: transform 0.2s ease;
+}
+
+.pricing-compare .pricing-compare-group:not([open]) .pricing-compare-group-heading::after {
+  transform: rotate(45deg); /* points down when collapsed */
+}
+
+/* Feature rows. */
+.pricing-compare .pricing-compare-row {
+  display: grid;
+  grid-template-columns: var(--pc-cols);
+  gap: var(--mdb-space-sm, 16px);
+  align-items: center;
+  padding: var(--mdb-space-sm, 16px);
+  border-top: 1px solid var(--mdb-border-rule, rgb(0 0 0 / 15%));
+}
+
+.pricing-compare .pricing-compare-value {
+  color: var(--mdb-text-primary, #001e2b);
+}
+
+.pricing-compare .pricing-compare-check {
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  color: var(--mdb-green-forest, #00684a);
+}
+
+.pricing-compare .pricing-compare-check svg { width: 100%; height: 100%; display: block; }
+
+/* Feature label + hover/focus tooltip (dotted underline term). */
+.pricing-compare .pricing-compare-label {
+  font-weight: var(--mdb-fw-medium, 500);
+}
+
+.pricing-compare .pricing-compare-term {
+  position: relative;
+  border-bottom: 1px dotted var(--mdb-text-secondary, #5d6c74);
+  cursor: help;
+}
+
+.pricing-compare .pricing-compare-tooltip {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 8px);
+  z-index: 3;
+  width: max-content;
+  max-width: 280px;
+  padding: var(--mdb-space-xs, 12px) var(--mdb-space-sm, 16px);
+  border-radius: var(--mdb-radius-md, 8px);
+  background-color: var(--mdb-surface-evergreen, #001e2b);
+  color: var(--mdb-text-on-dark, #fff);
+  font-size: var(--mdb-fs-small, 14px);
+  font-weight: var(--mdb-fw-regular, 400);
+  line-height: 1.4;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease;
+}
+
+/* Reveal on hover or keyboard focus (progressive enhancement over authored text). */
+.pricing-compare .pricing-compare-has-tooltip:hover .pricing-compare-tooltip,
+.pricing-compare .pricing-compare-term:focus + .pricing-compare-tooltip,
+.pricing-compare .pricing-compare-term:focus-visible + .pricing-compare-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Mobile: stack the header and each feature row into a single readable column.
+   The plan values get a small label prefix isn't authored, so keep it simple:
+   plans wrap under the label. */
+@media (width < 900px) {
+  .pricing-compare .pricing-compare-header,
+  .pricing-compare .pricing-compare-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .pricing-compare .pricing-compare-header-label,
+  .pricing-compare .pricing-compare-label {
+    grid-column: 1 / -1;
+  }
+}

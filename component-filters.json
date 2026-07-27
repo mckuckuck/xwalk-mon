@@ -63,5 +63,11 @@
     "components": [
       "sidebar-nav-item"
     ]
+  },
+  {
+    "id": "pricing-compare",
+    "components": [
+      "pricing-compare-row"
+    ]
   }
 ]

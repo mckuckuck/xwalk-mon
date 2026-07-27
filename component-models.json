@@ -486,5 +486,66 @@
         "value": ""
       }
     ]
+  },
+  {
+    "id": "pricing-compare-row",
+    "fields": [
+      {
+        "component": "select",
+        "name": "type",
+        "label": "Row Type",
+        "valueType": "string",
+        "value": "feature",
+        "options": [
+          {
+            "name": "Feature",
+            "value": "feature"
+          },
+          {
+            "name": "Section Heading",
+            "value": "section"
+          },
+          {
+            "name": "Plan Header",
+            "value": "header"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "name": "label",
+        "value": "",
+        "label": "Label / Section name / (Header: leave empty)",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "tooltip",
+        "value": "",
+        "label": "Tooltip (Feature rows only; optional)",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "valueFree",
+        "value": "",
+        "label": "Free (value, or Plan Header content)",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "valueFlex",
+        "value": "",
+        "label": "Flex (value, or Plan Header content)",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "valueDedicated",
+        "value": "",
+        "label": "Dedicated (value, or Plan Header content)",
+        "valueType": "string"
+      }
+    ]
   }
 ]
