@@ -98,8 +98,13 @@
   font-weight: var(--mdb-fw-medium, 500);
 }
 
-.pricing-compare .pricing-compare-term {
+/* The cell wrapper is the positioning context for its tooltip (the tooltip is a
+   sibling of the term, not a child). */
+.pricing-compare .pricing-compare-has-tooltip {
   position: relative;
+}
+
+.pricing-compare .pricing-compare-term {
   border-bottom: 1px dotted var(--mdb-text-secondary, #5d6c74);
   cursor: help;
 }
