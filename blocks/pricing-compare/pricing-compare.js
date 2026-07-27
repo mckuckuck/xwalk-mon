@@ -51,15 +51,66 @@ function rowFields(row) {
 
 const cellText = (cell) => (cell ? (cell.textContent || '').trim() : '');
 
-/** Build a value cell: "✓/yes" → checkmark icon; otherwise keep its content. */
-function buildValue(cell) {
+/**
+ * A cell may carry an inline tooltip as a SECOND paragraph: the first `<p>` is
+ * the content, an optional second `<p>` is the hover/focus tooltip. Returns the
+ * split so callers can render the term + tooltip uniformly (label OR value).
+ *
+ * @param {Element|null} cell
+ * @returns {{ contentText: string, tipHTML: string }}
+ */
+function splitCellTooltip(cell) {
+  if (!cell) return { contentText: '', tipHTML: '' };
+  const paras = [...cell.querySelectorAll(':scope > p')];
+  if (paras.length >= 2) {
+    return {
+      contentText: (paras[0].textContent || '').trim(),
+      tipHTML: paras[1].innerHTML.trim(),
+    };
+  }
+  return { contentText: cellText(cell), tipHTML: '' };
+}
+
+/**
+ * Render a "term" with a hover/focus tooltip into `host`. The dotted-underline
+ * term is keyboard-focusable and points to the tooltip via aria-describedby.
+ *
+ * @param {Element} host The wrapper element to populate
+ * @param {string} termText Visible term text
+ * @param {string} tipHTML Tooltip body HTML
+ * @param {string} tipId Unique id linking term → tooltip
+ */
+function attachTooltip(host, termText, tipHTML, tipId) {
+  host.classList.add('pricing-compare-has-tooltip');
+  const term = document.createElement('span');
+  term.className = 'pricing-compare-term';
+  term.tabIndex = 0;
+  term.textContent = termText;
+  term.setAttribute('aria-describedby', tipId);
+  const tip = document.createElement('span');
+  tip.className = 'pricing-compare-tooltip';
+  tip.id = tipId;
+  tip.setAttribute('role', 'tooltip');
+  tip.innerHTML = tipHTML;
+  host.append(term, tip);
+}
+
+/**
+ * Build a value cell. "✓/yes" → checkmark icon; a second paragraph → tooltip on
+ * the value; otherwise plain content. Empty cells render blank.
+ *
+ * @param {Element|null} cell
+ * @param {string} tipId Unique id to use if this value has a tooltip
+ */
+function buildValue(cell, tipId) {
   const wrap = document.createElement('div');
   wrap.className = 'pricing-compare-value';
-  if (CHECK_VALUES.has(cellText(cell).toLowerCase())) {
+  const { contentText, tipHTML } = splitCellTooltip(cell);
+  if (CHECK_VALUES.has(contentText.toLowerCase())) {
     wrap.append(checkIcon());
-  } else if (cell && cellText(cell)) {
-    // Only carry over content when the cell has real text — an unfilled richtext
-    // field renders as an empty <p>, which we drop to keep the cell blank.
+  } else if (tipHTML) {
+    attachTooltip(wrap, contentText, tipHTML, tipId);
+  } else if (contentText) {
     wrap.append(...cell.childNodes);
   } else {
     wrap.classList.add('pricing-compare-value-empty');
@@ -116,28 +167,20 @@ export default function decorate(block) {
 
     const label = document.createElement('div');
     label.className = 'pricing-compare-label';
-    // A tooltip cell that only holds an empty <p> (the default for an unfilled
-    // richtext field) has no text — treat it as "no tooltip".
-    const hasTip = !!f.tooltip && !!cellText(f.tooltip);
-    if (hasTip) {
-      label.classList.add('pricing-compare-has-tooltip');
-      const term = document.createElement('span');
-      term.className = 'pricing-compare-term';
-      term.tabIndex = 0;
-      term.textContent = cellText(f.label);
-      const tipId = `pc-row-${rowIndex}-tip`;
-      term.setAttribute('aria-describedby', tipId);
-      const tip = document.createElement('span');
-      tip.className = 'pricing-compare-tooltip';
-      tip.id = tipId;
-      tip.setAttribute('role', 'tooltip');
-      tip.innerHTML = f.tooltip.innerHTML;
-      label.append(term, tip);
+    // The label's tooltip comes from the dedicated `tooltip` field, or (uniform
+    // with value cells) a second paragraph in the label cell itself.
+    const labelSplit = splitCellTooltip(f.label);
+    const dedicatedTip = f.tooltip && cellText(f.tooltip) ? f.tooltip.innerHTML.trim() : '';
+    const labelTip = dedicatedTip || labelSplit.tipHTML;
+    if (labelTip) {
+      attachTooltip(label, labelSplit.contentText, labelTip, `pc-row-${rowIndex}-label-tip`);
     } else {
-      label.textContent = cellText(f.label);
+      label.textContent = labelSplit.contentText;
     }
     featureRow.append(label);
-    ['valueFree', 'valueFlex', 'valueDedicated'].forEach((k) => featureRow.append(buildValue(f[k])));
+    ['valueFree', 'valueFlex', 'valueDedicated'].forEach((k, i) => {
+      featureRow.append(buildValue(f[k], `pc-row-${rowIndex}-v${i}-tip`));
+    });
 
     (currentGroup || table).append(featureRow);
   };
