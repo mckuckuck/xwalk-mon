@@ -1284,6 +1284,247 @@
     ]
   },
   {
+    "num": "05",
+    "template": "download-product",
+    "url": "https://www.mongodb.com/try/download/tools",
+    "totalUnknowns": 23,
+    "boxesDrawn": 23,
+    "imageSize": "1440x13864",
+    "file": "unknown-block-review/05-download-product.jpg",
+    "boxes": [
+      {
+        "n": 1,
+        "description": "2 headings + 1 image + 2 CTAs + 2 paragraphs block",
+        "bounds": {
+          "x": 504,
+          "y": 680,
+          "width": 774,
+          "height": 708
+        }
+      },
+      {
+        "n": 2,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 2053,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 3,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 2157,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 4,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 2261,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 5,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 3505,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 6,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 3609,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 7,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 3713,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 8,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 4637,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 9,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 4741,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 10,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 4845,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 11,
+        "description": "2 headings + 1 image + 2 CTAs + 2 paragraphs block",
+        "bounds": {
+          "x": 504,
+          "y": 5184,
+          "width": 774,
+          "height": 868
+        }
+      },
+      {
+        "n": 12,
+        "description": "2 headings + 1 image + 4 CTAs + 3 lists block",
+        "bounds": {
+          "x": 504,
+          "y": 6052,
+          "width": 774,
+          "height": 956
+        }
+      },
+      {
+        "n": 13,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 7625,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 14,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 7729,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 15,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 7833,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 16,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 8781,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 17,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 8885,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 18,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 8989,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 19,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 9889,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 20,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 9993,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 21,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 10097,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 22,
+        "description": "2 headings + 1 image + 4 CTAs + 3 lists block",
+        "bounds": {
+          "x": 504,
+          "y": 11448,
+          "width": 774,
+          "height": 932
+        }
+      },
+      {
+        "n": 23,
+        "description": "2 headings + 1 image + 2 paragraphs block",
+        "bounds": {
+          "x": 504,
+          "y": 12380,
+          "width": 774,
+          "height": 748
+        }
+      }
+    ]
+  },
+  {
     "num": "06",
     "template": "customer-story",
     "url": "https://www.mongodb.com/customers/omnichat",

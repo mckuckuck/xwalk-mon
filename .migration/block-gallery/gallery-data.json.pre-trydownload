@@ -946,7 +946,7 @@
     "structure": "heading",
     "colorScheme": "dark",
     "density": "minimal",
-    "pagesCount": 413,
+    "pagesCount": 418,
     "pages": [
       "https://www.mongodb.com/company/blog/atlas-industries-driving-retail-innovation-from-supply-chain-checkout",
       "https://www.mongodb.com/company/blog/breaking-bias-how-we-get-more-women-into-top-level-tech",
@@ -1360,7 +1360,12 @@
       "https://www.mongodb.com/services/consulting/flex-consulting/cancellation-policy",
       "https://www.mongodb.com/solutions/use-cases/analytics/operational-analytics",
       "https://www.mongodb.com/solutions/use-cases/analytics/real-time-analytics",
-      "https://www.mongodb.com/try"
+      "https://www.mongodb.com/try",
+      "https://www.mongodb.com/try/download/enterprise",
+      "https://www.mongodb.com/try/download/enterprise-advanced",
+      "https://www.mongodb.com/try/download/enterprise-kubernetes-operator",
+      "https://www.mongodb.com/try/download/sql-interface",
+      "https://www.mongodb.com/try/download/tools"
     ],
     "thumb": "thumbs/hero_minimal_dark_1.jpg"
   },
@@ -3024,7 +3029,7 @@
     "structure": "heading + text + image",
     "colorScheme": "dark",
     "density": "minimal",
-    "pagesCount": 14,
+    "pagesCount": 15,
     "pages": [
       "https://www.mongodb.com/company/careers/benefits/us/emotional-wellbeing",
       "https://www.mongodb.com/company/careers/benefits/us/family-and-community-wellbeing",
@@ -3039,7 +3044,8 @@
       "https://www.mongodb.com/solutions/industries/financial-services/capital-markets",
       "https://www.mongodb.com/solutions/industries/financial-services/mongodb-aws-finserv",
       "https://www.mongodb.com/solutions/industries/public-sector/mongodb-aws",
-      "https://www.mongodb.com/solutions/use-cases"
+      "https://www.mongodb.com/solutions/use-cases",
+      "https://www.mongodb.com/try/download/tools"
     ],
     "thumb": "thumbs/1_heading_1_image_2_paragraphs_block_minimal_dark.jpg"
   },
@@ -3998,9 +4004,11 @@
     "structure": "heading + text + 1 CTAs",
     "colorScheme": "light",
     "density": "minimal",
-    "pagesCount": 1,
+    "pagesCount": 3,
     "pages": [
-      "https://www.mongodb.com/company/partners/register"
+      "https://www.mongodb.com/company/partners/register",
+      "https://www.mongodb.com/try/download/community",
+      "https://www.mongodb.com/try/download/community-edition"
     ],
     "thumb": "thumbs/cards_minimal_light.jpg"
   },
@@ -4267,7 +4275,7 @@
     "structure": "2 CTAs",
     "colorScheme": "dark",
     "density": "minimal",
-    "pagesCount": 33,
+    "pagesCount": 36,
     "pages": [
       "https://www.mongodb.com/company/sustainability/SB261",
       "https://www.mongodb.com/products/self-managed/community-edition",
@@ -4301,7 +4309,10 @@
       "https://www.mongodb.com/resources/solutions/use-cases/idc-spotlight-multicloud-ai-apps",
       "https://www.mongodb.com/resources/solutions/use-cases/mastering-enterprise-ai-at-scale",
       "https://www.mongodb.com/resources/solutions/use-cases/rdbms-mongodb-migration-guide",
-      "https://www.mongodb.com/resources/solutions/use-cases/secure-edge-sync-disconnected-classified-environments"
+      "https://www.mongodb.com/resources/solutions/use-cases/secure-edge-sync-disconnected-classified-environments",
+      "https://www.mongodb.com/try/download/enterprise",
+      "https://www.mongodb.com/try/download/enterprise-advanced",
+      "https://www.mongodb.com/try/download/enterprise-kubernetes-operator"
     ],
     "thumb": "thumbs/columns_minimal_dark_6.jpg"
   },
@@ -7203,6 +7214,107 @@
       "https://www.mongodb.com/try"
     ],
     "thumb": "thumbs/form_moderate_dark_3.jpg"
+  },
+  {
+    "variantId": "1 cta + 1 list block-minimal-dark-1",
+    "baseBlock": "unknown",
+    "structure": "1 CTAs + list",
+    "colorScheme": "dark",
+    "density": "minimal",
+    "pagesCount": 4,
+    "pages": [
+      "https://www.mongodb.com/try/download/enterprise",
+      "https://www.mongodb.com/try/download/enterprise-advanced",
+      "https://www.mongodb.com/try/download/enterprise-kubernetes-operator",
+      "https://www.mongodb.com/try/download/tools"
+    ],
+    "thumb": "thumbs/1_cta_1_list_block_minimal_dark_1.jpg"
+  },
+  {
+    "variantId": "cards-moderate-light-1",
+    "baseBlock": "cards",
+    "structure": "heading + text + 2 CTAs + image",
+    "colorScheme": "light",
+    "density": "moderate",
+    "pagesCount": 3,
+    "pages": [
+      "https://www.mongodb.com/try/download/enterprise",
+      "https://www.mongodb.com/try/download/enterprise-advanced",
+      "https://www.mongodb.com/try/download/enterprise-kubernetes-operator"
+    ],
+    "thumb": "thumbs/cards_moderate_light_1.jpg"
+  },
+  {
+    "variantId": "2 headings + 1 image + 5 ctas + 2 lists block-minimal-dark",
+    "baseBlock": "unknown",
+    "structure": "heading + 5 CTAs + image + list",
+    "colorScheme": "dark",
+    "density": "minimal",
+    "pagesCount": 1,
+    "pages": [
+      "https://www.mongodb.com/try/download/sql-interface"
+    ],
+    "thumb": "thumbs/2_headings_1_image_5_ctas_2_lists_block_minimal_dark.jpg"
+  },
+  {
+    "variantId": "2 headings + 1 image + 2 ctas block-minimal-dark",
+    "baseBlock": "unknown",
+    "structure": "heading + 2 CTAs + image",
+    "colorScheme": "dark",
+    "density": "minimal",
+    "pagesCount": 1,
+    "pages": [
+      "https://www.mongodb.com/try/download/sql-interface"
+    ],
+    "thumb": "thumbs/2_headings_1_image_2_ctas_block_minimal_dark.jpg"
+  },
+  {
+    "variantId": "2 headings + 1 image + 6 ctas + 3 lists + 1 paragraph block-minimal-dark",
+    "baseBlock": "unknown",
+    "structure": "heading + text + 6 CTAs + image + list",
+    "colorScheme": "dark",
+    "density": "minimal",
+    "pagesCount": 1,
+    "pages": [
+      "https://www.mongodb.com/try/download/sql-interface"
+    ],
+    "thumb": "thumbs/2_headings_1_image_6_ctas_3_lists_1_paragraph_block_minimal_dark.jpg"
+  },
+  {
+    "variantId": "columns-minimal-dark-13",
+    "baseBlock": "columns",
+    "structure": "3 CTAs",
+    "colorScheme": "dark",
+    "density": "minimal",
+    "pagesCount": 1,
+    "pages": [
+      "https://www.mongodb.com/try/download/tools"
+    ],
+    "thumb": "thumbs/columns_minimal_dark_13.jpg"
+  },
+  {
+    "variantId": "2 headings + 1 image + 4 ctas + 3 lists block-minimal-dark",
+    "baseBlock": "unknown",
+    "structure": "heading + 4 CTAs + image + list",
+    "colorScheme": "dark",
+    "density": "minimal",
+    "pagesCount": 1,
+    "pages": [
+      "https://www.mongodb.com/try/download/tools"
+    ],
+    "thumb": "thumbs/2_headings_1_image_4_ctas_3_lists_block_minimal_dark.jpg"
+  },
+  {
+    "variantId": "cards-moderate-light-2",
+    "baseBlock": "cards",
+    "structure": "heading + text + 5 CTAs + image + list",
+    "colorScheme": "light",
+    "density": "moderate",
+    "pagesCount": 1,
+    "pages": [
+      "https://www.mongodb.com/try/download/tools"
+    ],
+    "thumb": "thumbs/cards_moderate_light_2.jpg"
   },
   {
     "variantId": "carousel-minimal-dark-withimg-9",

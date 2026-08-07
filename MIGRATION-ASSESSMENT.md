@@ -2,20 +2,26 @@
 
 **Date:** 2026-08-07
 **Site:** https://www.mongodb.com
-**Scope:** English locale only. Excludes `/docs` (~26,000 pages) and `/community/forums` (~24,400 pages) and non-English locales.
+**Scope:** English locale only. Excludes `/docs` (~26,000 pages), `/community/forums` (~24,400 pages), non-English locales, and **`/try/download/*` (treated as special pages — excluded from this assessment)**.
 
 ---
 
 ## 1. Scope & method
 
-- **3,238 English pages** in scope after exclusions (discovered via `sitemap-index.xml`).
-- Analyzed a **representative sample of ~1,000 pages** — full coverage of all 100 URL groups, deep sampling of the largest groups.
-- **989 pages analyzed** cleanly; 11 could not be captured (mostly `/try/download/…/releases/archive` pages).
+- **3,219 English pages** in scope after exclusions (3,238 discovered via `sitemap-index.xml`, minus 19 `/try/download` pages).
+- Analyzed a **representative sample of ~1,000 pages** — full coverage of all URL groups, deep sampling of the largest groups.
+- **989 pages analyzed** cleanly.
+
+> **Note on `/try/download/*`:** these are special pages and are excluded from every
+> figure and table below. Four templates that consisted entirely of download pages
+> (`download-releases`, `download-product`, `download-releases-alt`, `download-detail`)
+> and 8 block variants used only on download pages have been dropped. The raw
+> `catalog/` analysis data still contains them as untouched evidence.
 
 Source data (on disk):
-- `catalog/summary.json` — headline metrics
-- `catalog/template-catalog.json` — 60 named templates + their URLs
-- `catalog/block-catalog.json` — 331 block variants + page usage
+- `catalog/summary.json` — headline metrics (raw, includes download pages)
+- `catalog/template-catalog.json` — named templates + their URLs (raw)
+- `catalog/block-catalog.json` — block variants + page usage (raw)
 - `tools/importer/page-templates.json` — migration artifact
 - `catalog-previous/` — prior (23-page) catalog, kept for comparison
 
@@ -25,75 +31,111 @@ Source data (on disk):
 
 | Metric | Value |
 |---|---|
-| English pages in scope | 3,238 |
+| English pages in scope (excl. /try/download) | 3,219 |
 | Pages analyzed (sample) | 989 |
-| Page templates | 60 |
-| Block variants detected | 331 |
-| — mapping to standard EDS blocks | 231 |
-| — custom / "unknown" | 100 |
+| Page templates (excl. 4 download-only) | 56 |
+| Block variants detected (excl. 8 download-only) | 323 |
+| — mapping to standard EDS blocks | 228 |
+| — custom / "unknown" | 95 |
 
-**The 331 variants collapse to ~13 base block types.** Most variants are styling variations, not distinct blocks.
+**The 323 variants collapse to ~13 base block types.** Most variants are styling variations, not distinct blocks.
+
+> **⚠️ The catalog's base-block LABELS are unreliable.** Screenshot verification found the
+> detector groups regions by visual signature, then attaches a semantic name that is often
+> wrong (see `.migration/unknown-block-review/FINDINGS.md`). Confirmed mislabels: `quote`
+> is body text (not quotes), `tabs` mixes testimonial sliders + code blocks, FAQ accordions
+> hide inside `columns`, `carousel` mixes real sliders with logo rows, `video` is mostly
+> text/hero sections (only ~1 real embed), and even `cards` is contaminated (its largest
+> variant is a testimonial). **Trust the screenshots, not the labels.** Section 3 below
+> reflects the screenshot-verified reality.
 
 ---
 
 ## 3. How many NEW blocks?
 
-Base block types found, and whether the project already has them
-(`blocks/`: cards, cards-download, columns, download-options, footer, form, fragment, header, hero, pricing-compare, sidebar-nav, slalom):
+Base block types the catalog reported, and what screenshot verification found each
+actually contains. Existing project blocks: `blocks/`: cards, cards-download, columns,
+download-options, footer, form, fragment, header, hero, pricing-compare, sidebar-nav, slalom.
 
-| Base block | Variants | Status |
-|---|---|---|
-| hero | 27 | ✅ exists |
-| columns | 34 | ✅ exists |
-| cards | 23 | ✅ exists |
-| form | 12 | ✅ exists |
-| header / footer | 1 each | ✅ exist |
-| **quote** | 73 | ❌ **new** |
-| **carousel** | 27 | ❌ **new** |
-| **tabs** | 18 | ❌ **new** |
-| **accordion** | 7 | ❌ **new** |
-| **video** | 6 | ❌ **new** |
-| **embed** | 1 | ❌ **new** |
-| **search** | 1 | ❌ **new** |
-| unknown | 100 | default content — not a block |
+| Catalog label | Variants | Verified reality | New block? |
+|---|---|---|---|
+| hero | 27 | Hero — mostly one block + optional fields | ✅ exists |
+| columns | 33 | Columns — **but contaminated with FAQ accordions** | ✅ exists (see accordion) |
+| cards | 21 | Card grids — **but contaminated: largest variant (38 pages) is a testimonial, others are white-paper body text** | ✅ exists (count overstated) |
+| form | 12 | Form | ✅ exists |
+| header / footer | 1 each | Header / footer | ✅ exist |
+| ~~quote~~ | 73 | **Body text — article/section prose. NOT quotes.** | ❌ default content, NOT a block |
+| carousel | 27 | **Mixed:** real sliders (arrows/dots) + logo/blurb rows | ⚠️ carousel real, count inflated |
+| tabs | 18 | **Mixed:** testimonial sliders + code-snippet blocks | ⚠️ 2 different blocks, not "tabs" |
+| accordion | 7 (+FAQs in columns) | FAQ accordions (~90 pages) | ✅ **new** |
+| video | 6 | **Mostly mislabeled:** only ~1 real YouTube embed (~7 pages); rest are text/screenshot sections or a hero-with-bg-video | ⚠️ video real, ~1 variant |
+| embed | 1 | Embed (1 page) | ✅ new (optional) |
+| search | 1 | Search (1 page) | ✅ new (optional) |
+| unknown | 95 | Default content + repeating grid items | ❌ not a block |
 
-### Answer: ~7 new block types
+### Answer: ~4–5 genuinely new blocks (revised down from the initial "~7")
 
-- **5 that matter:** `quote`, `carousel`, `tabs`, `accordion`, `video`
-- **2 optional:** `embed`, `search` (each appears on a single page)
-- The **100 "unknown" variants** are default-content signatures (headings + images + paragraphs in "minimal-dark/light" sections) — authored as default content, **not** new blocks.
-- Variant counts (e.g. 73 quote variants) reflect **styling variations**, delivered as CSS variants of one block — not 73 separate blocks.
+Screenshot verification substantially changed the picture:
+
+- **`quote` is OFF the list.** The 73 "quote" variants are **body text** (blog/article/section
+  prose), not quotes — authored as default content. This was the largest item on the original
+  list; removing it is the biggest single correction.
+- **`carousel`** — real (a "Featured Resources" slider with arrows + pagination dots), but the
+  27-variant count is inflated by logo/blurb rows that are really cards/default content.
+- **`accordion`** — real (FAQ), and **bigger than first reported**: a family of FAQ accordions
+  was mislabeled as `columns`, so its true footprint is ~13 variants / ~95 page-uses / ~90 pages.
+- **Testimonial / quote-slider** — a real block (customer logo selector + pull-quote + stats +
+  "Read the Case Study" CTA) that the catalog **mislabeled as `tabs`**. This is where the actual
+  quotes live — not in the `quote` bucket.
+- **Code block** — a JSON/code snippet with a language tab + copy button, also mislabeled as
+  `tabs`. Genuinely new; not previously on the list.
+- **`video`** — real, low-effort embed.
+- **`embed`, `search`, true tabbed panels** — each single-page / unconfirmed; defer until scoped.
+
+**Realistic new-block build list:** `carousel`, `accordion`, `testimonial-slider`, `code-block`,
+`video` (≈5). `quote` is removed. `tabs` as a generic block is unconfirmed. The **95 "unknown"**
+variants are default content / repeating grid items, not blocks.
 
 ---
 
 ## 4. New block → templates that depend on it
 
-### quote — highest priority (17 templates)
-blog-article (188), marketing-landing (93), legal-policy (57), careers-page (45),
-blog-article-technical (28), product-feature-page (26), blog-article-secondary (7),
-resource-basics-detail (5), case-study (3), solution-overview (2), program-detail (2),
-event-subpage (2), + resource-basics-simple, use-case-detail, content-page-misc,
-careers-teams, article-simple (1 each)
+> These template lists are derived from the catalog's original labels, which are known to
+> be inaccurate (see §3 warning). The **relative reach** is still useful for sequencing, but
+> treat the block names as approximate — e.g. much of the old "quote" reach is really default
+> content, and the "tabs" reach splits between testimonial-slider and code-block.
 
-### tabs (4 templates)
-marketing-landing (47), careers-page (6), careers-teams (2), blog-article-technical (1)
+### ~~quote~~ — REMOVED (was "17 templates")
+The 73 "quote" variants are **body text**, not a block. The pages previously attributed to
+`quote` (blog-article, marketing-landing, legal-policy, careers-page, etc.) need **default
+content**, not a new block.
 
-### carousel (7 templates)
+### carousel (real slider; ~7 templates, count inflated)
 policy-text-page (7), marketing-landing (5), campaign-landing (2), careers-page (2),
-use-case-page (2), customer-story (1), product-release-notes (1)
+use-case-page (2), customer-story (1), product-release-notes (1) — minus the logo/blurb
+rows that are really cards.
 
-### accordion (4 templates)
-marketing-landing (10), event-subpage (2), blog-article (1), blog-article-technical (1)
+### accordion (FAQ; more than first reported)
+Reported: marketing-landing (10), event-subpage (2), blog-article (1), blog-article-technical (1).
+**Plus** the FAQ accordions mislabeled as `columns`: ~79 more pages across product/resources/
+legal templates. Accordion's true reach is ~90 pages.
 
-### video (7 templates)
+### testimonial-slider (was mislabeled `tabs`)
+Customer logo selector + pull-quote + stats + CTA. Appears on marketing/customer/solution
+pages — this is where the real "quotes" are. (Catalog attributed these to `tabs`:
+marketing-landing, careers-page, careers-teams, blog-article-technical.)
+
+### code-block (was mislabeled `tabs`)
+JSON/code snippet with language tab + copy button — appears on technical/resource pages
+(e.g. resource-basics, blog-article-technical).
+
+### video (~7 templates)
 marketing-landing (4), policy-text-page (2), event-local-landing (2), use-case-page (2),
 customer-story (1), comparison-page (1), event-local-detail (1)
 
-### embed (1 template)
-careers-page (1)
-
-### search (1 template)
-content-page-misc (1)
+### embed / search / true tabs — single-page or unconfirmed
+embed → careers-page (1); search → content-page-misc (1); generic tabbed panels → not
+confirmed to exist. Defer all three until individually scoped.
 
 ---
 
@@ -101,6 +143,15 @@ content-page-misc (1)
 
 Numbers in parentheses = pages in that template using that block.
 **Bold** = new block to build. "default" = headings/images/paragraphs (no block needed).
+
+> **Read `quote` and `tabs` in this table with the §3 correction in mind:**
+> - **`quote` = default content, NOT a block.** Wherever a row lists **quote**, read it as
+>   "body-text sections authored as default content" — no new block required.
+> - **`tabs`** in this table is really **testimonial-slider and/or code-block** (the catalog
+>   conflated them). Treat it as "needs one of those verified blocks," not a generic tabs block.
+>
+> The table is left as originally generated for traceability; the labels above are the
+> corrections. The Existing-blocks column is unaffected.
 
 ### Tier 1 — Large templates
 
@@ -129,8 +180,6 @@ Numbers in parentheses = pages in that template using that block.
 | partner-program-page | 8 | hero, cards | — |
 | blog-article-secondary | 7 | hero | **quote** |
 | program-detail | 6 | hero, form, columns | **quote** |
-| download-product | 6 | cards, columns, hero | — |
-| download-releases | 6 | default content only | — |
 
 ### Tier 3 — Small templates (≤5 pages)
 
@@ -174,19 +223,33 @@ Numbers in parentheses = pages in that template using that block.
 | resource-industry | 1 | columns | — |
 | resource-usecase-webinar | 1 | hero | — |
 | services-support | 1 | hero | — |
-| download-releases-alt | 1 | default content only | — |
-| download-detail | 1 | hero | — |
 
 ---
 
 ## 6. Recommended build sequence
 
-1. **`quote` first** — unblocks 17 templates including the two biggest (blog-article 267, marketing-landing 200). Highest leverage by far.
-2. **`tabs` + `accordion` + `carousel` + `video`** — completes marketing-landing plus the event/use-case templates.
-3. **Migrate all new-block-free templates in parallel** — ~30 templates (including the whole resource/webinar/presentation family, ~127 pages) need nothing new and don't wait on block work.
-4. **`embed` + `search` last** — each touches one page; confirm they're in scope before building.
+Revised after screenshot verification (§3). `quote` is gone; the real new blocks are
+`accordion`, `carousel`, `testimonial-slider`, `code-block`, `video`.
 
-**Critical path:** building `marketing-landing` + `blog-article` first exercises 5 of the 7 new blocks. After that, the remaining ~58 templates are mostly recombinations of existing blocks.
+1. **Nothing blocks the biggest templates.** `blog-article` (267) and much of
+   `marketing-landing` (200) are **default content + existing blocks** once `quote` is
+   recognized as body text. Start migrating these immediately — no new block needed for the
+   bulk of their pages.
+2. **`accordion` first among new blocks** — highest real reach (~90 pages across product/
+   resource/legal/marketing templates once the FAQ-in-columns pages are counted).
+3. **`carousel`** — the "Featured Resources" slider; verify each candidate is a true slider
+   (arrows/dots), not a logo/blurb row (which is cards/default content).
+4. **`testimonial-slider`** — customer logo + pull-quote + stats + CTA (the real "quotes").
+5. **`code-block`** — JSON/code snippet with language tab + copy button, for technical pages.
+6. **`video`** — low-effort embed, broad but shallow.
+7. **`embed`, `search`, generic tabs** — single-page/unconfirmed; scope individually or skip.
+
+**Critical caveat:** the block *names and counts* in this document come from a detector whose
+semantic labels proved unreliable. Before committing engineering effort, each new block above
+should be confirmed against the screenshots in `.migration/block-gallery/` and the corrections
+in `.migration/unknown-block-review/FINDINGS.md`. The trustworthy takeaway is the **shape** of
+the work: ~5 real new blocks, `quote` is not one of them, and the largest templates are mostly
+default content.
 
 ---
 
@@ -194,8 +257,8 @@ Numbers in parentheses = pages in that template using that block.
 
 | | Previous (`catalog-previous/`) | This run (`catalog/`) |
 |---|---|---|
-| Pages | 23 | 3,238 in scope (989 analyzed) |
-| Templates | 2 | 60 |
-| Block variants | 14 | 331 |
+| Pages | 23 | 3,219 in scope, excl. /try/download (989 analyzed) |
+| Templates | 2 | 56 (excl. 4 download-only) |
+| Block variants | 14 | 323 (excl. 8 download-only) |
 
 The previous run was a narrow 23-page snapshot. This run is a full-site scope and is the reliable basis for planning.

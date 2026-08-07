@@ -1310,6 +1310,44 @@
         "https://www.mongodb.com/try"
       ],
       "description": "Try/download landing page with product options"
+    },
+    {
+      "name": "download-releases",
+      "urls": [
+        "https://www.mongodb.com/try/download/bi-connector/releases",
+        "https://www.mongodb.com/try/download/bi-connector/releases/development",
+        "https://www.mongodb.com/try/download/community-edition/releases",
+        "https://www.mongodb.com/try/download/community-edition/releases/development",
+        "https://www.mongodb.com/try/download/enterprise-advanced/releases/development",
+        "https://www.mongodb.com/try/download/mongosync/releases/archive"
+      ],
+      "description": "Download releases listing page with version list"
+    },
+    {
+      "name": "download-product",
+      "urls": [
+        "https://www.mongodb.com/try/download/community",
+        "https://www.mongodb.com/try/download/community-edition",
+        "https://www.mongodb.com/try/download/enterprise",
+        "https://www.mongodb.com/try/download/enterprise-advanced",
+        "https://www.mongodb.com/try/download/enterprise-kubernetes-operator",
+        "https://www.mongodb.com/try/download/tools"
+      ],
+      "description": "Product download page with editions and CTAs"
+    },
+    {
+      "name": "download-releases-alt",
+      "urls": [
+        "https://www.mongodb.com/try/download/enterprise-advanced/releases"
+      ],
+      "description": "Download releases listing variant layout"
+    },
+    {
+      "name": "download-detail",
+      "urls": [
+        "https://www.mongodb.com/try/download/sql-interface"
+      ],
+      "description": "Single download detail page with instructions"
     }
   ]
 }
