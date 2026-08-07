@@ -1,0 +1,2222 @@
+[
+  {
+    "num": "01",
+    "template": "marketing-landing",
+    "url": "https://www.mongodb.com/company/office-locations",
+    "totalUnknowns": 44,
+    "boxesDrawn": 40,
+    "imageSize": "1440x10880",
+    "file": "unknown-block-review/01-marketing-landing.jpg",
+    "boxes": [
+      {
+        "n": 1,
+        "description": "2 headings + 2 images block",
+        "bounds": {
+          "x": 0,
+          "y": 1040,
+          "width": 1440,
+          "height": 660
+        }
+      },
+      {
+        "n": 2,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 40,
+          "y": 1940,
+          "width": 421,
+          "height": 396
+        }
+      },
+      {
+        "n": 3,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 509,
+          "y": 1940,
+          "width": 421,
+          "height": 396
+        }
+      },
+      {
+        "n": 4,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 979,
+          "y": 1940,
+          "width": 421,
+          "height": 396
+        }
+      },
+      {
+        "n": 5,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 40,
+          "y": 2384,
+          "width": 421,
+          "height": 420
+        }
+      },
+      {
+        "n": 6,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 509,
+          "y": 2384,
+          "width": 421,
+          "height": 420
+        }
+      },
+      {
+        "n": 7,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 979,
+          "y": 2384,
+          "width": 421,
+          "height": 420
+        }
+      },
+      {
+        "n": 8,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 40,
+          "y": 2852,
+          "width": 421,
+          "height": 396
+        }
+      },
+      {
+        "n": 9,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 509,
+          "y": 2852,
+          "width": 421,
+          "height": 396
+        }
+      },
+      {
+        "n": 10,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 979,
+          "y": 2852,
+          "width": 421,
+          "height": 396
+        }
+      },
+      {
+        "n": 11,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 40,
+          "y": 3296,
+          "width": 421,
+          "height": 452
+        }
+      },
+      {
+        "n": 12,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 509,
+          "y": 3296,
+          "width": 421,
+          "height": 452
+        }
+      },
+      {
+        "n": 13,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 979,
+          "y": 3296,
+          "width": 421,
+          "height": 452
+        }
+      },
+      {
+        "n": 14,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 40,
+          "y": 3796,
+          "width": 421,
+          "height": 396
+        }
+      },
+      {
+        "n": 15,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 40,
+          "y": 4568,
+          "width": 421,
+          "height": 444
+        }
+      },
+      {
+        "n": 16,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 509,
+          "y": 4568,
+          "width": 421,
+          "height": 444
+        }
+      },
+      {
+        "n": 17,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 979,
+          "y": 4568,
+          "width": 421,
+          "height": 444
+        }
+      },
+      {
+        "n": 18,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 40,
+          "y": 5060,
+          "width": 421,
+          "height": 420
+        }
+      },
+      {
+        "n": 19,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 509,
+          "y": 5060,
+          "width": 421,
+          "height": 420
+        }
+      },
+      {
+        "n": 20,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 979,
+          "y": 5060,
+          "width": 421,
+          "height": 420
+        }
+      },
+      {
+        "n": 21,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 40,
+          "y": 5528,
+          "width": 421,
+          "height": 388
+        }
+      },
+      {
+        "n": 22,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 509,
+          "y": 5528,
+          "width": 421,
+          "height": 388
+        }
+      },
+      {
+        "n": 23,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 979,
+          "y": 5528,
+          "width": 421,
+          "height": 388
+        }
+      },
+      {
+        "n": 24,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 40,
+          "y": 5964,
+          "width": 421,
+          "height": 396
+        }
+      },
+      {
+        "n": 25,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 509,
+          "y": 5964,
+          "width": 421,
+          "height": 396
+        }
+      },
+      {
+        "n": 26,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 979,
+          "y": 5964,
+          "width": 421,
+          "height": 396
+        }
+      },
+      {
+        "n": 27,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 40,
+          "y": 6408,
+          "width": 421,
+          "height": 396
+        }
+      },
+      {
+        "n": 28,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 509,
+          "y": 6408,
+          "width": 421,
+          "height": 396
+        }
+      },
+      {
+        "n": 29,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 979,
+          "y": 6408,
+          "width": 421,
+          "height": 396
+        }
+      },
+      {
+        "n": 30,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 40,
+          "y": 6852,
+          "width": 421,
+          "height": 388
+        }
+      },
+      {
+        "n": 31,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 509,
+          "y": 6852,
+          "width": 421,
+          "height": 388
+        }
+      },
+      {
+        "n": 32,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 40,
+          "y": 7592,
+          "width": 421,
+          "height": 524
+        }
+      },
+      {
+        "n": 33,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 509,
+          "y": 7592,
+          "width": 421,
+          "height": 524
+        }
+      },
+      {
+        "n": 34,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 979,
+          "y": 7592,
+          "width": 421,
+          "height": 524
+        }
+      },
+      {
+        "n": 35,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 40,
+          "y": 8164,
+          "width": 421,
+          "height": 468
+        }
+      },
+      {
+        "n": 36,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 509,
+          "y": 8164,
+          "width": 421,
+          "height": 468
+        }
+      },
+      {
+        "n": 37,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 979,
+          "y": 8164,
+          "width": 421,
+          "height": 468
+        }
+      },
+      {
+        "n": 38,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 40,
+          "y": 8680,
+          "width": 421,
+          "height": 452
+        }
+      },
+      {
+        "n": 39,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 509,
+          "y": 8680,
+          "width": 421,
+          "height": 452
+        }
+      },
+      {
+        "n": 40,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 979,
+          "y": 8680,
+          "width": 421,
+          "height": 452
+        }
+      }
+    ]
+  },
+  {
+    "num": "02",
+    "template": "careers-page",
+    "url": "https://www.mongodb.com/events/mongodb-aws-summits",
+    "totalUnknowns": 33,
+    "boxesDrawn": 33,
+    "imageSize": "1440x8225",
+    "file": "unknown-block-review/02-careers-page.jpg",
+    "boxes": [
+      {
+        "n": 1,
+        "description": "3 headings + 3 images block",
+        "bounds": {
+          "x": 0,
+          "y": 1020,
+          "width": 1440,
+          "height": 352
+        }
+      },
+      {
+        "n": 2,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 0,
+          "y": 1372,
+          "width": 1440,
+          "height": 664
+        }
+      },
+      {
+        "n": 3,
+        "description": "1 heading block",
+        "bounds": {
+          "x": 48,
+          "y": 2036,
+          "width": 1344,
+          "height": 184
+        }
+      },
+      {
+        "n": 4,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 48,
+          "y": 2380,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 5,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 512,
+          "y": 2380,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 6,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 976,
+          "y": 2380,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 7,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 48,
+          "y": 2800,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 8,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 512,
+          "y": 2800,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 9,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 976,
+          "y": 2800,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 10,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 48,
+          "y": 3220,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 11,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 512,
+          "y": 3220,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 12,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 976,
+          "y": 3220,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 13,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 48,
+          "y": 3640,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 14,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 512,
+          "y": 3640,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 15,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 976,
+          "y": 3640,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 16,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 48,
+          "y": 4060,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 17,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 512,
+          "y": 4060,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 18,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 976,
+          "y": 4060,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 19,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 48,
+          "y": 4480,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 20,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 512,
+          "y": 4480,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 21,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 976,
+          "y": 4480,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 22,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 48,
+          "y": 4900,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 23,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 512,
+          "y": 4900,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 24,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 976,
+          "y": 4900,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 25,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 48,
+          "y": 5320,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 26,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 512,
+          "y": 5320,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 27,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 976,
+          "y": 5320,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 28,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 48,
+          "y": 5740,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 29,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 512,
+          "y": 5740,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 30,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 976,
+          "y": 5740,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 31,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 48,
+          "y": 6160,
+          "width": 416,
+          "height": 372
+        }
+      },
+      {
+        "n": 32,
+        "description": "1 heading block",
+        "bounds": {
+          "x": 48,
+          "y": 6741,
+          "width": 1344,
+          "height": 248
+        }
+      },
+      {
+        "n": 33,
+        "description": "4 headings + 4 images block",
+        "bounds": {
+          "x": 0,
+          "y": 7053,
+          "width": 1440,
+          "height": 548
+        }
+      }
+    ]
+  },
+  {
+    "num": "03",
+    "template": "use-case-page",
+    "url": "https://www.mongodb.com/resources/products/alerts",
+    "totalUnknowns": 164,
+    "boxesDrawn": 40,
+    "imageSize": "1440x58343",
+    "file": "unknown-block-review/03-use-case-page.jpg",
+    "boxes": [
+      {
+        "n": 1,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 140,
+          "y": 15569,
+          "width": 360,
+          "height": 663
+        }
+      },
+      {
+        "n": 2,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 540,
+          "y": 15569,
+          "width": 360,
+          "height": 663
+        }
+      },
+      {
+        "n": 3,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 940,
+          "y": 15569,
+          "width": 360,
+          "height": 663
+        }
+      },
+      {
+        "n": 4,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 140,
+          "y": 16272,
+          "width": 360,
+          "height": 687
+        }
+      },
+      {
+        "n": 5,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 540,
+          "y": 16272,
+          "width": 360,
+          "height": 687
+        }
+      },
+      {
+        "n": 6,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 940,
+          "y": 16272,
+          "width": 360,
+          "height": 687
+        }
+      },
+      {
+        "n": 7,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 140,
+          "y": 16999,
+          "width": 360,
+          "height": 687
+        }
+      },
+      {
+        "n": 8,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 540,
+          "y": 16999,
+          "width": 360,
+          "height": 687
+        }
+      },
+      {
+        "n": 9,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 940,
+          "y": 16999,
+          "width": 360,
+          "height": 687
+        }
+      },
+      {
+        "n": 10,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 140,
+          "y": 17726,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 11,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 540,
+          "y": 17726,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 12,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 940,
+          "y": 17726,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 13,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 140,
+          "y": 18423,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 14,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 540,
+          "y": 18423,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 15,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 940,
+          "y": 18423,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 16,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 140,
+          "y": 19120,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 17,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 540,
+          "y": 19120,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 18,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 940,
+          "y": 19120,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 19,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 140,
+          "y": 19817,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 20,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 540,
+          "y": 19817,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 21,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 940,
+          "y": 19817,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 22,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 140,
+          "y": 20514,
+          "width": 360,
+          "height": 699
+        }
+      },
+      {
+        "n": 23,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 540,
+          "y": 20514,
+          "width": 360,
+          "height": 699
+        }
+      },
+      {
+        "n": 24,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 940,
+          "y": 20514,
+          "width": 360,
+          "height": 699
+        }
+      },
+      {
+        "n": 25,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 140,
+          "y": 21253,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 26,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 540,
+          "y": 21253,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 27,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 940,
+          "y": 21253,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 28,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 140,
+          "y": 21950,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 29,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 540,
+          "y": 21950,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 30,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 940,
+          "y": 21950,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 31,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 140,
+          "y": 22647,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 32,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 540,
+          "y": 22647,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 33,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 940,
+          "y": 22647,
+          "width": 360,
+          "height": 657
+        }
+      },
+      {
+        "n": 34,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 140,
+          "y": 23344,
+          "width": 360,
+          "height": 627
+        }
+      },
+      {
+        "n": 35,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 540,
+          "y": 23344,
+          "width": 360,
+          "height": 627
+        }
+      },
+      {
+        "n": 36,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 940,
+          "y": 23344,
+          "width": 360,
+          "height": 627
+        }
+      },
+      {
+        "n": 37,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 140,
+          "y": 26042,
+          "width": 360,
+          "height": 603
+        }
+      },
+      {
+        "n": 38,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 540,
+          "y": 26042,
+          "width": 360,
+          "height": 603
+        }
+      },
+      {
+        "n": 39,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 940,
+          "y": 26042,
+          "width": 360,
+          "height": 603
+        }
+      },
+      {
+        "n": 40,
+        "description": "1 heading + 1 CTA block",
+        "bounds": {
+          "x": 140,
+          "y": 26685,
+          "width": 360,
+          "height": 687
+        }
+      }
+    ]
+  },
+  {
+    "num": "04",
+    "template": "research-group",
+    "url": "https://www.mongodb.com/events/mongodb-local/post-event-learning-path",
+    "totalUnknowns": 11,
+    "boxesDrawn": 11,
+    "imageSize": "1440x3726",
+    "file": "unknown-block-review/04-research-group.jpg",
+    "boxes": [
+      {
+        "n": 1,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 0,
+          "y": 520,
+          "width": 1440,
+          "height": 576
+        }
+      },
+      {
+        "n": 2,
+        "description": "1 heading block",
+        "bounds": {
+          "x": 48,
+          "y": 1192,
+          "width": 1344,
+          "height": 330
+        }
+      },
+      {
+        "n": 3,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 48,
+          "y": 1610,
+          "width": 416,
+          "height": 388
+        }
+      },
+      {
+        "n": 4,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 512,
+          "y": 1610,
+          "width": 416,
+          "height": 388
+        }
+      },
+      {
+        "n": 5,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 976,
+          "y": 1610,
+          "width": 416,
+          "height": 388
+        }
+      },
+      {
+        "n": 6,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 48,
+          "y": 2046,
+          "width": 416,
+          "height": 412
+        }
+      },
+      {
+        "n": 7,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 512,
+          "y": 2046,
+          "width": 416,
+          "height": 412
+        }
+      },
+      {
+        "n": 8,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 976,
+          "y": 2046,
+          "width": 416,
+          "height": 412
+        }
+      },
+      {
+        "n": 9,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 48,
+          "y": 2506,
+          "width": 416,
+          "height": 388
+        }
+      },
+      {
+        "n": 10,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 512,
+          "y": 2506,
+          "width": 416,
+          "height": 388
+        }
+      },
+      {
+        "n": 11,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 976,
+          "y": 2506,
+          "width": 416,
+          "height": 388
+        }
+      }
+    ]
+  },
+  {
+    "num": "05",
+    "template": "download-product",
+    "url": "https://www.mongodb.com/try/download/tools",
+    "totalUnknowns": 23,
+    "boxesDrawn": 23,
+    "imageSize": "1440x13864",
+    "file": "unknown-block-review/05-download-product.jpg",
+    "boxes": [
+      {
+        "n": 1,
+        "description": "2 headings + 1 image + 2 CTAs + 2 paragraphs block",
+        "bounds": {
+          "x": 504,
+          "y": 680,
+          "width": 774,
+          "height": 708
+        }
+      },
+      {
+        "n": 2,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 2053,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 3,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 2157,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 4,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 2261,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 5,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 3505,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 6,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 3609,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 7,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 3713,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 8,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 4637,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 9,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 4741,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 10,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 4845,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 11,
+        "description": "2 headings + 1 image + 2 CTAs + 2 paragraphs block",
+        "bounds": {
+          "x": 504,
+          "y": 5184,
+          "width": 774,
+          "height": 868
+        }
+      },
+      {
+        "n": 12,
+        "description": "2 headings + 1 image + 4 CTAs + 3 lists block",
+        "bounds": {
+          "x": 504,
+          "y": 6052,
+          "width": 774,
+          "height": 956
+        }
+      },
+      {
+        "n": 13,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 7625,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 14,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 7729,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 15,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 7833,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 16,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 8781,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 17,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 8885,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 18,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 8989,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 19,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 9889,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 20,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 9993,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 21,
+        "description": "1 CTA + 1 list block",
+        "bounds": {
+          "x": 577,
+          "y": 10097,
+          "width": 628,
+          "height": 80
+        }
+      },
+      {
+        "n": 22,
+        "description": "2 headings + 1 image + 4 CTAs + 3 lists block",
+        "bounds": {
+          "x": 504,
+          "y": 11448,
+          "width": 774,
+          "height": 932
+        }
+      },
+      {
+        "n": 23,
+        "description": "2 headings + 1 image + 2 paragraphs block",
+        "bounds": {
+          "x": 504,
+          "y": 12380,
+          "width": 774,
+          "height": 748
+        }
+      }
+    ]
+  },
+  {
+    "num": "06",
+    "template": "customer-story",
+    "url": "https://www.mongodb.com/customers/omnichat",
+    "totalUnknowns": 10,
+    "boxesDrawn": 10,
+    "imageSize": "1440x8430",
+    "file": "unknown-block-review/06-customer-story.jpg",
+    "boxes": [
+      {
+        "n": 1,
+        "description": "absolute",
+        "bounds": {
+          "x": 0,
+          "y": 780,
+          "width": 1440,
+          "height": 219
+        }
+      },
+      {
+        "n": 2,
+        "description": "absolute",
+        "bounds": {
+          "x": 0,
+          "y": 1050,
+          "width": 1440,
+          "height": 1047
+        }
+      },
+      {
+        "n": 3,
+        "description": "1 image block",
+        "bounds": {
+          "x": 0,
+          "y": 2097,
+          "width": 1440,
+          "height": 444
+        }
+      },
+      {
+        "n": 4,
+        "description": "absolute",
+        "bounds": {
+          "x": 0,
+          "y": 2566,
+          "width": 1440,
+          "height": 1478
+        }
+      },
+      {
+        "n": 5,
+        "description": "1 image block",
+        "bounds": {
+          "x": 0,
+          "y": 4044,
+          "width": 1440,
+          "height": 513
+        }
+      },
+      {
+        "n": 6,
+        "description": "absolute",
+        "bounds": {
+          "x": 0,
+          "y": 4652,
+          "width": 1440,
+          "height": 1229
+        }
+      },
+      {
+        "n": 7,
+        "description": "absolute",
+        "bounds": {
+          "x": 0,
+          "y": 5906,
+          "width": 1440,
+          "height": 866
+        }
+      },
+      {
+        "n": 8,
+        "description": "1 image block",
+        "bounds": {
+          "x": 0,
+          "y": 6772,
+          "width": 1440,
+          "height": 444
+        }
+      },
+      {
+        "n": 9,
+        "description": "absolute",
+        "bounds": {
+          "x": 0,
+          "y": 7216,
+          "width": 1440,
+          "height": 355
+        }
+      },
+      {
+        "n": 10,
+        "description": "2 headings + 1 CTA block",
+        "bounds": {
+          "x": 0,
+          "y": 7596,
+          "width": 1440,
+          "height": 210
+        }
+      }
+    ]
+  },
+  {
+    "num": "07",
+    "template": "event-local-landing-alt",
+    "url": "https://www.mongodb.com/events/mongodb-local/london",
+    "totalUnknowns": 14,
+    "boxesDrawn": 14,
+    "imageSize": "1440x6827",
+    "file": "unknown-block-review/07-event-local-landing-alt.jpg",
+    "boxes": [
+      {
+        "n": 1,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 0,
+          "y": 1148,
+          "width": 1440,
+          "height": 616
+        }
+      },
+      {
+        "n": 2,
+        "description": "1 heading block",
+        "bounds": {
+          "x": 48,
+          "y": 1764,
+          "width": 1344,
+          "height": 168
+        }
+      },
+      {
+        "n": 3,
+        "description": "2 headings block",
+        "bounds": {
+          "x": 48,
+          "y": 1996,
+          "width": 1344,
+          "height": 388
+        }
+      },
+      {
+        "n": 4,
+        "description": "1 heading block",
+        "bounds": {
+          "x": 48,
+          "y": 2608,
+          "width": 1344,
+          "height": 184
+        }
+      },
+      {
+        "n": 5,
+        "description": "6 headings + 6 images block",
+        "bounds": {
+          "x": 48,
+          "y": 2856,
+          "width": 1344,
+          "height": 955
+        }
+      },
+      {
+        "n": 6,
+        "description": "1 heading block",
+        "bounds": {
+          "x": 48,
+          "y": 3859,
+          "width": 1344,
+          "height": 112
+        }
+      },
+      {
+        "n": 7,
+        "description": "4 headings block",
+        "bounds": {
+          "x": 48,
+          "y": 4035,
+          "width": 1344,
+          "height": 570
+        }
+      },
+      {
+        "n": 8,
+        "description": "1 heading block",
+        "bounds": {
+          "x": 48,
+          "y": 4605,
+          "width": 1344,
+          "height": 138
+        }
+      },
+      {
+        "n": 9,
+        "description": "1 heading block",
+        "bounds": {
+          "x": 48,
+          "y": 4855,
+          "width": 1344,
+          "height": 72
+        }
+      },
+      {
+        "n": 10,
+        "description": "5 images block",
+        "bounds": {
+          "x": 0,
+          "y": 4927,
+          "width": 1440,
+          "height": 144
+        }
+      },
+      {
+        "n": 11,
+        "description": "3 images block",
+        "bounds": {
+          "x": 0,
+          "y": 5071,
+          "width": 1440,
+          "height": 160
+        }
+      },
+      {
+        "n": 12,
+        "description": "1 heading block",
+        "bounds": {
+          "x": 48,
+          "y": 5343,
+          "width": 1344,
+          "height": 48
+        }
+      },
+      {
+        "n": 13,
+        "description": "5 images block",
+        "bounds": {
+          "x": 0,
+          "y": 5503,
+          "width": 1440,
+          "height": 160
+        }
+      },
+      {
+        "n": 14,
+        "description": "1 heading + 1 image block",
+        "bounds": {
+          "x": 0,
+          "y": 5711,
+          "width": 1440,
+          "height": 492
+        }
+      }
+    ]
+  },
+  {
+    "num": "08",
+    "template": "partner-program-page",
+    "url": "https://www.mongodb.com/migrating-parse-with-microsoft-azure-and-mongodb-cloud-manager",
+    "totalUnknowns": 21,
+    "boxesDrawn": 21,
+    "imageSize": "1440x21443",
+    "file": "unknown-block-review/08-partner-program-page.jpg",
+    "boxes": [
+      {
+        "n": 1,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 2238,
+          "width": 740,
+          "height": 553
+        }
+      },
+      {
+        "n": 2,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 2806,
+          "width": 740,
+          "height": 257
+        }
+      },
+      {
+        "n": 3,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 3078,
+          "width": 740,
+          "height": 314
+        }
+      },
+      {
+        "n": 4,
+        "description": "1 image + 2 paragraphs block",
+        "bounds": {
+          "x": 350,
+          "y": 3408,
+          "width": 740,
+          "height": 461
+        }
+      },
+      {
+        "n": 5,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 4613,
+          "width": 740,
+          "height": 783
+        }
+      },
+      {
+        "n": 6,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 7178,
+          "width": 740,
+          "height": 643
+        }
+      },
+      {
+        "n": 7,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 7872,
+          "width": 740,
+          "height": 677
+        }
+      },
+      {
+        "n": 8,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 8661,
+          "width": 740,
+          "height": 919
+        }
+      },
+      {
+        "n": 9,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 9765,
+          "width": 740,
+          "height": 428
+        }
+      },
+      {
+        "n": 10,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 10294,
+          "width": 740,
+          "height": 329
+        }
+      },
+      {
+        "n": 11,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 10742,
+          "width": 740,
+          "height": 462
+        }
+      },
+      {
+        "n": 12,
+        "description": "1 image + 2 paragraphs block",
+        "bounds": {
+          "x": 350,
+          "y": 11306,
+          "width": 740,
+          "height": 155
+        }
+      },
+      {
+        "n": 13,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 12334,
+          "width": 740,
+          "height": 386
+        }
+      },
+      {
+        "n": 14,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 12935,
+          "width": 740,
+          "height": 225
+        }
+      },
+      {
+        "n": 15,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 13233,
+          "width": 740,
+          "height": 579
+        }
+      },
+      {
+        "n": 16,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 13864,
+          "width": 740,
+          "height": 956
+        }
+      },
+      {
+        "n": 17,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 14872,
+          "width": 740,
+          "height": 486
+        }
+      },
+      {
+        "n": 18,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 16193,
+          "width": 740,
+          "height": 961
+        }
+      },
+      {
+        "n": 19,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 17226,
+          "width": 740,
+          "height": 962
+        }
+      },
+      {
+        "n": 20,
+        "description": "1 image + 3 paragraphs block",
+        "bounds": {
+          "x": 350,
+          "y": 19650,
+          "width": 740,
+          "height": 743
+        }
+      },
+      {
+        "n": 21,
+        "description": "1 image block",
+        "bounds": {
+          "x": 350,
+          "y": 20512,
+          "width": 740,
+          "height": 229
+        }
+      }
+    ]
+  },
+  {
+    "num": "09",
+    "template": "policy-text-page",
+    "url": "https://www.mongodb.com/company/partners/partner-development-support",
+    "totalUnknowns": 4,
+    "boxesDrawn": 4,
+    "imageSize": "1440x2882",
+    "file": "unknown-block-review/09-policy-text-page.jpg",
+    "boxes": [
+      {
+        "n": 1,
+        "description": "absolute",
+        "bounds": {
+          "x": 0,
+          "y": 526,
+          "width": 1440,
+          "height": 276
+        }
+      },
+      {
+        "n": 2,
+        "description": "absolute",
+        "bounds": {
+          "x": 0,
+          "y": 802,
+          "width": 1440,
+          "height": 463
+        }
+      },
+      {
+        "n": 3,
+        "description": "absolute",
+        "bounds": {
+          "x": 0,
+          "y": 1265,
+          "width": 1440,
+          "height": 358
+        }
+      },
+      {
+        "n": 4,
+        "description": "absolute",
+        "bounds": {
+          "x": 0,
+          "y": 1623,
+          "width": 1440,
+          "height": 463
+        }
+      }
+    ]
+  },
+  {
+    "num": "10",
+    "template": "section-landing",
+    "url": "https://www.mongodb.com/company/sustainability",
+    "totalUnknowns": 15,
+    "boxesDrawn": 15,
+    "imageSize": "1440x11840",
+    "file": "unknown-block-review/10-section-landing.jpg",
+    "boxes": [
+      {
+        "n": 1,
+        "description": "2 images block",
+        "bounds": {
+          "x": 0,
+          "y": 1188,
+          "width": 1440,
+          "height": 384
+        }
+      },
+      {
+        "n": 2,
+        "description": "3 headings + 3 images + 3 paragraphs block",
+        "bounds": {
+          "x": 0,
+          "y": 1572,
+          "width": 1440,
+          "height": 522
+        }
+      },
+      {
+        "n": 3,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 0,
+          "y": 2374,
+          "width": 1440,
+          "height": 552
+        }
+      },
+      {
+        "n": 4,
+        "description": "3 headings + 3 images + 3 paragraphs block",
+        "bounds": {
+          "x": 0,
+          "y": 2926,
+          "width": 1440,
+          "height": 514
+        }
+      },
+      {
+        "n": 5,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 0,
+          "y": 3458,
+          "width": 1440,
+          "height": 552
+        }
+      },
+      {
+        "n": 6,
+        "description": "6 headings + 6 images block",
+        "bounds": {
+          "x": 0,
+          "y": 4010,
+          "width": 1440,
+          "height": 824
+        }
+      },
+      {
+        "n": 7,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 0,
+          "y": 4852,
+          "width": 1440,
+          "height": 552
+        }
+      },
+      {
+        "n": 8,
+        "description": "3 headings + 3 images + 3 paragraphs block",
+        "bounds": {
+          "x": 0,
+          "y": 5404,
+          "width": 1440,
+          "height": 520
+        }
+      },
+      {
+        "n": 9,
+        "description": "1 image block",
+        "bounds": {
+          "x": 0,
+          "y": 6206,
+          "width": 1440,
+          "height": 684
+        }
+      },
+      {
+        "n": 10,
+        "description": "4 headings + 4 images block",
+        "bounds": {
+          "x": 0,
+          "y": 7420,
+          "width": 1440,
+          "height": 396
+        }
+      },
+      {
+        "n": 11,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 0,
+          "y": 7834,
+          "width": 1440,
+          "height": 552
+        }
+      },
+      {
+        "n": 12,
+        "description": "2 headings + 2 images + 2 paragraphs block",
+        "bounds": {
+          "x": 0,
+          "y": 8386,
+          "width": 1440,
+          "height": 625
+        }
+      },
+      {
+        "n": 13,
+        "description": "1 heading + 1 image + 1 paragraph block",
+        "bounds": {
+          "x": 0,
+          "y": 9011,
+          "width": 1440,
+          "height": 488
+        }
+      },
+      {
+        "n": 14,
+        "description": "3 headings + 3 images + 3 paragraphs block",
+        "bounds": {
+          "x": 0,
+          "y": 9499,
+          "width": 1440,
+          "height": 562
+        }
+      },
+      {
+        "n": 15,
+        "description": "6 headings + 6 images + 6 CTAs block",
+        "bounds": {
+          "x": 48,
+          "y": 10365,
+          "width": 1344,
+          "height": 743
+        }
+      }
+    ]
+  }
+]

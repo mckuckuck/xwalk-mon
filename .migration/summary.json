@@ -1,0 +1,33 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://www.mongodb.com",
+      "siteName": "www.mongodb.com",
+      "analysisDate": "2026-08-07"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "https://www.mongodb.com/sitemap-index.xml",
+      "totalPages": 3238,
+      "localeCount": 1,
+      "locales": [
+        {
+          "locale": "en",
+          "pages": 3238
+        }
+      ],
+      "totalTemplates": 60,
+      "totalBlockTypes": 331,
+      "unknownBlockVariants": 100,
+      "edsBlockVariants": 231,
+      "pagesAnalyzed": 989,
+      "percentAnalyzed": 31,
+      "pagesPending": 0,
+      "pagesFailed": 11,
+      "blockDetectionCrashes": 0
+    },
+    "errors": {
+      "totalCount": 601
+    }
+  }
+}
