@@ -1,0 +1,66 @@
+{
+  "definitions": [
+    {
+      "title": "Code Panel",
+      "id": "code-panel",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Code Panel",
+              "model": "code-panel",
+              "title": "C Example",
+              "language": "c",
+              "code": "<pre>#include &lt;stdio.h&gt;\nint main()\n{\n  int arr[] = { 10, 20, 30, 40, 50, 60 };\n  int size_arra = (arr, sizeof arr / sizeof *arr);\n  printf(\"Number of elements in arr[]:  %d\", size_arra);\n}</pre>"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "code-panel",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "title",
+          "label": "Title",
+          "value": ""
+        },
+        {
+          "component": "select",
+          "valueType": "string",
+          "name": "language",
+          "label": "Language",
+          "value": "javascript",
+          "options": [
+            { "name": "Plain Text", "value": "text" },
+            { "name": "JavaScript", "value": "javascript" },
+            { "name": "TypeScript", "value": "typescript" },
+            { "name": "JSON", "value": "json" },
+            { "name": "Java", "value": "java" },
+            { "name": "C", "value": "c" },
+            { "name": "C++", "value": "cpp" },
+            { "name": "Python", "value": "python" },
+            { "name": "Shell", "value": "shell" },
+            { "name": "HTML", "value": "html" },
+            { "name": "XML", "value": "xml" },
+            { "name": "YAML", "value": "yaml" }
+          ]
+        },
+        {
+          "component": "richtext",
+          "name": "code",
+          "label": "Code",
+          "description": "Select the code and apply the \"Code\" text format from the toolbar to preserve line breaks.",
+          "value": "",
+          "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

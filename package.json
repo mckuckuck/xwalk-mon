@@ -17,6 +17,7 @@
     "import:company": "npm run prepare:company && npm run generate:jcr",
     "import": "aem-import-helper import",
     "aem-upload": "aem-import-helper aem upload",
+    "postinstall": "node ./tools/postinstall.js",
     "prepare": "husky"
   },
   "repository": {
@@ -33,6 +34,7 @@
     "@adobe/aem-import-helper": "^1.6.0",
     "@adobe/helix-importer-jcr-packaging": "^2.0.16",
     "@babel/eslint-parser": "7.28.6",
+    "codemirror": "^5.65.20",
     "eslint": "8.57.1",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.32.0",

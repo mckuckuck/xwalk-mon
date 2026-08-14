@@ -59,15 +59,15 @@
     ]
   },
   {
-    "id": "sidebar-nav",
-    "components": [
-      "sidebar-nav-item"
-    ]
-  },
-  {
     "id": "pricing-compare",
     "components": [
       "pricing-compare-row"
+    ]
+  },
+  {
+    "id": "sidebar-nav",
+    "components": [
+      "sidebar-nav-item"
     ]
   }
 ]

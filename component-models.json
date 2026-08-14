@@ -279,6 +279,83 @@
     ]
   },
   {
+    "id": "code-panel",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Title",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "language",
+        "label": "Language",
+        "value": "javascript",
+        "options": [
+          {
+            "name": "Plain Text",
+            "value": "text"
+          },
+          {
+            "name": "JavaScript",
+            "value": "javascript"
+          },
+          {
+            "name": "TypeScript",
+            "value": "typescript"
+          },
+          {
+            "name": "JSON",
+            "value": "json"
+          },
+          {
+            "name": "Java",
+            "value": "java"
+          },
+          {
+            "name": "C",
+            "value": "c"
+          },
+          {
+            "name": "C++",
+            "value": "cpp"
+          },
+          {
+            "name": "Python",
+            "value": "python"
+          },
+          {
+            "name": "Shell",
+            "value": "shell"
+          },
+          {
+            "name": "HTML",
+            "value": "html"
+          },
+          {
+            "name": "XML",
+            "value": "xml"
+          },
+          {
+            "name": "YAML",
+            "value": "yaml"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "name": "code",
+        "label": "Code",
+        "description": "Select the code and apply the \"Code\" text format from the toolbar to preserve line breaks.",
+        "value": "",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {
@@ -438,56 +515,6 @@
     ]
   },
   {
-    "id": "sidebar-nav-item",
-    "fields": [
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Item / Group",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "slalom",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "label": "Style",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Media Left",
-            "value": "media-left"
-          }
-        ]
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
-      },
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Image Alt",
-        "value": ""
-      }
-    ]
-  },
-  {
     "id": "pricing-compare-row",
     "fields": [
       {
@@ -545,6 +572,56 @@
         "value": "",
         "label": "Dedicated (value, or Plan Header content)",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "sidebar-nav-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Item / Group",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "slalom",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Media Left",
+            "value": "media-left"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Image Alt",
+        "value": ""
       }
     ]
   }
