@@ -52,6 +52,17 @@
           ]
         },
         {
+          "component": "select",
+          "valueType": "string",
+          "name": "theme",
+          "label": "Theme",
+          "value": "default",
+          "options": [
+            { "name": "Default", "value": "default" },
+            { "name": "MongoDB Brand", "value": "brand" }
+          ]
+        },
+        {
           "component": "richtext",
           "name": "code",
           "label": "Code",

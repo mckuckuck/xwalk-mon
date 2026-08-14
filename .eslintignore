@@ -2,4 +2,4 @@ helix-importer-ui
 dompurify.min.js
 *.min.js
 tools/importer/
-scripts/__libs__/**
+scripts/vendor/**
