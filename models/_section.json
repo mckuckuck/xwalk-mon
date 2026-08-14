@@ -63,7 +63,8 @@
         "cards",
         "columns",
         "fragment",
-        "slalom"
+        "slalom",
+        "code-panel"
       ]
     }
   ]
